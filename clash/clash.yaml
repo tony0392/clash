@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-22 21:23:31
+# 创建时间：2023-05-22 21:55:53
 # 使用模版：V2RaySE 默认模版
-# 节点数量：56
+# 节点数量：32
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -29,8 +29,6 @@ proxies:
   - {"name":"_CN_中国->🇦🇺_AU_澳大利亚\r_2\r\r","type":"ss","server":"hz-dx.duaaoped.xyz","port":41191,"password":"adc570f1-d591-4a5a-93f0-0013bba3f116","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_1","type":"ss","server":"hz-dx.duaaoped.xyz","port":46177,"password":"adc570f1-d591-4a5a-93f0-0013bba3f116","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_2","type":"ss","server":"sh-dx.duaaoped.xyz","port":43153,"password":"adc570f1-d591-4a5a-93f0-0013bba3f116","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL_157 | 5.65Mb\r\r\r","type":"ss","server":"40.68.79.88","port":65234,"password":"cZvlR41ybNnbCf7VrBdMFO","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_-🇺🇸US_06 | 2.33Mb\r\r\r","type":"ss","server":"hk.nutcloud.de","port":443,"password":"od176M3UVTFsyZAYYkT8Xe/Ip2V69M5Ml2q00slKFak=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r","type":"ss","server":"14.29.124.168","port":24000,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
   - {"name":"_CN_中国->🇹🇼_TW_台湾\r","type":"ss","server":"14.29.124.168","port":24001,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
   - {"name":"🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r","type":"ss","server":"14.29.124.168","port":24005,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
@@ -50,33 +48,11 @@ proxies:
   - {"name":"_JP_日本_3\r\r\r","type":"ss","server":"54.249.172.11","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇯🇵_JP_日本_3\r","type":"ss","server":"54.64.196.107","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇯🇵_JP_日本_4\r","type":"ss","server":"54.95.40.37","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"Relay_-🇬🇧GB_01\r\r\r","type":"ss","server":"135.125.244.103","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"_12 | 6.26Mb\r\r\r","type":"ss","server":"172.99.188.99","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"_04 | 5.60Mb\r\r\r","type":"ss","server":"172.99.188.99","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"🇹🇼 _TW_台湾_4\r\r\r","type":"ss","server":"61.216.135.29","port":443,"password":"21dfbdc7126c","cipher":"aes-256-gcm","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":false}}
-  - {"name":"🇩🇪 _DE_德国\r_2\r\r","type":"ss","server":"193.108.118.79","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"_14 | 8.92Mb\r\r\r","type":"ss","server":"54.36.174.181","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"_05 | 6.68Mb\r\r\r","type":"ss","server":"172.99.188.99","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"_02 | 6.40Mb\r\r\r","type":"ss","server":"172.99.188.99","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"_13 | 7.82Mb\r\r\r","type":"ss","server":"54.36.174.181","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"Relay_-🇺🇸US_08 | 5.52Mb\r\r\r","type":"ss","server":"ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"Relay_-🇺🇸US_11 | 2.37Mb\r\r\r","type":"ss","server":"ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"www.dongtaiwang.com\r","type":"ss","server":"167.160.91.118","port":33110,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-  - {"name":"_09 | 8.66Mb\r\r\r","type":"ss","server":"172.99.188.99","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"_07 | 5.79Mb\r\r\r","type":"ss","server":"172.99.188.99","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"_03 | 6.41Mb\r\r\r","type":"ss","server":"172.99.188.99","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"Relay_-🇺🇸US_15 |196.00Mb","type":"ssr","server":"kr1.vfun.icu","port":443,"password":"vyunme","cipher":"aes-256-cfb","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"ab93117422.jd.hk","protocol-param":"17422:TTp0SX"}
-  - {"name":"🇯🇵 _JP_日本_2","type":"ssr","server":"jp-am48-6.eqnode.net","port":8081,"password":"eAokbaDN6","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
   - {"name":"www.dongtaiwang.com 洛杉矶","type":"ssr","server":"t3.freegradely.xyz","port":22888,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a"}
   - {"name":"_CN_中国->🇬🇧_GB_英国_2","type":"ssr","server":"en.vfun.icu","port":443,"password":"vyunme","cipher":"aes-256-cfb","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"ab93117422.jd.hk","protocol-param":"17422:TTp0SX","group":"SSRProvider"}
   - {"name":"_CN_中国->🇬🇧_GB_英国_1","type":"ssr","server":"en2.vfun.icu","port":443,"password":"vyunme","cipher":"aes-256-cfb","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"ab93117422.jd.hk","protocol-param":"17422:TTp0SX","group":"SSRProvider"}
   - {"name":"_SG_新加坡_2\r\r\r","type":"trojan","server":"sg4.microsoft-orgwly.vip","port":80,"udp":true,"password":"ce58cab4-2675-47f7-b3e1-96f08839f86b","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Relay_-🇳🇱NL_123 |12.49Mb","type":"vmess","server":"154.85.1.16","port":49506,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Relay_-🇳🇱NL_117 |12.82Mb","type":"vmess","server":"154.85.1.137","port":42094,"cipher":"auto","uuid":"20b30916-e203-412e-8ec0-900f3acd5128","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"45.12.112.114","port":54774,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Relay_-🇺🇸US_44 |34.85Mb","type":"vmess","server":"140.99.149.46","port":53082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 _US_美国_3","type":"vmess","server":"171.22.134.28","port":53433,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"_AU_澳大利亚","type":"vmess","server":"139.99.245.165","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -91,8 +67,6 @@ proxy-groups:
       - "_CN_中国->🇦🇺_AU_澳大利亚\r_2\r\r"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_1"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_2"
-      - "🇳🇱NL_157 | 5.65Mb\r\r\r"
-      - "Relay_-🇺🇸US_06 | 2.33Mb\r\r\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
       - "_CN_中国->🇹🇼_TW_台湾\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
@@ -112,33 +86,11 @@ proxy-groups:
       - "_JP_日本_3\r\r\r"
       - "🇯🇵_JP_日本_3\r"
       - "🇯🇵_JP_日本_4\r"
-      - "Relay_-🇬🇧GB_01\r\r\r"
-      - "_12 | 6.26Mb\r\r\r"
-      - "_04 | 5.60Mb\r\r\r"
-      - "🇹🇼 _TW_台湾_4\r\r\r"
-      - "🇩🇪 _DE_德国\r_2\r\r"
-      - "_14 | 8.92Mb\r\r\r"
-      - "_05 | 6.68Mb\r\r\r"
-      - "_02 | 6.40Mb\r\r\r"
-      - "_13 | 7.82Mb\r\r\r"
-      - "Relay_-🇺🇸US_08 | 5.52Mb\r\r\r"
-      - "Relay_-🇺🇸US_11 | 2.37Mb\r\r\r"
       - "www.dongtaiwang.com\r"
-      - "_09 | 8.66Mb\r\r\r"
-      - "_07 | 5.79Mb\r\r\r"
-      - "_03 | 6.41Mb\r\r\r"
-      - Relay_-🇺🇸US_15 |196.00Mb
-      - 🇯🇵 _JP_日本_2
       - www.dongtaiwang.com 洛杉矶
       - _CN_中国->🇬🇧_GB_英国_2
       - _CN_中国->🇬🇧_GB_英国_1
       - "_SG_新加坡_2\r\r\r"
-      - Relay_-🇳🇱NL_123 |12.49Mb
-      - Relay_-🇳🇱NL_117 |12.82Mb
-      - 🇺🇸_US_美国_2
-      - Relay_-🇺🇸US_44 |34.85Mb
-      - 🇺🇸 _US_美国_3
-      - _AU_澳大利亚
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -153,8 +105,6 @@ proxy-groups:
       - "_CN_中国->🇦🇺_AU_澳大利亚\r_2\r\r"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_1"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_2"
-      - "🇳🇱NL_157 | 5.65Mb\r\r\r"
-      - "Relay_-🇺🇸US_06 | 2.33Mb\r\r\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
       - "_CN_中国->🇹🇼_TW_台湾\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
@@ -174,33 +124,11 @@ proxy-groups:
       - "_JP_日本_3\r\r\r"
       - "🇯🇵_JP_日本_3\r"
       - "🇯🇵_JP_日本_4\r"
-      - "Relay_-🇬🇧GB_01\r\r\r"
-      - "_12 | 6.26Mb\r\r\r"
-      - "_04 | 5.60Mb\r\r\r"
-      - "🇹🇼 _TW_台湾_4\r\r\r"
-      - "🇩🇪 _DE_德国\r_2\r\r"
-      - "_14 | 8.92Mb\r\r\r"
-      - "_05 | 6.68Mb\r\r\r"
-      - "_02 | 6.40Mb\r\r\r"
-      - "_13 | 7.82Mb\r\r\r"
-      - "Relay_-🇺🇸US_08 | 5.52Mb\r\r\r"
-      - "Relay_-🇺🇸US_11 | 2.37Mb\r\r\r"
       - "www.dongtaiwang.com\r"
-      - "_09 | 8.66Mb\r\r\r"
-      - "_07 | 5.79Mb\r\r\r"
-      - "_03 | 6.41Mb\r\r\r"
-      - Relay_-🇺🇸US_15 |196.00Mb
-      - 🇯🇵 _JP_日本_2
       - www.dongtaiwang.com 洛杉矶
       - _CN_中国->🇬🇧_GB_英国_2
       - _CN_中国->🇬🇧_GB_英国_1
       - "_SG_新加坡_2\r\r\r"
-      - Relay_-🇳🇱NL_123 |12.49Mb
-      - Relay_-🇳🇱NL_117 |12.82Mb
-      - 🇺🇸_US_美国_2
-      - Relay_-🇺🇸US_44 |34.85Mb
-      - 🇺🇸 _US_美国_3
-      - _AU_澳大利亚
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -215,8 +143,6 @@ proxy-groups:
       - "_CN_中国->🇦🇺_AU_澳大利亚\r_2\r\r"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_1"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_2"
-      - "🇳🇱NL_157 | 5.65Mb\r\r\r"
-      - "Relay_-🇺🇸US_06 | 2.33Mb\r\r\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
       - "_CN_中国->🇹🇼_TW_台湾\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
@@ -236,33 +162,11 @@ proxy-groups:
       - "_JP_日本_3\r\r\r"
       - "🇯🇵_JP_日本_3\r"
       - "🇯🇵_JP_日本_4\r"
-      - "Relay_-🇬🇧GB_01\r\r\r"
-      - "_12 | 6.26Mb\r\r\r"
-      - "_04 | 5.60Mb\r\r\r"
-      - "🇹🇼 _TW_台湾_4\r\r\r"
-      - "🇩🇪 _DE_德国\r_2\r\r"
-      - "_14 | 8.92Mb\r\r\r"
-      - "_05 | 6.68Mb\r\r\r"
-      - "_02 | 6.40Mb\r\r\r"
-      - "_13 | 7.82Mb\r\r\r"
-      - "Relay_-🇺🇸US_08 | 5.52Mb\r\r\r"
-      - "Relay_-🇺🇸US_11 | 2.37Mb\r\r\r"
       - "www.dongtaiwang.com\r"
-      - "_09 | 8.66Mb\r\r\r"
-      - "_07 | 5.79Mb\r\r\r"
-      - "_03 | 6.41Mb\r\r\r"
-      - Relay_-🇺🇸US_15 |196.00Mb
-      - 🇯🇵 _JP_日本_2
       - www.dongtaiwang.com 洛杉矶
       - _CN_中国->🇬🇧_GB_英国_2
       - _CN_中国->🇬🇧_GB_英国_1
       - "_SG_新加坡_2\r\r\r"
-      - Relay_-🇳🇱NL_123 |12.49Mb
-      - Relay_-🇳🇱NL_117 |12.82Mb
-      - 🇺🇸_US_美国_2
-      - Relay_-🇺🇸US_44 |34.85Mb
-      - 🇺🇸 _US_美国_3
-      - _AU_澳大利亚
   - name: 📲 电报信息
     type: select
     proxies:
@@ -276,8 +180,6 @@ proxy-groups:
       - "_CN_中国->🇦🇺_AU_澳大利亚\r_2\r\r"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_1"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_2"
-      - "🇳🇱NL_157 | 5.65Mb\r\r\r"
-      - "Relay_-🇺🇸US_06 | 2.33Mb\r\r\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
       - "_CN_中国->🇹🇼_TW_台湾\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
@@ -297,33 +199,11 @@ proxy-groups:
       - "_JP_日本_3\r\r\r"
       - "🇯🇵_JP_日本_3\r"
       - "🇯🇵_JP_日本_4\r"
-      - "Relay_-🇬🇧GB_01\r\r\r"
-      - "_12 | 6.26Mb\r\r\r"
-      - "_04 | 5.60Mb\r\r\r"
-      - "🇹🇼 _TW_台湾_4\r\r\r"
-      - "🇩🇪 _DE_德国\r_2\r\r"
-      - "_14 | 8.92Mb\r\r\r"
-      - "_05 | 6.68Mb\r\r\r"
-      - "_02 | 6.40Mb\r\r\r"
-      - "_13 | 7.82Mb\r\r\r"
-      - "Relay_-🇺🇸US_08 | 5.52Mb\r\r\r"
-      - "Relay_-🇺🇸US_11 | 2.37Mb\r\r\r"
       - "www.dongtaiwang.com\r"
-      - "_09 | 8.66Mb\r\r\r"
-      - "_07 | 5.79Mb\r\r\r"
-      - "_03 | 6.41Mb\r\r\r"
-      - Relay_-🇺🇸US_15 |196.00Mb
-      - 🇯🇵 _JP_日本_2
       - www.dongtaiwang.com 洛杉矶
       - _CN_中国->🇬🇧_GB_英国_2
       - _CN_中国->🇬🇧_GB_英国_1
       - "_SG_新加坡_2\r\r\r"
-      - Relay_-🇳🇱NL_123 |12.49Mb
-      - Relay_-🇳🇱NL_117 |12.82Mb
-      - 🇺🇸_US_美国_2
-      - Relay_-🇺🇸US_44 |34.85Mb
-      - 🇺🇸 _US_美国_3
-      - _AU_澳大利亚
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -337,8 +217,6 @@ proxy-groups:
       - "_CN_中国->🇦🇺_AU_澳大利亚\r_2\r\r"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_1"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_2"
-      - "🇳🇱NL_157 | 5.65Mb\r\r\r"
-      - "Relay_-🇺🇸US_06 | 2.33Mb\r\r\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
       - "_CN_中国->🇹🇼_TW_台湾\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
@@ -358,33 +236,11 @@ proxy-groups:
       - "_JP_日本_3\r\r\r"
       - "🇯🇵_JP_日本_3\r"
       - "🇯🇵_JP_日本_4\r"
-      - "Relay_-🇬🇧GB_01\r\r\r"
-      - "_12 | 6.26Mb\r\r\r"
-      - "_04 | 5.60Mb\r\r\r"
-      - "🇹🇼 _TW_台湾_4\r\r\r"
-      - "🇩🇪 _DE_德国\r_2\r\r"
-      - "_14 | 8.92Mb\r\r\r"
-      - "_05 | 6.68Mb\r\r\r"
-      - "_02 | 6.40Mb\r\r\r"
-      - "_13 | 7.82Mb\r\r\r"
-      - "Relay_-🇺🇸US_08 | 5.52Mb\r\r\r"
-      - "Relay_-🇺🇸US_11 | 2.37Mb\r\r\r"
       - "www.dongtaiwang.com\r"
-      - "_09 | 8.66Mb\r\r\r"
-      - "_07 | 5.79Mb\r\r\r"
-      - "_03 | 6.41Mb\r\r\r"
-      - Relay_-🇺🇸US_15 |196.00Mb
-      - 🇯🇵 _JP_日本_2
       - www.dongtaiwang.com 洛杉矶
       - _CN_中国->🇬🇧_GB_英国_2
       - _CN_中国->🇬🇧_GB_英国_1
       - "_SG_新加坡_2\r\r\r"
-      - Relay_-🇳🇱NL_123 |12.49Mb
-      - Relay_-🇳🇱NL_117 |12.82Mb
-      - 🇺🇸_US_美国_2
-      - Relay_-🇺🇸US_44 |34.85Mb
-      - 🇺🇸 _US_美国_3
-      - _AU_澳大利亚
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -398,8 +254,6 @@ proxy-groups:
       - "_CN_中国->🇦🇺_AU_澳大利亚\r_2\r\r"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_1"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_2"
-      - "🇳🇱NL_157 | 5.65Mb\r\r\r"
-      - "Relay_-🇺🇸US_06 | 2.33Mb\r\r\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
       - "_CN_中国->🇹🇼_TW_台湾\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
@@ -419,33 +273,11 @@ proxy-groups:
       - "_JP_日本_3\r\r\r"
       - "🇯🇵_JP_日本_3\r"
       - "🇯🇵_JP_日本_4\r"
-      - "Relay_-🇬🇧GB_01\r\r\r"
-      - "_12 | 6.26Mb\r\r\r"
-      - "_04 | 5.60Mb\r\r\r"
-      - "🇹🇼 _TW_台湾_4\r\r\r"
-      - "🇩🇪 _DE_德国\r_2\r\r"
-      - "_14 | 8.92Mb\r\r\r"
-      - "_05 | 6.68Mb\r\r\r"
-      - "_02 | 6.40Mb\r\r\r"
-      - "_13 | 7.82Mb\r\r\r"
-      - "Relay_-🇺🇸US_08 | 5.52Mb\r\r\r"
-      - "Relay_-🇺🇸US_11 | 2.37Mb\r\r\r"
       - "www.dongtaiwang.com\r"
-      - "_09 | 8.66Mb\r\r\r"
-      - "_07 | 5.79Mb\r\r\r"
-      - "_03 | 6.41Mb\r\r\r"
-      - Relay_-🇺🇸US_15 |196.00Mb
-      - 🇯🇵 _JP_日本_2
       - www.dongtaiwang.com 洛杉矶
       - _CN_中国->🇬🇧_GB_英国_2
       - _CN_中国->🇬🇧_GB_英国_1
       - "_SG_新加坡_2\r\r\r"
-      - Relay_-🇳🇱NL_123 |12.49Mb
-      - Relay_-🇳🇱NL_117 |12.82Mb
-      - 🇺🇸_US_美国_2
-      - Relay_-🇺🇸US_44 |34.85Mb
-      - 🇺🇸 _US_美国_3
-      - _AU_澳大利亚
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -476,8 +308,6 @@ proxy-groups:
       - "_CN_中国->🇦🇺_AU_澳大利亚\r_2\r\r"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_1"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本_2\r_2"
-      - "🇳🇱NL_157 | 5.65Mb\r\r\r"
-      - "Relay_-🇺🇸US_06 | 2.33Mb\r\r\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
       - "_CN_中国->🇹🇼_TW_台湾\r"
       - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
@@ -497,33 +327,11 @@ proxy-groups:
       - "_JP_日本_3\r\r\r"
       - "🇯🇵_JP_日本_3\r"
       - "🇯🇵_JP_日本_4\r"
-      - "Relay_-🇬🇧GB_01\r\r\r"
-      - "_12 | 6.26Mb\r\r\r"
-      - "_04 | 5.60Mb\r\r\r"
-      - "🇹🇼 _TW_台湾_4\r\r\r"
-      - "🇩🇪 _DE_德国\r_2\r\r"
-      - "_14 | 8.92Mb\r\r\r"
-      - "_05 | 6.68Mb\r\r\r"
-      - "_02 | 6.40Mb\r\r\r"
-      - "_13 | 7.82Mb\r\r\r"
-      - "Relay_-🇺🇸US_08 | 5.52Mb\r\r\r"
-      - "Relay_-🇺🇸US_11 | 2.37Mb\r\r\r"
       - "www.dongtaiwang.com\r"
-      - "_09 | 8.66Mb\r\r\r"
-      - "_07 | 5.79Mb\r\r\r"
-      - "_03 | 6.41Mb\r\r\r"
-      - Relay_-🇺🇸US_15 |196.00Mb
-      - 🇯🇵 _JP_日本_2
       - www.dongtaiwang.com 洛杉矶
       - _CN_中国->🇬🇧_GB_英国_2
       - _CN_中国->🇬🇧_GB_英国_1
       - "_SG_新加坡_2\r\r\r"
-      - Relay_-🇳🇱NL_123 |12.49Mb
-      - Relay_-🇳🇱NL_117 |12.82Mb
-      - 🇺🇸_US_美国_2
-      - Relay_-🇺🇸US_44 |34.85Mb
-      - 🇺🇸 _US_美国_3
-      - _AU_澳大利亚
 
 rules:
 # 本地/局域网地址
