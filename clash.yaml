@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-24 11:13:35
+# 创建时间：2023-05-24 17:01:42
 # 使用模版：V2RaySE 默认模版
 # 节点数量：26
 ####################################
@@ -21,221 +21,221 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r","type":"ss","server":"14.29.124.168","port":24000,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_CN_中国->🇹🇼_TW_台湾\r","type":"ss","server":"14.29.124.168","port":24001,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r","type":"ss","server":"14.29.124.168","port":24005,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"🇹🇼 _CN_中国->🇹🇼_TW_台湾_1\r\r\r","type":"ss","server":"14.29.124.168","port":24007,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_1\r_2","type":"ss","server":"fae1.interface.buzz","port":31766,"password":"c7a1f42c-c79a-3c31-9544-89aff988379c","cipher":"aes-128-gcm"}
-  - {"name":"_KR_韩国_3\r\r\r","type":"ss","server":"43.201.147.86","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"_KR_韩国_2\r\r\r","type":"ss","server":"43.201.254.7","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵_JP_日本_4\r","type":"ss","server":"54.95.40.37","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇹🇼_TW_台湾_11\r\r\r","type":"ss","server":"14.29.124.168","port":24000,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"🇹🇼_TW_台湾-22\r","type":"ss","server":"14.29.124.168","port":24001,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"🇹🇼_TW_台湾_33\r\r\r","type":"ss","server":"14.29.124.168","port":24005,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"🇹🇼_TW_台湾_44\r\r\r","type":"ss","server":"14.29.124.168","port":24007,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"🇯🇵_JP_日本_11\r_2","type":"ss","server":"fae1.interface.buzz","port":31766,"password":"c7a1f42c-c79a-3c31-9544-89aff988379c","cipher":"aes-128-gcm"}
+  - {"name":"🇯🇵_JP_日本_22\r","type":"ss","server":"54.95.40.37","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇯🇵_JP_日本_33","type":"ss","server":"fae1.interface.buzz","port":31766,"password":"c7a1f42c-c79a-3c31-9544-89aff988379c","cipher":"aes-128-gcm"}
+  - {"name":"🇯🇵_JP_日本_44","type":"ss","server":"13.231.108.219","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"_KR_韩国_11\r\r\r","type":"ss","server":"43.201.147.86","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"_KR_韩国_22\r\r\r","type":"ss","server":"43.201.254.7","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇬🇧_GB_英国_11","type":"ssr","server":"en.vfun.icu","port":443,"password":"vyunme","cipher":"aes-256-cfb","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"ab93117422.jd.hk","protocol-param":"17422:TTp0SX","group":"SSRProvider"}
+  - {"name":"🇺🇸_US_美国_11","type":"vmess","server":"107.167.29.37","port":52303,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_22","type":"vmess","server":"198.2.205.75","port":30406,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_33","type":"vmess","server":"170.178.167.140","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"www.dongtaiwang.com","type":"ss","server":"167.160.91.118","port":22006,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
   - {"name":"www.dongtaiwang.com 洛杉矶","type":"ssr","server":"t3.freegradely.xyz","port":443,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
-  - {"name":"_CN_中国->🇬🇧_GB_英国_2","type":"ssr","server":"en.vfun.icu","port":443,"password":"vyunme","cipher":"aes-256-cfb","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"ab93117422.jd.hk","protocol-param":"17422:TTp0SX","group":"SSRProvider"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_1","type":"ss","server":"fae1.interface.buzz","port":31766,"password":"c7a1f42c-c79a-3c31-9544-89aff988379c","cipher":"aes-128-gcm"}
-  - {"name":"🇺🇸_US_美国_1_1","type":"vmess","server":"107.167.29.37","port":52303,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_1_2","type":"vmess","server":"198.2.205.75","port":30406,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"170.178.167.140","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_1","type":"ss","server":"13.231.108.219","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","type":"trojan","server":"a017.zhuan99.men","port":10017,"udp":true,"password":"c08f1ece-1731-45c3-9c05-0fc47a6dc0a6","sni":"zhu.99ton.men","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","type":"ss","server":"yd-04.paofunlink.com","port":5987,"password":"Paofu","cipher":"rc4-md5"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_3","type":"ss","server":"yd-04.paofunlink.com","port":5981,"password":"Paofu","cipher":"rc4-md5"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_4","type":"trojan","server":"a007.zhuan99.men","port":10007,"udp":true,"password":"c08f1ece-1731-45c3-9c05-0fc47a6dc0a6","sni":"zhu.99ton.men","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_5","type":"ss","server":"yd-04.paofunlink.com","port":5985,"password":"Paofu","cipher":"rc4-md5"}
-  - {"name":"🇸🇬_SG_新加坡_1","type":"trojan","server":"awssg5-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_SG_新加坡_2","type":"vmess","server":"xxx.ixx520.club","port":23910,"cipher":"auto","uuid":"8ecd49ae-46f9-49e8-fd4e-61b9483ca862","alterId":0,"tls":true,"skip-cert-verify":true,"network":""}
-  - {"name":"🇯🇵_JP_日本_2","type":"trojan","server":"azjp2.downloadvip.cfd","port":443,"udp":true,"password":"bab079c9-bc60-4ed4-9b94-043dee75d1b9","sni":"jp1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_3","type":"ssr","server":"jp-am48-6.eqnode.net","port":8081,"password":"eAokbaDN6","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
-  - {"name":"🇺🇸_US_美国","type":"vmess","server":"108.186.116.172","port":55005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","type":"ss","server":"yd-04.paofunlink.com","port":5986,"password":"Paofu","cipher":"rc4-md5"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","type":"ss","server":"yd-04.paofunlink.com","port":5988,"password":"Paofu","cipher":"rc4-md5"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_3","type":"ss","server":"yd-04.paofunlink.com","port":5987,"password":"Paofu","cipher":"rc4-md5"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_4","type":"ss","server":"yd-04.paofunlink.com","port":5985,"password":"Paofu","cipher":"rc4-md5"}
+  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","type":"ss","server":"yd-03.paofunlink.com","port":1198,"password":"Paofu","cipher":"rc4-md5"}
+  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","type":"ss","server":"yd-03.paofunlink.com","port":1196,"password":"Paofu","cipher":"rc4-md5"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本","type":"ss","server":"yd-03.paofunlink.com","port":1158,"password":"Paofu","cipher":"rc4-md5"}
+  - {"name":"🇭🇰_HK_香港","type":"vmess","server":"43.154.233.89","port":53038,"cipher":"auto","uuid":"2264f24e-d814-4aa6-98c0-ed5a8322a0eb","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hk12/getData"}}
+  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"198.2.234.101","port":51322,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"23.224.14.142","port":55332,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
-      - "_CN_中国->🇹🇼_TW_台湾\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_1\r\r\r"
-      - "🇨🇳_CN_中国->🇯🇵_JP_日本_1\r_2"
-      - "_KR_韩国_3\r\r\r"
-      - "_KR_韩国_2\r\r\r"
-      - "🇯🇵_JP_日本_4\r"
+      - "🇹🇼_TW_台湾_11\r\r\r"
+      - "🇹🇼_TW_台湾-22\r"
+      - "🇹🇼_TW_台湾_33\r\r\r"
+      - "🇹🇼_TW_台湾_44\r\r\r"
+      - "🇯🇵_JP_日本_11\r_2"
+      - "🇯🇵_JP_日本_22\r"
+      - 🇯🇵_JP_日本_33
+      - 🇯🇵_JP_日本_44
+      - "_KR_韩国_11\r\r\r"
+      - "_KR_韩国_22\r\r\r"
+      - 🇬🇧_GB_英国_11
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_33
       - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
-      - _CN_中国->🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
-      - "_CN_中国->🇹🇼_TW_台湾\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_1\r\r\r"
-      - "🇨🇳_CN_中国->🇯🇵_JP_日本_1\r_2"
-      - "_KR_韩国_3\r\r\r"
-      - "_KR_韩国_2\r\r\r"
-      - "🇯🇵_JP_日本_4\r"
+      - "🇹🇼_TW_台湾_11\r\r\r"
+      - "🇹🇼_TW_台湾-22\r"
+      - "🇹🇼_TW_台湾_33\r\r\r"
+      - "🇹🇼_TW_台湾_44\r\r\r"
+      - "🇯🇵_JP_日本_11\r_2"
+      - "🇯🇵_JP_日本_22\r"
+      - 🇯🇵_JP_日本_33
+      - 🇯🇵_JP_日本_44
+      - "_KR_韩国_11\r\r\r"
+      - "_KR_韩国_22\r\r\r"
+      - 🇬🇧_GB_英国_11
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_33
       - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
-      - _CN_中国->🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
-      - "_CN_中国->🇹🇼_TW_台湾\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_1\r\r\r"
-      - "🇨🇳_CN_中国->🇯🇵_JP_日本_1\r_2"
-      - "_KR_韩国_3\r\r\r"
-      - "_KR_韩国_2\r\r\r"
-      - "🇯🇵_JP_日本_4\r"
+      - "🇹🇼_TW_台湾_11\r\r\r"
+      - "🇹🇼_TW_台湾-22\r"
+      - "🇹🇼_TW_台湾_33\r\r\r"
+      - "🇹🇼_TW_台湾_44\r\r\r"
+      - "🇯🇵_JP_日本_11\r_2"
+      - "🇯🇵_JP_日本_22\r"
+      - 🇯🇵_JP_日本_33
+      - 🇯🇵_JP_日本_44
+      - "_KR_韩国_11\r\r\r"
+      - "_KR_韩国_22\r\r\r"
+      - 🇬🇧_GB_英国_11
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_33
       - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
-      - _CN_中国->🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
-      - "_CN_中国->🇹🇼_TW_台湾\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_1\r\r\r"
-      - "🇨🇳_CN_中国->🇯🇵_JP_日本_1\r_2"
-      - "_KR_韩国_3\r\r\r"
-      - "_KR_韩国_2\r\r\r"
-      - "🇯🇵_JP_日本_4\r"
+      - "🇹🇼_TW_台湾_11\r\r\r"
+      - "🇹🇼_TW_台湾-22\r"
+      - "🇹🇼_TW_台湾_33\r\r\r"
+      - "🇹🇼_TW_台湾_44\r\r\r"
+      - "🇯🇵_JP_日本_11\r_2"
+      - "🇯🇵_JP_日本_22\r"
+      - 🇯🇵_JP_日本_33
+      - 🇯🇵_JP_日本_44
+      - "_KR_韩国_11\r\r\r"
+      - "_KR_韩国_22\r\r\r"
+      - 🇬🇧_GB_英国_11
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_33
       - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
-      - _CN_中国->🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
-      - "_CN_中国->🇹🇼_TW_台湾\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_1\r\r\r"
-      - "🇨🇳_CN_中国->🇯🇵_JP_日本_1\r_2"
-      - "_KR_韩国_3\r\r\r"
-      - "_KR_韩国_2\r\r\r"
-      - "🇯🇵_JP_日本_4\r"
+      - "🇹🇼_TW_台湾_11\r\r\r"
+      - "🇹🇼_TW_台湾-22\r"
+      - "🇹🇼_TW_台湾_33\r\r\r"
+      - "🇹🇼_TW_台湾_44\r\r\r"
+      - "🇯🇵_JP_日本_11\r_2"
+      - "🇯🇵_JP_日本_22\r"
+      - 🇯🇵_JP_日本_33
+      - 🇯🇵_JP_日本_44
+      - "_KR_韩国_11\r\r\r"
+      - "_KR_韩国_22\r\r\r"
+      - 🇬🇧_GB_英国_11
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_33
       - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
-      - _CN_中国->🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
-      - "_CN_中国->🇹🇼_TW_台湾\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_1\r\r\r"
-      - "🇨🇳_CN_中国->🇯🇵_JP_日本_1\r_2"
-      - "_KR_韩国_3\r\r\r"
-      - "_KR_韩国_2\r\r\r"
-      - "🇯🇵_JP_日本_4\r"
+      - "🇹🇼_TW_台湾_11\r\r\r"
+      - "🇹🇼_TW_台湾-22\r"
+      - "🇹🇼_TW_台湾_33\r\r\r"
+      - "🇹🇼_TW_台湾_44\r\r\r"
+      - "🇯🇵_JP_日本_11\r_2"
+      - "🇯🇵_JP_日本_22\r"
+      - 🇯🇵_JP_日本_33
+      - 🇯🇵_JP_日本_44
+      - "_KR_韩国_11\r\r\r"
+      - "_KR_韩国_22\r\r\r"
+      - 🇬🇧_GB_英国_11
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_33
       - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
-      - _CN_中国->🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -258,32 +258,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_3\r\r\r"
-      - "_CN_中国->🇹🇼_TW_台湾\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_2\r\r\r"
-      - "🇹🇼 _CN_中国->🇹🇼_TW_台湾_1\r\r\r"
-      - "🇨🇳_CN_中国->🇯🇵_JP_日本_1\r_2"
-      - "_KR_韩国_3\r\r\r"
-      - "_KR_韩国_2\r\r\r"
-      - "🇯🇵_JP_日本_4\r"
+      - "🇹🇼_TW_台湾_11\r\r\r"
+      - "🇹🇼_TW_台湾-22\r"
+      - "🇹🇼_TW_台湾_33\r\r\r"
+      - "🇹🇼_TW_台湾_44\r\r\r"
+      - "🇯🇵_JP_日本_11\r_2"
+      - "🇯🇵_JP_日本_22\r"
+      - 🇯🇵_JP_日本_33
+      - 🇯🇵_JP_日本_44
+      - "_KR_韩国_11\r\r\r"
+      - "_KR_韩国_22\r\r\r"
+      - 🇬🇧_GB_英国_11
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_33
       - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
-      - _CN_中国->🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_2
-      - 🇯🇵_JP_日本_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_3
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_4
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_5
-      - 🇸🇬_SG_新加坡_1
-      - 🇸🇬_SG_新加坡_2
-      - 🇯🇵_JP_日本_2
-      - 🇯🇵_JP_日本_3
-      - 🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
 
 rules:
 # 本地/局域网地址
