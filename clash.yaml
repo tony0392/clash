@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-25 17:14:20
+# 创建时间：2023-05-25 17:43:53
 # 使用模版：V2RaySE 默认模版
-# 节点数量：61
+# 节点数量：27
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -48,40 +48,6 @@ proxies:
   - {"name":"🇹🇼_TW_台湾\r_7\r","type":"trojan","server":"165.154.246.207","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾\r\r","type":"ss","server":"14.29.124.168","port":24000,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
   - {"name":"🇹🇼_TW_台湾\r","type":"trojan","server":"165.154.246.194","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_越南 01【vip1】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":29200,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"vn01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 韩国 01【vip1】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":22000,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"sk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 韩国 02【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":22000,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"sk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_香港01【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":20002,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"hk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_香港02【vip1】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":20002,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"hk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_香港03【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":20005,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"hk05.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_香港04【vip1】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":20005,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"hk05.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_香港 06【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":20003,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"hk02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_香港09【vip1】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":20001,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"hk04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_香港10【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":20001,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"hk04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_德国01【vip1】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":27000,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"de01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_德国02【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":27000,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"de01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 印度01【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":25001,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"id01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 印度02【vip1】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":25001,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"id01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 英国02【vip1】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":26000,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"uk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_日本01【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":21000,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"jp01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_日本02【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":21001,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"jp02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_日本03【vip1】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":21001,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"jp02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 台湾 01【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":24002,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"rctw01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 台湾 02【vip1】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":24002,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"rctw01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 台湾 05【vip1】","type":"vmess","server":"gzyd.jcnode.top","port":24001,"cipher":"auto","uuid":"f2ad105b-35ee-4f99-8605-636e398fd64b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"JCBB_ 台湾 06【vip1】","type":"vmess","server":"gzdx.jcnode.top","port":24001,"cipher":"auto","uuid":"f2ad105b-35ee-4f99-8605-636e398fd64b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"JCBB_ 台湾 08【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":24003,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"rctw02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_土耳其 01【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":29500,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"tur01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_土耳其 02【vip1】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":29500,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"tur01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_越南 02【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":29200,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"vn01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 新加坡 01【vip1 】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":23003,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"sg01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 新加坡 02【vip1 】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":23003,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"sg01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 新加坡 05【vip1】\r\r","type":"trojan","server":"gzdx.jcnode.top","port":23004,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"sg02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 新加坡 08【vip1】\r\r","type":"trojan","server":"gzyd.jcnode.top","port":23005,"udp":true,"password":"f2ad105b-35ee-4f99-8605-636e398fd64b","sni":"sg03.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JCBB_ 美国01【vip1】","type":"vmess","server":"gzyd.jcnode.top","port":28000,"cipher":"auto","uuid":"f2ad105b-35ee-4f99-8605-636e398fd64b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"JCBB_ 美国02【vip1】","type":"vmess","server":"gzdx.jcnode.top","port":28000,"cipher":"auto","uuid":"f2ad105b-35ee-4f99-8605-636e398fd64b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"JCBB_ 美国 03【vip1】","type":"vmess","server":"gzyd.jcnode.top","port":28001,"cipher":"auto","uuid":"f2ad105b-35ee-4f99-8605-636e398fd64b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"JCBB_ 美国 04【vip1】","type":"vmess","server":"gzdx.jcnode.top","port":28001,"cipher":"auto","uuid":"f2ad105b-35ee-4f99-8605-636e398fd64b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -115,40 +81,6 @@ proxy-groups:
       - "🇹🇼_TW_台湾\r_7\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r\r"
       - "🇹🇼_TW_台湾\r"
-      - "JCBB_越南 01【vip1】\r\r"
-      - "JCBB_ 韩国 01【vip1】\r\r"
-      - "JCBB_ 韩国 02【vip1】\r\r"
-      - "JCBB_香港01【vip1】\r\r"
-      - "JCBB_香港02【vip1】\r\r"
-      - "JCBB_香港03【vip1】\r\r"
-      - "JCBB_香港04【vip1】\r\r"
-      - "JCBB_香港 06【vip1】\r\r"
-      - "JCBB_香港09【vip1】\r\r"
-      - "JCBB_香港10【vip1】\r\r"
-      - "JCBB_德国01【vip1】\r\r"
-      - "JCBB_德国02【vip1】\r\r"
-      - "JCBB_ 印度01【vip1】\r\r"
-      - "JCBB_ 印度02【vip1】\r\r"
-      - "JCBB_ 英国02【vip1】\r\r"
-      - "JCBB_日本01【vip1】\r\r"
-      - "JCBB_日本02【vip1】\r\r"
-      - "JCBB_日本03【vip1】\r\r"
-      - "JCBB_ 台湾 01【vip1】\r\r"
-      - "JCBB_ 台湾 02【vip1】\r\r"
-      - JCBB_ 台湾 05【vip1】
-      - JCBB_ 台湾 06【vip1】
-      - "JCBB_ 台湾 08【vip1】\r\r"
-      - "JCBB_土耳其 01【vip1】\r\r"
-      - "JCBB_土耳其 02【vip1】\r\r"
-      - "JCBB_越南 02【vip1】\r\r"
-      - "JCBB_ 新加坡 01【vip1 】\r\r"
-      - "JCBB_ 新加坡 02【vip1 】\r\r"
-      - "JCBB_ 新加坡 05【vip1】\r\r"
-      - "JCBB_ 新加坡 08【vip1】\r\r"
-      - JCBB_ 美国01【vip1】
-      - JCBB_ 美国02【vip1】
-      - JCBB_ 美国 03【vip1】
-      - JCBB_ 美国 04【vip1】
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -182,40 +114,6 @@ proxy-groups:
       - "🇹🇼_TW_台湾\r_7\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r\r"
       - "🇹🇼_TW_台湾\r"
-      - "JCBB_越南 01【vip1】\r\r"
-      - "JCBB_ 韩国 01【vip1】\r\r"
-      - "JCBB_ 韩国 02【vip1】\r\r"
-      - "JCBB_香港01【vip1】\r\r"
-      - "JCBB_香港02【vip1】\r\r"
-      - "JCBB_香港03【vip1】\r\r"
-      - "JCBB_香港04【vip1】\r\r"
-      - "JCBB_香港 06【vip1】\r\r"
-      - "JCBB_香港09【vip1】\r\r"
-      - "JCBB_香港10【vip1】\r\r"
-      - "JCBB_德国01【vip1】\r\r"
-      - "JCBB_德国02【vip1】\r\r"
-      - "JCBB_ 印度01【vip1】\r\r"
-      - "JCBB_ 印度02【vip1】\r\r"
-      - "JCBB_ 英国02【vip1】\r\r"
-      - "JCBB_日本01【vip1】\r\r"
-      - "JCBB_日本02【vip1】\r\r"
-      - "JCBB_日本03【vip1】\r\r"
-      - "JCBB_ 台湾 01【vip1】\r\r"
-      - "JCBB_ 台湾 02【vip1】\r\r"
-      - JCBB_ 台湾 05【vip1】
-      - JCBB_ 台湾 06【vip1】
-      - "JCBB_ 台湾 08【vip1】\r\r"
-      - "JCBB_土耳其 01【vip1】\r\r"
-      - "JCBB_土耳其 02【vip1】\r\r"
-      - "JCBB_越南 02【vip1】\r\r"
-      - "JCBB_ 新加坡 01【vip1 】\r\r"
-      - "JCBB_ 新加坡 02【vip1 】\r\r"
-      - "JCBB_ 新加坡 05【vip1】\r\r"
-      - "JCBB_ 新加坡 08【vip1】\r\r"
-      - JCBB_ 美国01【vip1】
-      - JCBB_ 美国02【vip1】
-      - JCBB_ 美国 03【vip1】
-      - JCBB_ 美国 04【vip1】
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -249,40 +147,6 @@ proxy-groups:
       - "🇹🇼_TW_台湾\r_7\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r\r"
       - "🇹🇼_TW_台湾\r"
-      - "JCBB_越南 01【vip1】\r\r"
-      - "JCBB_ 韩国 01【vip1】\r\r"
-      - "JCBB_ 韩国 02【vip1】\r\r"
-      - "JCBB_香港01【vip1】\r\r"
-      - "JCBB_香港02【vip1】\r\r"
-      - "JCBB_香港03【vip1】\r\r"
-      - "JCBB_香港04【vip1】\r\r"
-      - "JCBB_香港 06【vip1】\r\r"
-      - "JCBB_香港09【vip1】\r\r"
-      - "JCBB_香港10【vip1】\r\r"
-      - "JCBB_德国01【vip1】\r\r"
-      - "JCBB_德国02【vip1】\r\r"
-      - "JCBB_ 印度01【vip1】\r\r"
-      - "JCBB_ 印度02【vip1】\r\r"
-      - "JCBB_ 英国02【vip1】\r\r"
-      - "JCBB_日本01【vip1】\r\r"
-      - "JCBB_日本02【vip1】\r\r"
-      - "JCBB_日本03【vip1】\r\r"
-      - "JCBB_ 台湾 01【vip1】\r\r"
-      - "JCBB_ 台湾 02【vip1】\r\r"
-      - JCBB_ 台湾 05【vip1】
-      - JCBB_ 台湾 06【vip1】
-      - "JCBB_ 台湾 08【vip1】\r\r"
-      - "JCBB_土耳其 01【vip1】\r\r"
-      - "JCBB_土耳其 02【vip1】\r\r"
-      - "JCBB_越南 02【vip1】\r\r"
-      - "JCBB_ 新加坡 01【vip1 】\r\r"
-      - "JCBB_ 新加坡 02【vip1 】\r\r"
-      - "JCBB_ 新加坡 05【vip1】\r\r"
-      - "JCBB_ 新加坡 08【vip1】\r\r"
-      - JCBB_ 美国01【vip1】
-      - JCBB_ 美国02【vip1】
-      - JCBB_ 美国 03【vip1】
-      - JCBB_ 美国 04【vip1】
   - name: 📲 电报信息
     type: select
     proxies:
@@ -315,40 +179,6 @@ proxy-groups:
       - "🇹🇼_TW_台湾\r_7\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r\r"
       - "🇹🇼_TW_台湾\r"
-      - "JCBB_越南 01【vip1】\r\r"
-      - "JCBB_ 韩国 01【vip1】\r\r"
-      - "JCBB_ 韩国 02【vip1】\r\r"
-      - "JCBB_香港01【vip1】\r\r"
-      - "JCBB_香港02【vip1】\r\r"
-      - "JCBB_香港03【vip1】\r\r"
-      - "JCBB_香港04【vip1】\r\r"
-      - "JCBB_香港 06【vip1】\r\r"
-      - "JCBB_香港09【vip1】\r\r"
-      - "JCBB_香港10【vip1】\r\r"
-      - "JCBB_德国01【vip1】\r\r"
-      - "JCBB_德国02【vip1】\r\r"
-      - "JCBB_ 印度01【vip1】\r\r"
-      - "JCBB_ 印度02【vip1】\r\r"
-      - "JCBB_ 英国02【vip1】\r\r"
-      - "JCBB_日本01【vip1】\r\r"
-      - "JCBB_日本02【vip1】\r\r"
-      - "JCBB_日本03【vip1】\r\r"
-      - "JCBB_ 台湾 01【vip1】\r\r"
-      - "JCBB_ 台湾 02【vip1】\r\r"
-      - JCBB_ 台湾 05【vip1】
-      - JCBB_ 台湾 06【vip1】
-      - "JCBB_ 台湾 08【vip1】\r\r"
-      - "JCBB_土耳其 01【vip1】\r\r"
-      - "JCBB_土耳其 02【vip1】\r\r"
-      - "JCBB_越南 02【vip1】\r\r"
-      - "JCBB_ 新加坡 01【vip1 】\r\r"
-      - "JCBB_ 新加坡 02【vip1 】\r\r"
-      - "JCBB_ 新加坡 05【vip1】\r\r"
-      - "JCBB_ 新加坡 08【vip1】\r\r"
-      - JCBB_ 美国01【vip1】
-      - JCBB_ 美国02【vip1】
-      - JCBB_ 美国 03【vip1】
-      - JCBB_ 美国 04【vip1】
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -381,40 +211,6 @@ proxy-groups:
       - "🇹🇼_TW_台湾\r_7\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r\r"
       - "🇹🇼_TW_台湾\r"
-      - "JCBB_越南 01【vip1】\r\r"
-      - "JCBB_ 韩国 01【vip1】\r\r"
-      - "JCBB_ 韩国 02【vip1】\r\r"
-      - "JCBB_香港01【vip1】\r\r"
-      - "JCBB_香港02【vip1】\r\r"
-      - "JCBB_香港03【vip1】\r\r"
-      - "JCBB_香港04【vip1】\r\r"
-      - "JCBB_香港 06【vip1】\r\r"
-      - "JCBB_香港09【vip1】\r\r"
-      - "JCBB_香港10【vip1】\r\r"
-      - "JCBB_德国01【vip1】\r\r"
-      - "JCBB_德国02【vip1】\r\r"
-      - "JCBB_ 印度01【vip1】\r\r"
-      - "JCBB_ 印度02【vip1】\r\r"
-      - "JCBB_ 英国02【vip1】\r\r"
-      - "JCBB_日本01【vip1】\r\r"
-      - "JCBB_日本02【vip1】\r\r"
-      - "JCBB_日本03【vip1】\r\r"
-      - "JCBB_ 台湾 01【vip1】\r\r"
-      - "JCBB_ 台湾 02【vip1】\r\r"
-      - JCBB_ 台湾 05【vip1】
-      - JCBB_ 台湾 06【vip1】
-      - "JCBB_ 台湾 08【vip1】\r\r"
-      - "JCBB_土耳其 01【vip1】\r\r"
-      - "JCBB_土耳其 02【vip1】\r\r"
-      - "JCBB_越南 02【vip1】\r\r"
-      - "JCBB_ 新加坡 01【vip1 】\r\r"
-      - "JCBB_ 新加坡 02【vip1 】\r\r"
-      - "JCBB_ 新加坡 05【vip1】\r\r"
-      - "JCBB_ 新加坡 08【vip1】\r\r"
-      - JCBB_ 美国01【vip1】
-      - JCBB_ 美国02【vip1】
-      - JCBB_ 美国 03【vip1】
-      - JCBB_ 美国 04【vip1】
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -447,40 +243,6 @@ proxy-groups:
       - "🇹🇼_TW_台湾\r_7\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r\r"
       - "🇹🇼_TW_台湾\r"
-      - "JCBB_越南 01【vip1】\r\r"
-      - "JCBB_ 韩国 01【vip1】\r\r"
-      - "JCBB_ 韩国 02【vip1】\r\r"
-      - "JCBB_香港01【vip1】\r\r"
-      - "JCBB_香港02【vip1】\r\r"
-      - "JCBB_香港03【vip1】\r\r"
-      - "JCBB_香港04【vip1】\r\r"
-      - "JCBB_香港 06【vip1】\r\r"
-      - "JCBB_香港09【vip1】\r\r"
-      - "JCBB_香港10【vip1】\r\r"
-      - "JCBB_德国01【vip1】\r\r"
-      - "JCBB_德国02【vip1】\r\r"
-      - "JCBB_ 印度01【vip1】\r\r"
-      - "JCBB_ 印度02【vip1】\r\r"
-      - "JCBB_ 英国02【vip1】\r\r"
-      - "JCBB_日本01【vip1】\r\r"
-      - "JCBB_日本02【vip1】\r\r"
-      - "JCBB_日本03【vip1】\r\r"
-      - "JCBB_ 台湾 01【vip1】\r\r"
-      - "JCBB_ 台湾 02【vip1】\r\r"
-      - JCBB_ 台湾 05【vip1】
-      - JCBB_ 台湾 06【vip1】
-      - "JCBB_ 台湾 08【vip1】\r\r"
-      - "JCBB_土耳其 01【vip1】\r\r"
-      - "JCBB_土耳其 02【vip1】\r\r"
-      - "JCBB_越南 02【vip1】\r\r"
-      - "JCBB_ 新加坡 01【vip1 】\r\r"
-      - "JCBB_ 新加坡 02【vip1 】\r\r"
-      - "JCBB_ 新加坡 05【vip1】\r\r"
-      - "JCBB_ 新加坡 08【vip1】\r\r"
-      - JCBB_ 美国01【vip1】
-      - JCBB_ 美国02【vip1】
-      - JCBB_ 美国 03【vip1】
-      - JCBB_ 美国 04【vip1】
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -530,40 +292,6 @@ proxy-groups:
       - "🇹🇼_TW_台湾\r_7\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r\r"
       - "🇹🇼_TW_台湾\r"
-      - "JCBB_越南 01【vip1】\r\r"
-      - "JCBB_ 韩国 01【vip1】\r\r"
-      - "JCBB_ 韩国 02【vip1】\r\r"
-      - "JCBB_香港01【vip1】\r\r"
-      - "JCBB_香港02【vip1】\r\r"
-      - "JCBB_香港03【vip1】\r\r"
-      - "JCBB_香港04【vip1】\r\r"
-      - "JCBB_香港 06【vip1】\r\r"
-      - "JCBB_香港09【vip1】\r\r"
-      - "JCBB_香港10【vip1】\r\r"
-      - "JCBB_德国01【vip1】\r\r"
-      - "JCBB_德国02【vip1】\r\r"
-      - "JCBB_ 印度01【vip1】\r\r"
-      - "JCBB_ 印度02【vip1】\r\r"
-      - "JCBB_ 英国02【vip1】\r\r"
-      - "JCBB_日本01【vip1】\r\r"
-      - "JCBB_日本02【vip1】\r\r"
-      - "JCBB_日本03【vip1】\r\r"
-      - "JCBB_ 台湾 01【vip1】\r\r"
-      - "JCBB_ 台湾 02【vip1】\r\r"
-      - JCBB_ 台湾 05【vip1】
-      - JCBB_ 台湾 06【vip1】
-      - "JCBB_ 台湾 08【vip1】\r\r"
-      - "JCBB_土耳其 01【vip1】\r\r"
-      - "JCBB_土耳其 02【vip1】\r\r"
-      - "JCBB_越南 02【vip1】\r\r"
-      - "JCBB_ 新加坡 01【vip1 】\r\r"
-      - "JCBB_ 新加坡 02【vip1 】\r\r"
-      - "JCBB_ 新加坡 05【vip1】\r\r"
-      - "JCBB_ 新加坡 08【vip1】\r\r"
-      - JCBB_ 美国01【vip1】
-      - JCBB_ 美国02【vip1】
-      - JCBB_ 美国 03【vip1】
-      - JCBB_ 美国 04【vip1】
 
 rules:
 # 本地/局域网地址
