@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-25 17:43:53
+# 创建时间：2023-05-25 17:53:40
 # 使用模版：V2RaySE 默认模版
 # 节点数量：27
 ####################################
@@ -29,7 +29,7 @@ proxies:
   - {"name":"🇺🇸_US_美国_11","type":"vmess","server":"104.194.233.43","port":51302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸_US_美国_22","type":"vmess","server":"23.224.14.142","port":55332,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬_SG_新加坡_11","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
-  - {"name":"www.dongtaiwang.com\r\r","type":"ss","server":"167.160.91.118","port":44311,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"www.dongtaiwang.com","type":"ss","server":"167.160.91.118","port":18822,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
   - {"name":"www.dongtaiwang.com 洛杉矶","type":"ssr","server":"t3.freegradely.xyz","port":443,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
   - {"name":"🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰","type":"vmess","server":"203.17.126.203","port":443,"cipher":"auto","uuid":"DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.kotick.site"}}}
   - {"name":"🇸🇬_SG_新加坡\r\r","type":"ss","server":"54.169.96.195","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
@@ -62,7 +62,7 @@ proxy-groups:
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_22
       - 🇸🇬_SG_新加坡_11
-      - "www.dongtaiwang.com\r\r"
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰
       - "🇸🇬_SG_新加坡\r\r"
@@ -95,7 +95,7 @@ proxy-groups:
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_22
       - 🇸🇬_SG_新加坡_11
-      - "www.dongtaiwang.com\r\r"
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰
       - "🇸🇬_SG_新加坡\r\r"
@@ -128,7 +128,7 @@ proxy-groups:
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_22
       - 🇸🇬_SG_新加坡_11
-      - "www.dongtaiwang.com\r\r"
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰
       - "🇸🇬_SG_新加坡\r\r"
@@ -160,7 +160,7 @@ proxy-groups:
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_22
       - 🇸🇬_SG_新加坡_11
-      - "www.dongtaiwang.com\r\r"
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰
       - "🇸🇬_SG_新加坡\r\r"
@@ -192,7 +192,7 @@ proxy-groups:
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_22
       - 🇸🇬_SG_新加坡_11
-      - "www.dongtaiwang.com\r\r"
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰
       - "🇸🇬_SG_新加坡\r\r"
@@ -224,7 +224,7 @@ proxy-groups:
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_22
       - 🇸🇬_SG_新加坡_11
-      - "www.dongtaiwang.com\r\r"
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰
       - "🇸🇬_SG_新加坡\r\r"
@@ -273,7 +273,7 @@ proxy-groups:
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_22
       - 🇸🇬_SG_新加坡_11
-      - "www.dongtaiwang.com\r\r"
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰
       - "🇸🇬_SG_新加坡\r\r"
