@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-03 08:24:02
+# 创建时间：2023-06-03 10:41:27
 # 使用模版：V2RaySE 默认模版
-# 节点数量：36
+# 节点数量：35
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -35,7 +35,6 @@ proxies:
   - {"name":"🇰🇷_KR_韩国\r_3","type":"ss","server":"43.201.254.164","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇸🇬_SG_新加坡_22","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
   - {"name":"🇩🇪_DE_德国\r","type":"trojan","server":"217.79.184.18","port":443,"udp":true,"password":"5f70213f-4681-4f70-a31b-42f37402cd66","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇼_TW_台湾\r","type":"trojan","server":"hinet2.downloadvip.cfd","port":443,"udp":true,"password":"fa40d562-c9de-4023-afb7-33929f2774f7","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本->🇸🇬_SG_新加坡\r","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"6e050f42-84ae-448b-b602-48e0d5747a4d","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾\r","type":"ss","server":"14.29.124.168","port":24003,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
   - {"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国\r_2","type":"trojan","server":"scloud52.jafiyun.world","port":22052,"udp":true,"password":"1c681734-ffc2-34dd-8ac8-bfabe4871216","sni":"scloud52.jafiyun.world","skip-cert-verify":true,"network":"tcp"}
@@ -77,7 +76,6 @@ proxy-groups:
       - "🇰🇷_KR_韩国\r_3"
       - 🇸🇬_SG_新加坡_22
       - "🇩🇪_DE_德国\r"
-      - "🇹🇼_TW_台湾\r"
       - "🇯🇵_JP_日本->🇸🇬_SG_新加坡\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r"
       - "🇨🇳_CN_中国->🇰🇷_KR_韩国\r_2"
@@ -119,7 +117,6 @@ proxy-groups:
       - "🇰🇷_KR_韩国\r_3"
       - 🇸🇬_SG_新加坡_22
       - "🇩🇪_DE_德国\r"
-      - "🇹🇼_TW_台湾\r"
       - "🇯🇵_JP_日本->🇸🇬_SG_新加坡\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r"
       - "🇨🇳_CN_中国->🇰🇷_KR_韩国\r_2"
@@ -161,7 +158,6 @@ proxy-groups:
       - "🇰🇷_KR_韩国\r_3"
       - 🇸🇬_SG_新加坡_22
       - "🇩🇪_DE_德国\r"
-      - "🇹🇼_TW_台湾\r"
       - "🇯🇵_JP_日本->🇸🇬_SG_新加坡\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r"
       - "🇨🇳_CN_中国->🇰🇷_KR_韩国\r_2"
@@ -202,7 +198,6 @@ proxy-groups:
       - "🇰🇷_KR_韩国\r_3"
       - 🇸🇬_SG_新加坡_22
       - "🇩🇪_DE_德国\r"
-      - "🇹🇼_TW_台湾\r"
       - "🇯🇵_JP_日本->🇸🇬_SG_新加坡\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r"
       - "🇨🇳_CN_中国->🇰🇷_KR_韩国\r_2"
@@ -243,7 +238,6 @@ proxy-groups:
       - "🇰🇷_KR_韩国\r_3"
       - 🇸🇬_SG_新加坡_22
       - "🇩🇪_DE_德国\r"
-      - "🇹🇼_TW_台湾\r"
       - "🇯🇵_JP_日本->🇸🇬_SG_新加坡\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r"
       - "🇨🇳_CN_中国->🇰🇷_KR_韩国\r_2"
@@ -284,7 +278,6 @@ proxy-groups:
       - "🇰🇷_KR_韩国\r_3"
       - 🇸🇬_SG_新加坡_22
       - "🇩🇪_DE_德国\r"
-      - "🇹🇼_TW_台湾\r"
       - "🇯🇵_JP_日本->🇸🇬_SG_新加坡\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r"
       - "🇨🇳_CN_中国->🇰🇷_KR_韩国\r_2"
@@ -342,7 +335,6 @@ proxy-groups:
       - "🇰🇷_KR_韩国\r_3"
       - 🇸🇬_SG_新加坡_22
       - "🇩🇪_DE_德国\r"
-      - "🇹🇼_TW_台湾\r"
       - "🇯🇵_JP_日本->🇸🇬_SG_新加坡\r"
       - "🇨🇳_CN_中国->🇹🇼_TW_台湾\r"
       - "🇨🇳_CN_中国->🇰🇷_KR_韩国\r_2"
