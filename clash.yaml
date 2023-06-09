@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-09 08:40:58
+# 创建时间：2023-06-09 08:56:49
 # 使用模版：V2RaySE 默认模版
-# 节点数量：40
+# 节点数量：32
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -42,18 +42,10 @@ proxies:
   - {"name":"🇹🇼_TW_台湾_1","type":"trojan","server":"hinet2.downloadvip.cfd","port":443,"udp":true,"password":"de58c68b-a35f-4d38-a999-4094453c3e44","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇳🇱_NL_荷兰_1_1","type":"vmess","server":"154.85.1.242","port":45516,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇳🇱_NL_荷兰_2_2","type":"vmess","server":"45.153.203.83","port":41632,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇨🇳_CN_中国->🇹🇷_TR_土耳其","type":"trojan","server":"gzdx.jcnode.top","port":29500,"udp":true,"password":"83d32def-43d2-4603-bc25-47fafce7d82d","sni":"tur01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇱🇺_LU_卢森堡","type":"trojan","server":"gzyd.jcnode.top","port":20005,"udp":true,"password":"83d32def-43d2-4603-bc25-47fafce7d82d","sni":"hk05.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本\r","type":"trojan","server":"jp2.gsjc.cfd","port":443,"udp":true,"password":"ae09438f-b9b8-40c6-ab49-ce6c0d64674e","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本","type":"vmess","server":"95.85.94.18","port":7645,"cipher":"auto","uuid":"c5456ec9-4eee-4902-a4e2-73059f34d8b1","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇯🇵_JP_日本","type":"trojan","server":"jp2.gsjc.cfd","port":443,"udp":true,"password":"ae09438f-b9b8-40c6-ab49-ce6c0d64674e","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇳🇱_NL_荷兰_1_2","type":"vmess","server":"154.85.1.83","port":49143,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬_SG_新加坡","type":"trojan","server":"sg1.gsjc.cfd","port":443,"udp":true,"password":"979d272e-48b8-488c-ac68-623d1430d67e","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇩🇪_DE_德国","type":"vmess","server":"9t1d5e04.mcfront.xyz","port":31841,"cipher":"auto","uuid":"58f8afab-5393-4827-8d97-b09101c5b19e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_1","type":"ss","server":"free.themars.top","port":32101,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷_FR_法国","type":"ssr","server":"fr-am1-5.eqsunshine.com","port":8181,"password":"RcfVcDzzB","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港","type":"trojan","server":"gzdx.jcnode.top","port":20003,"udp":true,"password":"83d32def-43d2-4603-bc25-47fafce7d82d","sni":"hk02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_2","type":"trojan","server":"gzdx.jcnode.top","port":21001,"udp":true,"password":"83d32def-43d2-4603-bc25-47fafce7d82d","sni":"jp02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_3","type":"ss","server":"free.themars.top","port":32102,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇰🇷_KR_韩国","type":"ss","server":"125.141.31.98","port":17754,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
   - {"name":"🇫🇷_FR_法国->🇳🇱_NL_荷兰","type":"vmess","server":"156.249.18.68","port":30322,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇹🇼_TW_台湾","type":"trojan","server":"gs-hinet.gsjc.cfd","port":443,"udp":true,"password":"ae09438f-b9b8-40c6-ab49-ce6c0d64674e","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
@@ -88,18 +80,10 @@ proxy-groups:
       - 🇹🇼_TW_台湾_1
       - 🇳🇱_NL_荷兰_1_1
       - 🇳🇱_NL_荷兰_2_2
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡
-      - "🇯🇵_JP_日本\r"
       - 🇯🇵_JP_日本
       - 🇳🇱_NL_荷兰_1_2
       - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
       - 🇰🇷_KR_韩国
       - 🇫🇷_FR_法国->🇳🇱_NL_荷兰
       - 🇹🇼_TW_台湾
@@ -134,18 +118,10 @@ proxy-groups:
       - 🇹🇼_TW_台湾_1
       - 🇳🇱_NL_荷兰_1_1
       - 🇳🇱_NL_荷兰_2_2
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡
-      - "🇯🇵_JP_日本\r"
       - 🇯🇵_JP_日本
       - 🇳🇱_NL_荷兰_1_2
       - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
       - 🇰🇷_KR_韩国
       - 🇫🇷_FR_法国->🇳🇱_NL_荷兰
       - 🇹🇼_TW_台湾
@@ -180,18 +156,10 @@ proxy-groups:
       - 🇹🇼_TW_台湾_1
       - 🇳🇱_NL_荷兰_1_1
       - 🇳🇱_NL_荷兰_2_2
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡
-      - "🇯🇵_JP_日本\r"
       - 🇯🇵_JP_日本
       - 🇳🇱_NL_荷兰_1_2
       - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
       - 🇰🇷_KR_韩国
       - 🇫🇷_FR_法国->🇳🇱_NL_荷兰
       - 🇹🇼_TW_台湾
@@ -225,18 +193,10 @@ proxy-groups:
       - 🇹🇼_TW_台湾_1
       - 🇳🇱_NL_荷兰_1_1
       - 🇳🇱_NL_荷兰_2_2
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡
-      - "🇯🇵_JP_日本\r"
       - 🇯🇵_JP_日本
       - 🇳🇱_NL_荷兰_1_2
       - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
       - 🇰🇷_KR_韩国
       - 🇫🇷_FR_法国->🇳🇱_NL_荷兰
       - 🇹🇼_TW_台湾
@@ -270,18 +230,10 @@ proxy-groups:
       - 🇹🇼_TW_台湾_1
       - 🇳🇱_NL_荷兰_1_1
       - 🇳🇱_NL_荷兰_2_2
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡
-      - "🇯🇵_JP_日本\r"
       - 🇯🇵_JP_日本
       - 🇳🇱_NL_荷兰_1_2
       - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
       - 🇰🇷_KR_韩国
       - 🇫🇷_FR_法国->🇳🇱_NL_荷兰
       - 🇹🇼_TW_台湾
@@ -315,18 +267,10 @@ proxy-groups:
       - 🇹🇼_TW_台湾_1
       - 🇳🇱_NL_荷兰_1_1
       - 🇳🇱_NL_荷兰_2_2
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡
-      - "🇯🇵_JP_日本\r"
       - 🇯🇵_JP_日本
       - 🇳🇱_NL_荷兰_1_2
       - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
       - 🇰🇷_KR_韩国
       - 🇫🇷_FR_法国->🇳🇱_NL_荷兰
       - 🇹🇼_TW_台湾
@@ -377,18 +321,10 @@ proxy-groups:
       - 🇹🇼_TW_台湾_1
       - 🇳🇱_NL_荷兰_1_1
       - 🇳🇱_NL_荷兰_2_2
-      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
-      - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡
-      - "🇯🇵_JP_日本\r"
       - 🇯🇵_JP_日本
       - 🇳🇱_NL_荷兰_1_2
       - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇨🇳_CN_中国->🇯🇵_JP_日本_1
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_2
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本_3
       - 🇰🇷_KR_韩国
       - 🇫🇷_FR_法国->🇳🇱_NL_荷兰
       - 🇹🇼_TW_台湾
