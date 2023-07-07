@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-07 08:46:19
+# 创建时间：2023-07-07 08:48:00
 # 使用模版：V2RaySE 默认模版
 # 节点数量：37
 ####################################
@@ -37,6 +37,8 @@ proxies:
   - {"name":"🇰🇷_KR_韩国_44","type":"ss","server":"43.201.19.172","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇰🇷_KR_韩国_55","type":"vmess","server":"0kxedm1x8q8lksmj05.xingbayun.buzz","port":443,"cipher":"auto","uuid":"89d679fb-e2fb-42ff-b830-38e5ae86065c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
   - {"name":"🇰🇷_KR_韩国_66","type":"ss","server":"3.35.230.64","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷_KR_韩国_77","type":"ss","server":"43.200.1.53","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷_KR_韩国_88","type":"trojan","server":"kr2.jb7ueoq73.xyz","port":10021,"udp":true,"password":"49570603-a6a7-4e16-bcb7-7d534b4fbee7","sni":"kr2.jb7ueoq73.xyz","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬_SG_新加坡_11","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
   - {"name":"🇸🇬_SG_新加坡_22","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"32068eda-adad-431a-bfd4-2f7d4c73507c","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬_SG_新加坡_33","type":"trojan","server":"pqawssg2.gsjc.cfd","port":443,"udp":true,"password":"32068eda-adad-431a-bfd4-2f7d4c73507c","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
@@ -52,12 +54,10 @@ proxies:
   - {"name":"🇨🇷_CR_哥斯达黎加_1","type":"vmess","server":"190.93.246.37","port":80,"cipher":"auto","uuid":"9572d691-e27a-4f54-ef4d-57600a785b55","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer00","headers":{"host":"txx.vtcss.top"}}}
   - {"name":"🇨🇷_CR_哥斯达黎加_2","type":"vmess","server":"190.93.246.130","port":80,"cipher":"auto","uuid":"9572d691-e27a-4f54-ef4d-57600a785b55","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer00","headers":{"host":"txx.vtcss.top"}}}
   - {"name":"🇫🇷_FR_法国","type":"ssr","server":"94.23.116.190","port":443,"password":"HowdyBypasser2022","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","protocol":"origin"}
-  - {"name":"🇰🇷_KR_韩国_1","type":"ss","server":"43.200.1.53","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇨🇳_CN_中国->🇪🇸_ES_西班牙","type":"ss","server":"video.tiktokuu.xyz","port":752,"password":"BoomCloud2020","cipher":"rc4-md5"}
   - {"name":"🇨🇦_CA_加拿大","type":"vmess","server":"23.26.239.163","port":18420,"cipher":"auto","uuid":"65578c09-f23e-49cc-abee-4ad2a1850f9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡","type":"ss","server":"video.tiktokuu.xyz","port":731,"password":"BoomCloud2020","cipher":"rc4-md5"}
   - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港","type":"trojan","server":"gd-cm.32jr.com","port":61774,"udp":true,"password":"848fe55b-0846-3b96-8a15-8daa8791dfe5","sni":"xianggang1.veepien.me","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷_KR_韩国_2","type":"trojan","server":"kr2.jb7ueoq73.xyz","port":10021,"udp":true,"password":"49570603-a6a7-4e16-bcb7-7d534b4fbee7","sni":"kr2.jb7ueoq73.xyz","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -80,6 +80,8 @@ proxy-groups:
       - 🇰🇷_KR_韩国_44
       - 🇰🇷_KR_韩国_55
       - 🇰🇷_KR_韩国_66
+      - 🇰🇷_KR_韩国_77
+      - 🇰🇷_KR_韩国_88
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -95,12 +97,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_1
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇫🇷_FR_法国
-      - 🇰🇷_KR_韩国_1
       - 🇨🇳_CN_中国->🇪🇸_ES_西班牙
       - 🇨🇦_CA_加拿大
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇰🇷_KR_韩国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -123,6 +123,8 @@ proxy-groups:
       - 🇰🇷_KR_韩国_44
       - 🇰🇷_KR_韩国_55
       - 🇰🇷_KR_韩国_66
+      - 🇰🇷_KR_韩国_77
+      - 🇰🇷_KR_韩国_88
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -138,12 +140,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_1
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇫🇷_FR_法国
-      - 🇰🇷_KR_韩国_1
       - 🇨🇳_CN_中国->🇪🇸_ES_西班牙
       - 🇨🇦_CA_加拿大
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇰🇷_KR_韩国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -166,6 +166,8 @@ proxy-groups:
       - 🇰🇷_KR_韩国_44
       - 🇰🇷_KR_韩国_55
       - 🇰🇷_KR_韩国_66
+      - 🇰🇷_KR_韩国_77
+      - 🇰🇷_KR_韩国_88
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -181,12 +183,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_1
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇫🇷_FR_法国
-      - 🇰🇷_KR_韩国_1
       - 🇨🇳_CN_中国->🇪🇸_ES_西班牙
       - 🇨🇦_CA_加拿大
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇰🇷_KR_韩国_2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -208,6 +208,8 @@ proxy-groups:
       - 🇰🇷_KR_韩国_44
       - 🇰🇷_KR_韩国_55
       - 🇰🇷_KR_韩国_66
+      - 🇰🇷_KR_韩国_77
+      - 🇰🇷_KR_韩国_88
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -223,12 +225,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_1
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇫🇷_FR_法国
-      - 🇰🇷_KR_韩国_1
       - 🇨🇳_CN_中国->🇪🇸_ES_西班牙
       - 🇨🇦_CA_加拿大
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇰🇷_KR_韩国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -250,6 +250,8 @@ proxy-groups:
       - 🇰🇷_KR_韩国_44
       - 🇰🇷_KR_韩国_55
       - 🇰🇷_KR_韩国_66
+      - 🇰🇷_KR_韩国_77
+      - 🇰🇷_KR_韩国_88
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -265,12 +267,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_1
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇫🇷_FR_法国
-      - 🇰🇷_KR_韩国_1
       - 🇨🇳_CN_中国->🇪🇸_ES_西班牙
       - 🇨🇦_CA_加拿大
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇰🇷_KR_韩国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -292,6 +292,8 @@ proxy-groups:
       - 🇰🇷_KR_韩国_44
       - 🇰🇷_KR_韩国_55
       - 🇰🇷_KR_韩国_66
+      - 🇰🇷_KR_韩国_77
+      - 🇰🇷_KR_韩国_88
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -307,12 +309,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_1
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇫🇷_FR_法国
-      - 🇰🇷_KR_韩国_1
       - 🇨🇳_CN_中国->🇪🇸_ES_西班牙
       - 🇨🇦_CA_加拿大
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇰🇷_KR_韩国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -351,6 +351,8 @@ proxy-groups:
       - 🇰🇷_KR_韩国_44
       - 🇰🇷_KR_韩国_55
       - 🇰🇷_KR_韩国_66
+      - 🇰🇷_KR_韩国_77
+      - 🇰🇷_KR_韩国_88
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -366,12 +368,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_1
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇫🇷_FR_法国
-      - 🇰🇷_KR_韩国_1
       - 🇨🇳_CN_中国->🇪🇸_ES_西班牙
       - 🇨🇦_CA_加拿大
       - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
-      - 🇰🇷_KR_韩国_2
 
 rules:
 # 本地/局域网地址
