@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-11 08:28:47
+# 创建时间：2023-07-12 08:07:43
 # 使用模版：V2RaySE 默认模版
 # 节点数量：30
 ####################################
@@ -21,7 +21,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"www.dongtaiwang.com","type":"ss","server":"167.160.90.254","port":25511,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"www.dongtaiwang.com","type":"ss","server":"104.166.124.184","port":33333,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
   - {"name":"www.dongtaiwang.com 洛杉矶","type":"ssr","server":"t3.freegradely.xyz","port":22222,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
   - {"name":"🇯🇵_JP_日本_11","type":"trojan","server":"hk2.downloadvip.cfd","port":443,"udp":true,"password":"a48ef049-f572-4345-b75a-7b85ff83296c","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本_22","type":"trojan","server":"jp2.downloadvip.cfd","port":443,"udp":true,"password":"f89d1762-7627-4676-b4cf-e4de76ee3636","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
