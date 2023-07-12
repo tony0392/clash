@@ -57,13 +57,7 @@ proxies:
   - {"name":"🇹🇼_TW_台湾_11","type":"trojan","server":"hinet2.downloadvip.cfd","port":443,"udp":true,"password":"f89d1762-7627-4676-b4cf-e4de76ee3636","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇹🇼_TW_台湾_22","type":"ss","server":"23.248.176.96","port":44444,"password":"123456","cipher":"aes-128-gcm"}
   - {"name":"🇹🇼_TW_台湾_33","type":"ss","server":"103.177.33.180","port":443,"password":"9e44e9ffe5c2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷_FR_法国","type":"ssr","server":"94.23.116.190","port":443,"password":"HowdyBypasser2022","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","protocol":"origin"}
   - {"name":"🇩🇪_DE_德国->🇪🇸_ES_西班牙","type":"vmess","server":"45.14.174.152","port":80,"cipher":"auto","uuid":"71cecc3f-e274-43f5-81a7-af37b1e3b185","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fr.66.now.cc"}}}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","type":"ss","server":"hk7.network-cdn-gw.cc","port":47707,"password":"bdf68488-54c2-498b-bb97-3ec1104b0787","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","type":"ss","server":"hk10.network-cdn-gw.cc","port":47710,"password":"bdf68488-54c2-498b-bb97-3ec1104b0787","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_3","type":"ss","server":"jp01.network-cdn-gw.cc","port":48801,"password":"bdf68488-54c2-498b-bb97-3ec1104b0787","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港_4","type":"ss","server":"hk6.network-cdn-gw.cc","port":47706,"password":"bdf68488-54c2-498b-bb97-3ec1104b0787","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_CN_中国->🇪🇸_ES_西班牙","type":"ss","server":"video.tiktokuu.xyz","port":752,"password":"BoomCloud2020","cipher":"rc4-md5"}
   - {"name":"🇨🇦_CA_加拿大","type":"vmess","server":"23.227.38.111","port":443,"cipher":"auto","uuid":"012c4549-17d2-475e-b1c1-a3b19cf36622","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"2.freek1.xyz"}}}
   - {"name":"🇮🇹_IT_意大利","type":"ss","server":"5.188.226.187","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
 proxy-groups:
