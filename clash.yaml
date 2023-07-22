@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-22 14:02:47
+# 创建时间：2023-07-22 16:22:25
 # 使用模版：V2RaySE 默认模版
 # 节点数量：23
 ####################################
@@ -40,7 +40,7 @@ proxies:
   - {"name":"🇷🇺_RU_俄罗斯联邦","type":"vmess","server":"45.144.179.138","port":443,"cipher":"auto","uuid":"96cbe4a6-5728-42df-dc7a-ceb9b51a3db5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
   - {"name":"🇦🇱_AL_阿尔巴尼亚","type":"ss","server":"31.171.153.181","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"🇨🇾_CY_塞浦路斯->🇩🇪_DE_德国","type":"vmess","server":"amszxc.66666654.xyz","port":2095,"cipher":"auto","uuid":"417d27fb-cb93-3bd8-9bf7-71cd91319821","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hgcefomn","headers":{"host":"amszx.66666654.xyz"}}}
-  - {"name":"🇨🇦_CA_加拿大_2","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
+  - {"name":"🇨🇦_CA_加拿大","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
   - {"name":"🇮🇳_IN_印度","type":"ss","server":"139.59.1.39","port":443,"password":"MWiIVYCyO8FfybKWhjt9Sz","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪_DE_德国","type":"trojan","server":"89.163.220.99","port":443,"udp":true,"password":"274fefdb-6159-4765-b3e8-c6050b23b48f","sni":"mzy.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰_HK_香港","type":"vmess","server":"china.sylums.eu.org","port":443,"cipher":"auto","uuid":"ea844a95-406c-456a-b9a5-934e52e26981","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea844a95-406c-456a-b9a5-934e52e26981"}}
@@ -69,7 +69,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇦🇱_AL_阿尔巴尼亚
       - 🇨🇾_CY_塞浦路斯->🇩🇪_DE_德国
-      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大
       - 🇮🇳_IN_印度
       - 🇩🇪_DE_德国
       - 🇭🇰_HK_香港
@@ -98,7 +98,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇦🇱_AL_阿尔巴尼亚
       - 🇨🇾_CY_塞浦路斯->🇩🇪_DE_德国
-      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大
       - 🇮🇳_IN_印度
       - 🇩🇪_DE_德国
       - 🇭🇰_HK_香港
@@ -127,7 +127,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇦🇱_AL_阿尔巴尼亚
       - 🇨🇾_CY_塞浦路斯->🇩🇪_DE_德国
-      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大
       - 🇮🇳_IN_印度
       - 🇩🇪_DE_德国
       - 🇭🇰_HK_香港
@@ -155,7 +155,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇦🇱_AL_阿尔巴尼亚
       - 🇨🇾_CY_塞浦路斯->🇩🇪_DE_德国
-      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大
       - 🇮🇳_IN_印度
       - 🇩🇪_DE_德国
       - 🇭🇰_HK_香港
@@ -183,7 +183,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇦🇱_AL_阿尔巴尼亚
       - 🇨🇾_CY_塞浦路斯->🇩🇪_DE_德国
-      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大
       - 🇮🇳_IN_印度
       - 🇩🇪_DE_德国
       - 🇭🇰_HK_香港
@@ -211,7 +211,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇦🇱_AL_阿尔巴尼亚
       - 🇨🇾_CY_塞浦路斯->🇩🇪_DE_德国
-      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大
       - 🇮🇳_IN_印度
       - 🇩🇪_DE_德国
       - 🇭🇰_HK_香港
@@ -256,7 +256,7 @@ proxy-groups:
       - 🇷🇺_RU_俄罗斯联邦
       - 🇦🇱_AL_阿尔巴尼亚
       - 🇨🇾_CY_塞浦路斯->🇩🇪_DE_德国
-      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大
       - 🇮🇳_IN_印度
       - 🇩🇪_DE_德国
       - 🇭🇰_HK_香港
