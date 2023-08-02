@@ -1,3 +1,4 @@
 vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7VfSlBf5pel5pysIiwiYWRkIjoianAwMS1hbHQtdm0wLmVudHJ5LnNydGhkdy5hcnQiLCJwb3J0IjoyMTU4NSwiaWQiOiJkMzgxYWZjMy00ZmUxLTM2OGMtYjcwYi02MTkyNzYyZjZjMTAiLCJhaWQiOjEsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0bHMiOiJ0bHMifQ==
 trojan://f954efd3-a638-41be-bf20-5e4748fecf77@jp2.2344599.xyz:43776?type=tcp&security=tls&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7BfSEtf6aaZ5rivIiwiYWRkIjoiMTU2LjI0NS44LjEyOCIsInBvcnQiOjQ4MTIzLCJpZCI6IjNjYTkxMmRhLTZhYzItNDE4Zi1iOWNmLTQ1YjZmNjk0NTc5YiIsImFpZCI6NjQsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0bHMiOiIifQ==
+trojan://bf89d5e9-a455-477f-bfe8-ba33ff71b957@103.234.53.24:50178?type=tcp&security=tls&sni=getandroid.com&allowInsecure=1#%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF
