@@ -2,3 +2,7 @@ trojan://17c0c3fe-0e7e-4d75-8011-ebb46fea532b@gsawshk1.aiopen.cfd:443?type=tcp&s
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.213.44.183:443#%F0%9F%87%B8%F0%9F%87%AC_SG_%E6%96%B0%E5%8A%A0%E5%9D%A1
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.212.199.120:443#%F0%9F%87%B8%F0%9F%87%AC_SG_%E6%96%B0%E5%8A%A0%E5%9D%A1
 ssr://MTUwLjEwNy40Ni4yMTo4MDgzOm9yaWdpbjphZXMtMjU2LWNmYjp0bHMxLjJfdGlja2V0X2F1dGg6YVVaeGJucFRjMk5PLz9yZW1hcmtzPThKK0hyZkNmaDdCZlNFdGY2YWFaNXJpdiZvYmZzcGFyYW09WTJ4dmRXUm1jbTl1ZEM1dVpYUT0=
+trojan://17c0c3fe-0e7e-4d75-8011-ebb46fea532b@gsawshk1.aiopen.cfd:443?type=tcp&security=tls&sni=18-140-66-207.nhost.00cdn.com#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
+trojan://17c0c3fe-0e7e-4d75-8011-ebb46fea532b@gsawsjp1.aiopen.cfd:443?type=tcp&security=tls&sni=18-140-66-207.nhost.00cdn.com#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
+trojan://18eaf229-61d7-43ea-8140-a3e2bb1d4e6f@vpnhat.stablize.top:443?type=tcp&security=tls&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZTQ0ZTlmZmU1YzI=@103.177.33.180:443?plugin=v2ray-plugin#%F0%9F%87%B9%F0%9F%87%BC_TW_%E5%8F%B0%E6%B9%BE
