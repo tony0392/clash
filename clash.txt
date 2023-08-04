@@ -12,3 +12,7 @@ trojan://5796cb9c-217e-4ed4-9ae1-de8155645aae@gsawshk2.aiopen.cfd:443?type=tcp&s
 trojan://5796cb9c-217e-4ed4-9ae1-de8155645aae@gsawsjp2.aiopen.cfd:443?type=tcp&security=tls&sni=18-140-66-207.nhost.00cdn.com&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
 trojan://5796cb9c-217e-4ed4-9ae1-de8155645aae@pqawssg2.aiopen.cfd:443?type=tcp&security=tls&sni=18-140-66-207.nhost.00cdn.com&allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AC_SG_%E6%96%B0%E5%8A%A0%E5%9D%A1
 trojan://5796cb9c-217e-4ed4-9ae1-de8155645aae@gsawshk1.aiopen.cfd:443?type=tcp&security=tls&sni=18-140-66-207.nhost.00cdn.com&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
+trojan://17c0c3fe-0e7e-4d75-8011-ebb46fea532b@gsawshk1.aiopen.cfd:443?type=tcp&security=tls&sni=18-140-66-207.nhost.00cdn.com#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.213.44.183:443#%F0%9F%87%B8%F0%9F%87%AC_SG_%E6%96%B0%E5%8A%A0%E5%9D%A1
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.212.199.120:443#%F0%9F%87%B8%F0%9F%87%AC_SG_%E6%96%B0%E5%8A%A0%E5%9D%A1
+ssr://MTUwLjEwNy40Ni4yMTo4MDgzOm9yaWdpbjphZXMtMjU2LWNmYjp0bHMxLjJfdGlja2V0X2F1dGg6YVVaeGJucFRjMk5PLz9yZW1hcmtzPThKK0hyZkNmaDdCZlNFdGY2YWFaNXJpdiZvYmZzcGFyYW09WTJ4dmRXUm1jbTl1ZEM1dVpYUT0=
