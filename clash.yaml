@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-05 16:16:40
+# 创建时间：2023-08-07 16:08:06
 # 使用模版：V2RaySE 默认模版
-# 节点数量：33
+# 节点数量：34
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,8 +21,8 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"www.dongtaiwang.com+洛杉矶","type":"ss","server":"www.dongtaiwang4.com","port":22222,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
   - {"name":"www.dongtaiwang.com 洛杉矶","type":"ssr","server":"t3.freegradely.xyz","port":22222,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
+  - {"name":"www.dongtaiwang.com+洛杉矶","type":"ss","server":"www.dongtaiwang4.com","port":30022,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
   - {"name":"🇯🇵_JP_日本_11","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"5fb22807-e954-4547-a609-ab9329bcccaf","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本_22","type":"ss","server":"13.115.47.204","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇯🇵_JP_日本_33","type":"trojan","server":"pqawssg001.aiopen.cfd","port":443,"udp":true,"password":"f0366e33-84c9-4a20-ad40-4f1e2c230c36","skip-cert-verify":true,"network":"tcp"}
@@ -54,14 +54,15 @@ proxies:
   - {"name":"🇸🇬_SG_新加坡_30","type":"vmess","server":"a14.2e5bf271.win","port":80,"cipher":"auto","uuid":"b7eb3ffd-62fe-496d-9bb2-edd21ed877f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"🇸🇬_SG_新加坡_40","type":"vmess","server":"a16.2e5bf271.win","port":80,"cipher":"auto","uuid":"b7eb3ffd-62fe-496d-9bb2-edd21ed877f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"🇰🇷_KR_韩国_11","type":"ss","server":"125.141.26.5","port":2003,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷_KR_韩国_22","type":"ss","server":"125.141.26.3","port":2003,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - www.dongtaiwang.com+洛杉矶
       - www.dongtaiwang.com 洛杉矶
+      - www.dongtaiwang.com+洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
@@ -93,14 +94,15 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_30
       - 🇸🇬_SG_新加坡_40
       - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - www.dongtaiwang.com+洛杉矶
       - www.dongtaiwang.com 洛杉矶
+      - www.dongtaiwang.com+洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
@@ -132,14 +134,15 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_30
       - 🇸🇬_SG_新加坡_40
       - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - www.dongtaiwang.com+洛杉矶
       - www.dongtaiwang.com 洛杉矶
+      - www.dongtaiwang.com+洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
@@ -171,13 +174,14 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_30
       - 🇸🇬_SG_新加坡_40
       - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - www.dongtaiwang.com+洛杉矶
       - www.dongtaiwang.com 洛杉矶
+      - www.dongtaiwang.com+洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
@@ -209,13 +213,14 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_30
       - 🇸🇬_SG_新加坡_40
       - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - www.dongtaiwang.com+洛杉矶
       - www.dongtaiwang.com 洛杉矶
+      - www.dongtaiwang.com+洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
@@ -247,13 +252,14 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_30
       - 🇸🇬_SG_新加坡_40
       - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - www.dongtaiwang.com+洛杉矶
       - www.dongtaiwang.com 洛杉矶
+      - www.dongtaiwang.com+洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
@@ -285,6 +291,7 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_30
       - 🇸🇬_SG_新加坡_40
       - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -307,8 +314,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - www.dongtaiwang.com+洛杉矶
       - www.dongtaiwang.com 洛杉矶
+      - www.dongtaiwang.com+洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
@@ -340,6 +347,7 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_30
       - 🇸🇬_SG_新加坡_40
       - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
 
 rules:
 # 本地/局域网地址
