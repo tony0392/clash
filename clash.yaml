@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-08 08:14:09
+# 创建时间：2023-08-08 10:36:20
 # 使用模版：V2RaySE 默认模版
-# 节点数量：41
+# 节点数量：27
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -24,23 +24,16 @@ proxies:
   - {"name":"www.dongtaiwang.com 洛杉矶","type":"ssr","server":"t3.freegradely.xyz","port":22222,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
   - {"name":"www.dongtaiwang.com+洛杉矶","type":"ss","server":"www.dongtaiwang4.com","port":30022,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
   - {"name":"🇯🇵_JP_日本_11","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"5fb22807-e954-4547-a609-ab9329bcccaf","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_22","type":"ss","server":"13.115.47.204","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵_JP_日本_33","type":"trojan","server":"pqawssg001.aiopen.cfd","port":443,"udp":true,"password":"f0366e33-84c9-4a20-ad40-4f1e2c230c36","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_44","type":"ssr","server":"jp-am48-6.eqnode.net","port":8081,"password":"eAokbaDN6","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","protocol-param":"None"}
-  - {"name":"🇯🇵_JP_日本_55","type":"trojan","server":"pqawsjp2.aiopen.cfd","port":443,"udp":true,"password":"f0366e33-84c9-4a20-ad40-4f1e2c230c36","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_66","type":"ss","server":"43.207.83.221","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵_JP_日本_77","type":"ss","server":"13.231.234.103","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵_JP_日本_88","type":"trojan","server":"gsawshk2.aiopen.cfd","port":443,"udp":true,"password":"5796cb9c-217e-4ed4-9ae1-de8155645aae","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_99","type":"trojan","server":"gsawsjp2.aiopen.cfd","port":443,"udp":true,"password":"5796cb9c-217e-4ed4-9ae1-de8155645aae","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_00","type":"trojan","server":"gsawshk1.aiopen.cfd","port":443,"udp":true,"password":"17c0c3fe-0e7e-4d75-8011-ebb46fea532b","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_10","type":"trojan","server":"gsawsjp1.aiopen.cfd","port":443,"udp":true,"password":"17c0c3fe-0e7e-4d75-8011-ebb46fea532b","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_20","type":"trojan","server":"vpnhat.stablize.top","port":443,"udp":true,"password":"18eaf229-61d7-43ea-8140-a3e2bb1d4e6f","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_30","type":"vmess","server":"jp01.vipnode.online","port":80,"cipher":"auto","uuid":"2a19d486-c6b9-417f-a8a1-a5f841e87879","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇯🇵_JP_日本_40","type":"vmess","server":"jp03.vipnode.online","port":80,"cipher":"auto","uuid":"2a19d486-c6b9-417f-a8a1-a5f841e87879","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇯🇵_JP_日本_50","type":"vmess","server":"a09.2e5bf271.win","port":80,"cipher":"auto","uuid":"b7eb3ffd-62fe-496d-9bb2-edd21ed877f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇯🇵_JP_日本_60","type":"vmess","server":"jp01-alt-vm0.entry.srthdw.art","port":21584,"cipher":"auto","uuid":"83a75f6c-847a-3ab3-b994-a356e0ae2cc8","alterId":1,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_70","type":"ss","server":"18.179.118.255","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵_JP_日本_80","type":"ss","server":"3.112.225.4","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇯🇵_JP_日本_22","type":"trojan","server":"pqawssg001.aiopen.cfd","port":443,"udp":true,"password":"f0366e33-84c9-4a20-ad40-4f1e2c230c36","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_JP_日本_33","type":"ssr","server":"jp-am48-6.eqnode.net","port":8081,"password":"eAokbaDN6","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","protocol-param":"None"}
+  - {"name":"🇯🇵_JP_日本_44","type":"ss","server":"43.207.83.221","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇯🇵_JP_日本_55","type":"trojan","server":"gsawshk2.aiopen.cfd","port":443,"udp":true,"password":"5796cb9c-217e-4ed4-9ae1-de8155645aae","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_JP_日本_66","type":"trojan","server":"gsawsjp2.aiopen.cfd","port":443,"udp":true,"password":"5796cb9c-217e-4ed4-9ae1-de8155645aae","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_JP_日本_77","type":"trojan","server":"gsawshk1.aiopen.cfd","port":443,"udp":true,"password":"17c0c3fe-0e7e-4d75-8011-ebb46fea532b","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_JP_日本_88","type":"trojan","server":"gsawsjp1.aiopen.cfd","port":443,"udp":true,"password":"17c0c3fe-0e7e-4d75-8011-ebb46fea532b","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_JP_日本_99","type":"trojan","server":"vpnhat.stablize.top","port":443,"udp":true,"password":"18eaf229-61d7-43ea-8140-a3e2bb1d4e6f","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_JP_日本_00","type":"ss","server":"18.179.118.255","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇯🇵_JP_日本_10","type":"ss","server":"3.112.225.4","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇸🇬_SG_新加坡_11","type":"trojan","server":"sg1.downloadvip.cfd","port":443,"udp":true,"password":"718c4ef4-9f65-496c-9547-f27e4226c4f5","sni":"jssg1.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬_SG_新加坡_22","type":"trojan","server":"kbawssg2.aiopen.cfd","port":443,"udp":true,"password":"5fb22807-e954-4547-a609-ab9329bcccaf","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬_SG_新加坡_33","type":"trojan","server":"kbawssg1.aiopen.cfd","port":443,"udp":true,"password":"5fb22807-e954-4547-a609-ab9329bcccaf","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
@@ -48,20 +41,13 @@ proxies:
   - {"name":"🇸🇬_SG_新加坡_55","type":"ss","server":"18.141.236.15","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇸🇬_SG_新加坡_66","type":"trojan","server":"pqawssg2.aiopen.cfd","port":443,"udp":true,"password":"17c0c3fe-0e7e-4d75-8011-ebb46fea532b","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬_SG_新加坡_77","type":"ss","server":"3.0.147.22","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬_SG_新加坡_88","type":"ss","server":"13.213.44.183","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬_SG_新加坡_99","type":"ss","server":"13.212.199.120","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬_SG_新加坡_00","type":"ss","server":"54.254.129.246","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬_SG_新加坡_10","type":"ss","server":"13.250.35.165","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬_SG_新加坡_20","type":"vmess","server":"a15.2e5bf271.win","port":80,"cipher":"auto","uuid":"b7eb3ffd-62fe-496d-9bb2-edd21ed877f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇸🇬_SG_新加坡_30","type":"vmess","server":"a14.2e5bf271.win","port":80,"cipher":"auto","uuid":"b7eb3ffd-62fe-496d-9bb2-edd21ed877f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇸🇬_SG_新加坡_40","type":"vmess","server":"a16.2e5bf271.win","port":80,"cipher":"auto","uuid":"b7eb3ffd-62fe-496d-9bb2-edd21ed877f2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇸🇬_SG_新加坡_50","type":"ss","server":"13.229.240.227","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬_SG_新加坡_60","type":"ss","server":"54.255.112.174","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷_KR_韩国_11","type":"ss","server":"125.141.26.5","port":2003,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷_KR_韩国_22","type":"ss","server":"125.141.26.3","port":2003,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷_KR_韩国_33","type":"ss","server":"43.200.6.21","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷_KR_韩国_44","type":"ss","server":"221.150.109.6","port":2003,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷_KR_韩国_55","type":"ss","server":"43.201.7.243","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬_SG_新加坡_88","type":"ss","server":"54.254.129.246","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬_SG_新加坡_99","type":"ss","server":"13.229.240.227","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬_SG_新加坡_00","type":"ss","server":"54.255.112.174","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷_KR_韩国_11","type":"ss","server":"125.141.26.3","port":2003,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷_KR_韩国_22","type":"ss","server":"43.200.6.21","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷_KR_韩国_33","type":"ss","server":"221.150.109.6","port":2003,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷_KR_韩国_44","type":"ss","server":"43.201.7.243","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -81,13 +67,6 @@ proxy-groups:
       - 🇯🇵_JP_日本_99
       - 🇯🇵_JP_日本_00
       - 🇯🇵_JP_日本_10
-      - 🇯🇵_JP_日本_20
-      - 🇯🇵_JP_日本_30
-      - 🇯🇵_JP_日本_40
-      - 🇯🇵_JP_日本_50
-      - 🇯🇵_JP_日本_60
-      - 🇯🇵_JP_日本_70
-      - 🇯🇵_JP_日本_80
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -98,17 +77,10 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_88
       - 🇸🇬_SG_新加坡_99
       - 🇸🇬_SG_新加坡_00
-      - 🇸🇬_SG_新加坡_10
-      - 🇸🇬_SG_新加坡_20
-      - 🇸🇬_SG_新加坡_30
-      - 🇸🇬_SG_新加坡_40
-      - 🇸🇬_SG_新加坡_50
-      - 🇸🇬_SG_新加坡_60
       - 🇰🇷_KR_韩国_11
       - 🇰🇷_KR_韩国_22
       - 🇰🇷_KR_韩国_33
       - 🇰🇷_KR_韩国_44
-      - 🇰🇷_KR_韩国_55
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -128,13 +100,6 @@ proxy-groups:
       - 🇯🇵_JP_日本_99
       - 🇯🇵_JP_日本_00
       - 🇯🇵_JP_日本_10
-      - 🇯🇵_JP_日本_20
-      - 🇯🇵_JP_日本_30
-      - 🇯🇵_JP_日本_40
-      - 🇯🇵_JP_日本_50
-      - 🇯🇵_JP_日本_60
-      - 🇯🇵_JP_日本_70
-      - 🇯🇵_JP_日本_80
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -145,17 +110,10 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_88
       - 🇸🇬_SG_新加坡_99
       - 🇸🇬_SG_新加坡_00
-      - 🇸🇬_SG_新加坡_10
-      - 🇸🇬_SG_新加坡_20
-      - 🇸🇬_SG_新加坡_30
-      - 🇸🇬_SG_新加坡_40
-      - 🇸🇬_SG_新加坡_50
-      - 🇸🇬_SG_新加坡_60
       - 🇰🇷_KR_韩国_11
       - 🇰🇷_KR_韩国_22
       - 🇰🇷_KR_韩国_33
       - 🇰🇷_KR_韩国_44
-      - 🇰🇷_KR_韩国_55
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -175,13 +133,6 @@ proxy-groups:
       - 🇯🇵_JP_日本_99
       - 🇯🇵_JP_日本_00
       - 🇯🇵_JP_日本_10
-      - 🇯🇵_JP_日本_20
-      - 🇯🇵_JP_日本_30
-      - 🇯🇵_JP_日本_40
-      - 🇯🇵_JP_日本_50
-      - 🇯🇵_JP_日本_60
-      - 🇯🇵_JP_日本_70
-      - 🇯🇵_JP_日本_80
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -192,17 +143,10 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_88
       - 🇸🇬_SG_新加坡_99
       - 🇸🇬_SG_新加坡_00
-      - 🇸🇬_SG_新加坡_10
-      - 🇸🇬_SG_新加坡_20
-      - 🇸🇬_SG_新加坡_30
-      - 🇸🇬_SG_新加坡_40
-      - 🇸🇬_SG_新加坡_50
-      - 🇸🇬_SG_新加坡_60
       - 🇰🇷_KR_韩国_11
       - 🇰🇷_KR_韩国_22
       - 🇰🇷_KR_韩国_33
       - 🇰🇷_KR_韩国_44
-      - 🇰🇷_KR_韩国_55
   - name: 📲 电报信息
     type: select
     proxies:
@@ -221,13 +165,6 @@ proxy-groups:
       - 🇯🇵_JP_日本_99
       - 🇯🇵_JP_日本_00
       - 🇯🇵_JP_日本_10
-      - 🇯🇵_JP_日本_20
-      - 🇯🇵_JP_日本_30
-      - 🇯🇵_JP_日本_40
-      - 🇯🇵_JP_日本_50
-      - 🇯🇵_JP_日本_60
-      - 🇯🇵_JP_日本_70
-      - 🇯🇵_JP_日本_80
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -238,17 +175,10 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_88
       - 🇸🇬_SG_新加坡_99
       - 🇸🇬_SG_新加坡_00
-      - 🇸🇬_SG_新加坡_10
-      - 🇸🇬_SG_新加坡_20
-      - 🇸🇬_SG_新加坡_30
-      - 🇸🇬_SG_新加坡_40
-      - 🇸🇬_SG_新加坡_50
-      - 🇸🇬_SG_新加坡_60
       - 🇰🇷_KR_韩国_11
       - 🇰🇷_KR_韩国_22
       - 🇰🇷_KR_韩国_33
       - 🇰🇷_KR_韩国_44
-      - 🇰🇷_KR_韩国_55
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -267,13 +197,6 @@ proxy-groups:
       - 🇯🇵_JP_日本_99
       - 🇯🇵_JP_日本_00
       - 🇯🇵_JP_日本_10
-      - 🇯🇵_JP_日本_20
-      - 🇯🇵_JP_日本_30
-      - 🇯🇵_JP_日本_40
-      - 🇯🇵_JP_日本_50
-      - 🇯🇵_JP_日本_60
-      - 🇯🇵_JP_日本_70
-      - 🇯🇵_JP_日本_80
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -284,17 +207,10 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_88
       - 🇸🇬_SG_新加坡_99
       - 🇸🇬_SG_新加坡_00
-      - 🇸🇬_SG_新加坡_10
-      - 🇸🇬_SG_新加坡_20
-      - 🇸🇬_SG_新加坡_30
-      - 🇸🇬_SG_新加坡_40
-      - 🇸🇬_SG_新加坡_50
-      - 🇸🇬_SG_新加坡_60
       - 🇰🇷_KR_韩国_11
       - 🇰🇷_KR_韩国_22
       - 🇰🇷_KR_韩国_33
       - 🇰🇷_KR_韩国_44
-      - 🇰🇷_KR_韩国_55
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -313,13 +229,6 @@ proxy-groups:
       - 🇯🇵_JP_日本_99
       - 🇯🇵_JP_日本_00
       - 🇯🇵_JP_日本_10
-      - 🇯🇵_JP_日本_20
-      - 🇯🇵_JP_日本_30
-      - 🇯🇵_JP_日本_40
-      - 🇯🇵_JP_日本_50
-      - 🇯🇵_JP_日本_60
-      - 🇯🇵_JP_日本_70
-      - 🇯🇵_JP_日本_80
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -330,17 +239,10 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_88
       - 🇸🇬_SG_新加坡_99
       - 🇸🇬_SG_新加坡_00
-      - 🇸🇬_SG_新加坡_10
-      - 🇸🇬_SG_新加坡_20
-      - 🇸🇬_SG_新加坡_30
-      - 🇸🇬_SG_新加坡_40
-      - 🇸🇬_SG_新加坡_50
-      - 🇸🇬_SG_新加坡_60
       - 🇰🇷_KR_韩国_11
       - 🇰🇷_KR_韩国_22
       - 🇰🇷_KR_韩国_33
       - 🇰🇷_KR_韩国_44
-      - 🇰🇷_KR_韩国_55
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -376,13 +278,6 @@ proxy-groups:
       - 🇯🇵_JP_日本_99
       - 🇯🇵_JP_日本_00
       - 🇯🇵_JP_日本_10
-      - 🇯🇵_JP_日本_20
-      - 🇯🇵_JP_日本_30
-      - 🇯🇵_JP_日本_40
-      - 🇯🇵_JP_日本_50
-      - 🇯🇵_JP_日本_60
-      - 🇯🇵_JP_日本_70
-      - 🇯🇵_JP_日本_80
       - 🇸🇬_SG_新加坡_11
       - 🇸🇬_SG_新加坡_22
       - 🇸🇬_SG_新加坡_33
@@ -393,17 +288,10 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_88
       - 🇸🇬_SG_新加坡_99
       - 🇸🇬_SG_新加坡_00
-      - 🇸🇬_SG_新加坡_10
-      - 🇸🇬_SG_新加坡_20
-      - 🇸🇬_SG_新加坡_30
-      - 🇸🇬_SG_新加坡_40
-      - 🇸🇬_SG_新加坡_50
-      - 🇸🇬_SG_新加坡_60
       - 🇰🇷_KR_韩国_11
       - 🇰🇷_KR_韩国_22
       - 🇰🇷_KR_韩国_33
       - 🇰🇷_KR_韩国_44
-      - 🇰🇷_KR_韩国_55
 
 rules:
 # 本地/局域网地址
