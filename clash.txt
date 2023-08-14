@@ -1,7 +1,1 @@
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.200.6.21:443#%F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.14.58:443#%F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD
-trojan://ad13f574-f6b7-427e-bb29-224a07c56d10@813krkr.fr99kt.top:443?type=tcp&security=tls&sni=813krkr.fr99kt.top&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@43.201.7.243:443#%F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD
-trojan://3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d@kbawsjp2.aiopen.cfd:443?type=tcp&security=tls&sni=4-193-105-141.nhost.00cdn.com&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@203.234.238.132:2003#%F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD
-trojan://8861ad96-45d4-42f7-9703-7de363a39a0f@jp1.fighting.win:10001?type=tcp&security=tls&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
+1
