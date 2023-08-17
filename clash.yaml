@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-17 08:40:56
+# 创建时间：2023-08-17 17:00:07
 # 使用模版：V2RaySE 默认模版
-# 节点数量：16
+# 节点数量：24
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -37,6 +37,14 @@ proxies:
   - {"name":"🇸🇬_SG_新加坡_44","type":"ss","server":"18.141.236.15","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇸🇬_SG_新加坡_55","type":"trojan","server":"gsawssg2.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬_SG_新加坡_66","type":"trojan","server":"gsawssg1.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬_SG_新加坡_77","type":"trojan","server":"sg4.yihaobao.xyz","port":10082,"udp":true,"password":"a9aad274-e226-4716-a8d2-7f6516d880d1","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬_SG_新加坡_88","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
+  - {"name":"🇰🇷_KR_韩国_11","type":"vmess","server":"kr2.ifastcdncache.com","port":24200,"cipher":"auto","uuid":"f17cef96-8399-4bf5-aa38-f2c04e9d029d","alterId":2,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇰🇷_KR_韩国_22","type":"ss","server":"13.125.129.64","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷_KR_韩国_33","type":"ss","server":"43.201.108.109","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇭🇰_HK_香港_11","type":"vmess","server":"hkthome2.ifastcdncache.com","port":30776,"cipher":"auto","uuid":"f17cef96-8399-4bf5-aa38-f2c04e9d029d","alterId":2,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇭🇰_HK_香港_22","type":"trojan","server":"hk1.yihaobao.xyz","port":10044,"udp":true,"password":"a9aad274-e226-4716-a8d2-7f6516d880d1","sni":"tls.yihaobao.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_HK_香港_33","type":"trojan","server":"45.11.104.94","port":3306,"udp":true,"password":"7b06d22a8a7c764f","sni":"n2.gladns.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/gateway/connect"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -59,6 +67,14 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_44
       - 🇸🇬_SG_新加坡_55
       - 🇸🇬_SG_新加坡_66
+      - 🇸🇬_SG_新加坡_77
+      - 🇸🇬_SG_新加坡_88
+      - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
+      - 🇰🇷_KR_韩国_33
+      - 🇭🇰_HK_香港_11
+      - 🇭🇰_HK_香港_22
+      - 🇭🇰_HK_香港_33
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -81,6 +97,14 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_44
       - 🇸🇬_SG_新加坡_55
       - 🇸🇬_SG_新加坡_66
+      - 🇸🇬_SG_新加坡_77
+      - 🇸🇬_SG_新加坡_88
+      - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
+      - 🇰🇷_KR_韩国_33
+      - 🇭🇰_HK_香港_11
+      - 🇭🇰_HK_香港_22
+      - 🇭🇰_HK_香港_33
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -103,6 +127,14 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_44
       - 🇸🇬_SG_新加坡_55
       - 🇸🇬_SG_新加坡_66
+      - 🇸🇬_SG_新加坡_77
+      - 🇸🇬_SG_新加坡_88
+      - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
+      - 🇰🇷_KR_韩国_33
+      - 🇭🇰_HK_香港_11
+      - 🇭🇰_HK_香港_22
+      - 🇭🇰_HK_香港_33
   - name: 📲 电报信息
     type: select
     proxies:
@@ -124,6 +156,14 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_44
       - 🇸🇬_SG_新加坡_55
       - 🇸🇬_SG_新加坡_66
+      - 🇸🇬_SG_新加坡_77
+      - 🇸🇬_SG_新加坡_88
+      - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
+      - 🇰🇷_KR_韩国_33
+      - 🇭🇰_HK_香港_11
+      - 🇭🇰_HK_香港_22
+      - 🇭🇰_HK_香港_33
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -145,6 +185,14 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_44
       - 🇸🇬_SG_新加坡_55
       - 🇸🇬_SG_新加坡_66
+      - 🇸🇬_SG_新加坡_77
+      - 🇸🇬_SG_新加坡_88
+      - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
+      - 🇰🇷_KR_韩国_33
+      - 🇭🇰_HK_香港_11
+      - 🇭🇰_HK_香港_22
+      - 🇭🇰_HK_香港_33
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -166,6 +214,14 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_44
       - 🇸🇬_SG_新加坡_55
       - 🇸🇬_SG_新加坡_66
+      - 🇸🇬_SG_新加坡_77
+      - 🇸🇬_SG_新加坡_88
+      - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
+      - 🇰🇷_KR_韩国_33
+      - 🇭🇰_HK_香港_11
+      - 🇭🇰_HK_香港_22
+      - 🇭🇰_HK_香港_33
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -204,6 +260,14 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_44
       - 🇸🇬_SG_新加坡_55
       - 🇸🇬_SG_新加坡_66
+      - 🇸🇬_SG_新加坡_77
+      - 🇸🇬_SG_新加坡_88
+      - 🇰🇷_KR_韩国_11
+      - 🇰🇷_KR_韩国_22
+      - 🇰🇷_KR_韩国_33
+      - 🇭🇰_HK_香港_11
+      - 🇭🇰_HK_香港_22
+      - 🇭🇰_HK_香港_33
 
 rules:
 # 本地/局域网地址
