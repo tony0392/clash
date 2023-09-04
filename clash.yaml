@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-04 11:13:36
+# 创建时间：2023-09-04 11:15:02
 # 使用模版：ACL4SSR_Online_Full.ini
-# 节点数量：11
+# 节点数量：21
 # 节点类型：ssr, ss, trojan, vmess
 ####################################
 mixed-port: 7890
@@ -97,6 +97,16 @@ proxies:
   - {"name":"🇸🇬_SG_新加坡_11","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
   - {"name":"🇨🇭_CH_瑞士->🇰🇷_KR_韩国","type":"ss","server":"xiongda006.daxiongda.top","port":23333,"password":"f1865e50-2510-46d1-bcb2-e00b4b656305","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_美国->🇨🇦_CA_加拿大","type":"vmess","server":"singapore.com","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
+  - {"name":"🇰🇷_KR_韩国->🇨🇦_CA_加拿大_1","type":"vmess","server":"146.56.41.141","port":80,"cipher":"auto","uuid":"7ca21098-691c-4c12-8aac-934b21635423","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"16.wyhkaa0.gq"}}}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本","type":"vmess","server":"183.232.249.52","port":46784,"cipher":"auto","uuid":"f11aa310-006b-3db4-910d-3f7217fbfa73","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡","type":"vmess","server":"120.226.50.93","port":40702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧_GB_英国","type":"ss","server":"51.141.11.92","port":33131,"password":"ujbow8ZY46sUMEqvGfh7BT","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港","type":"vmess","server":"fusion.mlinuu.top","port":3503,"cipher":"auto","uuid":"ce6c3ee0-e0bd-39d2-8b49-97c6add325c6","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇰🇷_KR_韩国","type":"vmess","server":"183.232.249.52","port":46786,"cipher":"auto","uuid":"f11aa310-006b-3db4-910d-3f7217fbfa73","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷_KR_韩国->🇨🇦_CA_加拿大_2","type":"vmess","server":"152.69.228.108","port":80,"cipher":"auto","uuid":"f336c0ab-87fb-4f6f-e069-14fbc903b67d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"2.wyhkaa0.gq"}}}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦","type":"trojan","server":"101.89.218.202","port":23326,"udp":true,"password":"4400108e-b555-4686-a423-a6c6cce3a150","sni":"aln-ru.qchwnd.moe","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷_KR_韩国->🇸🇬_SG_新加坡","type":"ss","server":"free.node.kk-proxy.pro","port":24961,"password":"631fb017-86bd-48d3-9a7d-b2943691a2bf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦_CA_加拿大","type":"vmess","server":"dongtaiwang3.com","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -124,6 +134,16 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_11
       - 🇨🇭_CH_瑞士->🇰🇷_KR_韩国
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大
+      - 🇰🇷_KR_韩国->🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国->🇨🇦_CA_加拿大_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇰🇷_KR_韩国->🇸🇬_SG_新加坡
+      - 🇨🇦_CA_加拿大
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -141,6 +161,16 @@ proxy-groups:
       - 🇸🇬_SG_新加坡_11
       - 🇨🇭_CH_瑞士->🇰🇷_KR_韩国
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大
+      - 🇰🇷_KR_韩国->🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国->🇨🇦_CA_加拿大_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇰🇷_KR_韩国->🇸🇬_SG_新加坡
+      - 🇨🇦_CA_加拿大
   - name: 📲 电报消息
     type: select
     proxies:
@@ -330,7 +360,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 🇨🇳_CN_中国->🇭🇰_HK_香港
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -343,6 +373,7 @@ proxy-groups:
       - 🇯🇵_JP_日本_44
       - 🇯🇵_JP_日本_55
       - 🇯🇵_JP_日本_66
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -366,6 +397,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇸🇬_SG_新加坡_11
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+      - 🇰🇷_KR_韩国->🇸🇬_SG_新加坡
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -373,6 +406,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇨🇭_CH_瑞士->🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国->🇨🇦_CA_加拿大_1
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国->🇨🇦_CA_加拿大_2
+      - 🇰🇷_KR_韩国->🇸🇬_SG_新加坡
   - name: 🎥 奈飞节点
     type: select
     proxies:
