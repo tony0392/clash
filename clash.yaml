@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-05 14:13:47
+# 创建时间：2023-09-05 15:12:55
 # 使用模版：ACL4SSR_Online_Full.ini
-# 节点数量：111
-# 节点类型：ssr, ss, vmess, trojan
+# 节点数量：79
+# 节点类型：trojan, ssr, ss, vmess
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -86,15 +86,9 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"www.dongtaiwang.com 洛杉矶","type":"ssr","server":"t3.freegradely.xyz","port":22222,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
-  - {"name":"www.dongtaiwang.com+洛杉矶","type":"ss","server":"www.dongtaiwang4.com","port":33008,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸_US_美国_11","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"87a95522-985c-4a17-afea-9b7d7208bce5","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"3.freek1.xyz"}}}
   - {"name":"🇯🇵_JP_日本_11","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_22","type":"trojan","server":"gsawshk2.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_33","type":"trojan","server":"gsawsjp2.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_44","type":"trojan","server":"gsawshk1.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_55","type":"trojan","server":"gsawsjp1.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_66","type":"trojan","server":"kbawsjp1.aiopen.cfd","port":443,"udp":true,"password":"343f9a0c-494e-4c23-8adc-afb3f75c1294","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_JP_日本_22","type":"trojan","server":"gsawsjp1.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_JP_日本_33","type":"trojan","server":"kbawsjp1.aiopen.cfd","port":443,"udp":true,"password":"343f9a0c-494e-4c23-8adc-afb3f75c1294","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬_SG_新加坡_11","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
   - {"name":"🇭🇰HK|香港01","type":"ss","server":"zjcm.themars.top","port":23000,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇰HK|香港06","type":"ss","server":"gdcm.themars.top","port":33002,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
@@ -102,101 +96,75 @@ proxies:
   - {"name":"🇺🇸US|美国01","type":"ss","server":"zjcm.themars.top","port":23007,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇳TW|台湾01","type":"ss","server":"zjcm.themars.top","port":23009,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇳TW|台湾04","type":"ss","server":"gdcm.themars.top","port":33010,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦_CA_加拿大->🇩🇪_DE_德国","type":"vmess","server":"cloudqwq.cf","port":80,"cipher":"auto","uuid":"cd0c570f-757c-48d2-a1b6-c0940431cc47","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"nl10gbps.6577617.xyz"}}}
   - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"171.22.116.45","port":36709,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_2","type":"vmess","server":"36.141.40.34","port":54073,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇳🇱_NL_荷兰->🇫🇷_FR_法国","type":"vmess","server":"frsadubidd.76898102.xyz","port":2095,"cipher":"auto","uuid":"4896559c-c94e-342a-b208-6107ec292652","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/funsdfrh","headers":{"host":"frsadubid.76898102.xyz"}}}
   - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"45.199.138.188","port":30008,"cipher":"auto","uuid":"4ec0ae62-de09-4029-904a-0313d4628ecf","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦_CA_加拿大","type":"vmess","server":"23.227.38.81","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
-  - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国","type":"vmess","server":"ns80.ddns.net","port":2087,"cipher":"auto","uuid":"1f85f705-bef4-42c5-a1a4-14be16c2678b","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/opypvws","headers":{"host":"amovir.virus2023.xyz"}}}
-  - {"name":"🇭🇰_HK_香港->🇸🇬_SG_新加坡","type":"vmess","server":"a6.wuxianliulianng.xyz","port":443,"cipher":"auto","uuid":"3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/sometimesnaive","headers":{"host":"3.wuxianliulianng.xyz"}}}
-  - {"name":"🇺🇸_US_美国->🇸🇬_SG_新加坡","type":"vmess","server":"cfyd.starsea.vip","port":80,"cipher":"auto","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/sshkit/1736960111/64ee26041efcc/","headers":{"host":"sg1-v2ray.sshkit.org"}}}
-  - {"name":"🇰🇷_KR_韩国->🇺🇸_US_美国_1","type":"vmess","server":"130.162.157.253","port":80,"cipher":"auto","uuid":"86d6d87f-497e-4be5-c30b-fb7c4eb78096","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"12.wyhkaa0.gq"}}}
-  - {"name":"🇰🇷_KR_韩国->🇺🇸_US_美国_2","type":"vmess","server":"b2.wuxianliulianng.xyz","port":443,"cipher":"auto","uuid":"3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/sometimesnaive","headers":{"host":"2.wuxianliulianng.xyz"}}}
-  - {"name":"🇺🇸_US_美国_2_2","type":"vmess","server":"172.67.75.194","port":443,"cipher":"auto","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}}}
-  - {"name":"🇬🇧_GB_英国","type":"vmess","server":"158.178.225.61","port":80,"cipher":"auto","uuid":"21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"18.wyhkaa0.gq"}}}
-  - {"name":"TG@mfbpn-🇹🇼 Basic-台湾-BGP-01","type":"vmess","server":"1.sg.zz.xxxxx.x-t-fuckword.network","port":36674,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇹🇼 Basic-台湾-ChatGPT-01","type":"vmess","server":"1-1.drd3d.ere3.221dss.tw.zz.xxxxx.x-t-fuckword.network","port":48716,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇹🇼 Basic-台湾-家庭宽带-01","type":"vmess","server":"5.jp.zz.xxxxx.x-t-fuckword.network","port":48752,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇸🇬 Basic-新加坡-BGP-01","type":"vmess","server":"1.kr.zz.xxxxx.x-t-fuckword.network","port":36676,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇯🇵 Basic-日本-BGP-01","type":"vmess","server":"word.1.1.fuckword.club","port":50001,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇯🇵 Basic-日本-BGP-02","type":"vmess","server":"word.18.fuckword.club","port":58417,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Basic-美国-BGP-01","type":"vmess","server":"us1.v2.zz.cn.fuckword.club","port":47602,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Basic-美国-BGP-02","type":"vmess","server":"word.4.1.fuckword.club","port":49121,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Basic-美国-BGP-03","type":"vmess","server":"3.6.1.fuckppppp.today","port":49125,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Basic-美国-BGP-04","type":"vmess","server":"3.4.1.fuckppppp.today","port":49126,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Basic-美国-BGP-05","type":"vmess","server":"1.6.1.fuckppppp.today","port":49127,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Basic-美国-BGP-06","type":"vmess","server":"1.game.speed.zz.001.oooooooooo.icu","port":53944,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Basic-美国-BGP-07","type":"vmess","server":"us07.cn.network-cdn-gw-zz.com","port":60303,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇫🇮 Basic-芬兰-BGP-01","type":"vmess","server":"11.11.fuckppppp.today","port":57168,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-BGP-01","type":"vmess","server":"6.hk.zz.xxxxx.x-t-fuckword.network","port":49120,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-BGP-02","type":"vmess","server":"hkbgp.cdn.123.network-cdn-gw-zz.com","port":34794,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-BGP-03","type":"vmess","server":"1.hk.zz.xxxxx.x-t-fuckword.network","port":36672,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-BGP-04","type":"vmess","server":"2.7.1.fuckppppp.today","port":50882,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-BGP-05","type":"vmess","server":"3.jp.zz.xxxxx.x-t-fuckword.network","port":36675,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-BGP-06","type":"vmess","server":"hkbgp.0111.tg.network-cdn-gw-zz.com","port":34795,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-BGP-07","type":"vmess","server":"4.3.1.fuckppppp.today","port":58418,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-BGP-08","type":"vmess","server":"gb1.v2.zz.cn.fuckword.club","port":47836,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-BGP-09","type":"vmess","server":"2.jp.zz.xxxxx.x-t-fuckword.network","port":36671,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-BGP-10","type":"vmess","server":"2.sg.zz.xxxxx.x-t-fuckword.network","port":60301,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-家庭宽带-01","type":"vmess","server":"2.hk.zz.xxxxx.x-t-fuckword.network","port":35419,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-家庭宽带-02","type":"vmess","server":"hk1.v2.zz.cn.fuckword.club","port":49511,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Basic-香港-家庭宽带-03","type":"vmess","server":"hk2.v2.zz.cn.fuckword.club","port":49112,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇮🇳 Pro-印度-BGP-01","type":"vmess","server":"in-game.1.fuckword.club","port":53845,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇹🇼 Pro-台湾-BGP-01","type":"vmess","server":"tw1.v3.zz.cn.fuckword.club","port":49111,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇹🇼 Pro-台湾-BGP-02","type":"vmess","server":"1.tw.zz.xxxxx.x-t-fuckword.network","port":53137,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇹🇼 Pro-台湾-BGP-03","type":"vmess","server":"2.tw.zz.xxxxx.x-t-fuckword.network","port":49484,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇹🇼 Pro-台湾-家庭宽带-01","type":"vmess","server":"game.hk.udp.01.fuckword.club","port":60317,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇹🇼 Pro-台湾-家庭宽带-02","type":"vmess","server":"tw1.v6.zz.cn.fuckword.club","port":49434,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇸🇬 Pro-新加坡-BGP-01","type":"vmess","server":"sg1.v3.zz.cn.fuckword.club","port":47533,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇸🇬 Pro-新加坡-BGP-02","type":"vmess","server":"sg2.v3.zz.cn.fuckword.club","port":47534,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇸🇬 Pro-新加坡-BGP-03","type":"vmess","server":"word.13.1.fuckword.club","port":53127,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇸🇬 Pro-新加坡-BGP-04","type":"vmess","server":"2.game.speed.zz.001.oooooooooo.icu","port":53945,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇯🇵 Pro-日本-BGP-01","type":"vmess","server":"word.2.fuckword.club","port":50187,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇯🇵 Pro-日本-BGP-02","type":"vmess","server":"word.2.fuckword.club","port":50188,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇯🇵 Pro-日本-BGP-03","type":"vmess","server":"word.2.fuckword.club","port":50189,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇯🇵 Pro-日本-BGP-04","type":"vmess","server":"word.12.1.fuckword.club","port":50191,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇯🇵 Pro-日本-BGP-05","type":"vmess","server":"2.9.0.fuckppppp.today","port":50192,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇯🇵 Pro-日本-BGP-06","type":"vmess","server":"1.5.1.fuckppppp.today","port":50810,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇯🇵 Pro-日本-BGP-07","type":"vmess","server":"3.2.1.fuckppppp.today","port":60302,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇫🇷 Pro-法国-BGP-01","type":"vmess","server":"df56-3fs2-4g4v-4hvc-fg34.df4b-gbn5-bn45-drbv-4bws-7865-hj74.ghfd-45gf-45hg.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":34765,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Pro-美国-BGP-01","type":"vmess","server":"1.us.zz.xxxxx.x-t-fuckword.network","port":36677,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Pro-美国-BGP-02","type":"vmess","server":"us4.v2.zz.cn.fuckword.club","port":23009,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Pro-美国-BGP-03","type":"vmess","server":"us2.v3.zz.cn.fuckword.club","port":58420,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Pro-美国-BGP-04","type":"vmess","server":"word.14.1.fuckword.club","port":48861,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Pro-美国-BGP-05","type":"vmess","server":"us05.cn.network-cdn-gw-zz.com","port":60300,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/game","headers":{"host":"us05.cn.network-cdn-gw-zz.com"}}}
-  - {"name":"TG@mfbpn-🇦🇷 Pro-阿根廷-BGP-01","type":"vmess","server":"1.ar.zz.xxxxx.x-t-fuckword.network","port":64141,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Pro-香港-BGP-01","type":"vmess","server":"2.8.1.fuckppppp.today","port":20000,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Pro-香港-BGP-02","type":"vmess","server":"2.3.1.fuckppppp.today","port":50000,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Pro-香港-BGP-03","type":"vmess","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":36154,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Pro-香港-BGP-04","type":"vmess","server":"iplc-9-8-7-6-5-4-3-2-1.001.zz.fuckword.club","port":53941,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Pro-香港-BGP-05","type":"vmess","server":"hk2.v3.zz.cn.fuckword.club","port":47835,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Pro-香港-BGP-06","type":"vmess","server":"7.hk.zz.xxxxx.x-t-fuckword.network","port":58416,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Pro-香港-BGP-07","type":"vmess","server":"hk1.v3.zz.cn.fuckword.club","port":47605,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Pro-香港-BGP-08","type":"vmess","server":"hkt01.hk.zz.xxxxx.x-t-fuckword.network","port":56812,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-01","type":"vmess","server":"5.hk.zz.xxxxx.x-t-fuckword.network","port":36690,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-02","type":"vmess","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":36679,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-03","type":"vmess","server":"word.10.1.fuckword.club","port":20001,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-04","type":"vmess","server":"3.hk.zz.xxxxx.x-t-fuckword.network","port":36681,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇷🇺 俄罗斯-Pro-01","type":"vmess","server":"word.2.fuckword.club","port":50193,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇹🇷 土耳其-Pro-01","type":"vmess","server":"4.game.speed.zz.001.oooooooooo.icu","port":25842,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇩🇪 德国-Pro-01","type":"vmess","server":"1.mo.zz.xxxxx.x-t-fuckword.network","port":53943,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇹🇭 泰国-Pro-01","type":"vmess","server":"3.0.1.fuckppppp.today","port":48414,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇰🇷 游戏节点-Pro-韩国","type":"vmess","server":"ar2.v3.zz.cn.fuckword.club","port":50111,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇬🇧 英国-Pro-01","type":"vmess","server":"3.8.1.fuckppppp.today","port":53125,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇻🇳 越南-Pro-01","type":"vmess","server":"fr1.v3.zz.cn.fuckword.club","port":47606,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇰🇷 韩国-Pro-01","type":"vmess","server":"2.1.1.fuckppppp.today","port":50109,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇲🇾 马来西亚-Pro-01","type":"vmess","server":"3.game.speed.zz.001.oooooooooo.icu","port":25841,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇹🇼 Global-台湾01-海外客户专用","type":"vmess","server":"1-tw.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":46148,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇩🇪 Global-德国01-海外客户专用","type":"vmess","server":"1-de.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":55488,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇩🇪 Global-德国02-海外客户专用","type":"vmess","server":"2-de.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":55289,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇯🇵 Global-日本01-海外客户专用","type":"vmess","server":"1-jp.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":53548,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇯🇵 Global-日本02-海外客户专用","type":"vmess","server":"1-jp.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":55473,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇯🇵 Global-日本03-海外客户专用","type":"vmess","server":"jp-1.xxx.al.t.fuckword.club","port":35414,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇦🇺 Global-澳大利亚01-海外客户专用","type":"vmess","server":"1-aus.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":55454,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Global-美国01-海外客户专用","type":"vmess","server":"1-us.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":55578,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇺🇲 Global-美国02-海外客户专用","type":"vmess","server":"1-us.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":35424,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG@mfbpn-🇬🇧 Global-英国01-海外客户专用","type":"vmess","server":"1-gb.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":55878,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇼 Basic-台湾-家庭宽带-01","type":"vmess","server":"5.jp.zz.xxxxx.x-t-fuckword.network","port":48752,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 Basic-新加坡-BGP-01","type":"vmess","server":"1.kr.zz.xxxxx.x-t-fuckword.network","port":36676,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 Basic-日本-BGP-01","type":"vmess","server":"word.1.1.fuckword.club","port":50001,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 Basic-日本-BGP-02","type":"vmess","server":"word.18.fuckword.club","port":58417,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-BGP-01","type":"vmess","server":"6.hk.zz.xxxxx.x-t-fuckword.network","port":49120,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-BGP-02","type":"vmess","server":"hkbgp.cdn.123.network-cdn-gw-zz.com","port":34794,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-BGP-03","type":"vmess","server":"1.hk.zz.xxxxx.x-t-fuckword.network","port":36672,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-BGP-04","type":"vmess","server":"2.7.1.fuckppppp.today","port":50882,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-BGP-05","type":"vmess","server":"3.jp.zz.xxxxx.x-t-fuckword.network","port":36675,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-BGP-06","type":"vmess","server":"hkbgp.0111.tg.network-cdn-gw-zz.com","port":34795,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-BGP-07","type":"vmess","server":"4.3.1.fuckppppp.today","port":58418,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-BGP-08","type":"vmess","server":"gb1.v2.zz.cn.fuckword.club","port":47836,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-BGP-09","type":"vmess","server":"2.jp.zz.xxxxx.x-t-fuckword.network","port":36671,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-BGP-10","type":"vmess","server":"2.sg.zz.xxxxx.x-t-fuckword.network","port":60301,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-家庭宽带-01","type":"vmess","server":"2.hk.zz.xxxxx.x-t-fuckword.network","port":35419,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-家庭宽带-02","type":"vmess","server":"hk1.v2.zz.cn.fuckword.club","port":49511,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Basic-香港-家庭宽带-03","type":"vmess","server":"hk2.v2.zz.cn.fuckword.club","port":49112,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇳 Pro-印度-BGP-01","type":"vmess","server":"in-game.1.fuckword.club","port":53845,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇼 Pro-台湾-BGP-01","type":"vmess","server":"tw1.v3.zz.cn.fuckword.club","port":49111,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇼 Pro-台湾-BGP-02","type":"vmess","server":"1.tw.zz.xxxxx.x-t-fuckword.network","port":53137,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇼 Pro-台湾-BGP-03","type":"vmess","server":"2.tw.zz.xxxxx.x-t-fuckword.network","port":49484,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇼 Pro-台湾-家庭宽带-01","type":"vmess","server":"game.hk.udp.01.fuckword.club","port":60317,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 Pro-新加坡-BGP-01","type":"vmess","server":"sg1.v3.zz.cn.fuckword.club","port":47533,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 Pro-新加坡-BGP-02","type":"vmess","server":"sg2.v3.zz.cn.fuckword.club","port":47534,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 Pro-新加坡-BGP-03","type":"vmess","server":"word.13.1.fuckword.club","port":53127,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 Pro-新加坡-BGP-04","type":"vmess","server":"2.game.speed.zz.001.oooooooooo.icu","port":53945,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 Pro-日本-BGP-01","type":"vmess","server":"word.2.fuckword.club","port":50187,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 Pro-日本-BGP-02","type":"vmess","server":"word.2.fuckword.club","port":50188,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 Pro-日本-BGP-03","type":"vmess","server":"word.2.fuckword.club","port":50189,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 Pro-日本-BGP-04","type":"vmess","server":"word.12.1.fuckword.club","port":50191,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 Pro-日本-BGP-05","type":"vmess","server":"2.9.0.fuckppppp.today","port":50192,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 Pro-日本-BGP-06","type":"vmess","server":"1.5.1.fuckppppp.today","port":50810,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 Pro-日本-BGP-07","type":"vmess","server":"3.2.1.fuckppppp.today","port":60302,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷 Pro-法国-BGP-01","type":"vmess","server":"df56-3fs2-4g4v-4hvc-fg34.df4b-gbn5-bn45-drbv-4bws-7865-hj74.ghfd-45gf-45hg.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":34765,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇲 Pro-美国-BGP-01","type":"vmess","server":"1.us.zz.xxxxx.x-t-fuckword.network","port":36677,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇲 Pro-美国-BGP-02","type":"vmess","server":"us4.v2.zz.cn.fuckword.club","port":23009,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇲 Pro-美国-BGP-03","type":"vmess","server":"us2.v3.zz.cn.fuckword.club","port":58420,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇲 Pro-美国-BGP-04","type":"vmess","server":"word.14.1.fuckword.club","port":48861,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇲 Pro-美国-BGP-05","type":"vmess","server":"us05.cn.network-cdn-gw-zz.com","port":60300,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/game","headers":{"host":"us05.cn.network-cdn-gw-zz.com"}}}
+  - {"name":"🇦🇷 Pro-阿根廷-BGP-01","type":"vmess","server":"1.ar.zz.xxxxx.x-t-fuckword.network","port":64141,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Pro-香港-BGP-01","type":"vmess","server":"2.8.1.fuckppppp.today","port":20000,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Pro-香港-BGP-02","type":"vmess","server":"2.3.1.fuckppppp.today","port":50000,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Pro-香港-BGP-03","type":"vmess","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":36154,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Pro-香港-BGP-04","type":"vmess","server":"iplc-9-8-7-6-5-4-3-2-1.001.zz.fuckword.club","port":53941,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Pro-香港-BGP-05","type":"vmess","server":"hk2.v3.zz.cn.fuckword.club","port":47835,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Pro-香港-BGP-06","type":"vmess","server":"7.hk.zz.xxxxx.x-t-fuckword.network","port":58416,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Pro-香港-BGP-07","type":"vmess","server":"hk1.v3.zz.cn.fuckword.club","port":47605,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Pro-香港-BGP-08","type":"vmess","server":"hkt01.hk.zz.xxxxx.x-t-fuckword.network","port":56812,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Pro-香港-家庭宽带-01","type":"vmess","server":"5.hk.zz.xxxxx.x-t-fuckword.network","port":36690,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Pro-香港-家庭宽带-02","type":"vmess","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":36679,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 Pro-香港-家庭宽带-03","type":"vmess","server":"word.10.1.fuckword.club","port":20001,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇷🇺 俄罗斯-Pro-01","type":"vmess","server":"word.2.fuckword.club","port":50193,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇷 土耳其-Pro-01","type":"vmess","server":"4.game.speed.zz.001.oooooooooo.icu","port":25842,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪 德国-Pro-01","type":"vmess","server":"1.mo.zz.xxxxx.x-t-fuckword.network","port":53943,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇭 泰国-Pro-01","type":"vmess","server":"3.0.1.fuckppppp.today","port":48414,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷 游戏节点-Pro-韩国","type":"vmess","server":"ar2.v3.zz.cn.fuckword.club","port":50111,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧 英国-Pro-01","type":"vmess","server":"3.8.1.fuckppppp.today","port":53125,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇻🇳 越南-Pro-01","type":"vmess","server":"fr1.v3.zz.cn.fuckword.club","port":47606,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷 韩国-Pro-01","type":"vmess","server":"2.1.1.fuckppppp.today","port":50109,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇲🇾 马来西亚-Pro-01","type":"vmess","server":"3.game.speed.zz.001.oooooooooo.icu","port":25841,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪 Global-德国02-海外客户专用","type":"vmess","server":"2-de.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":55289,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 Global-日本01-海外客户专用","type":"vmess","server":"1-jp.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":53548,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 Global-日本02-海外客户专用","type":"vmess","server":"1-jp.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":55473,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇦🇺 Global-澳大利亚01-海外客户专用","type":"vmess","server":"1-aus.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":55454,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇲 Global-美国01-海外客户专用","type":"vmess","server":"1-us.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":55578,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇲 Global-美国02-海外客户专用","type":"vmess","server":"1-us.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":35424,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧 Global-英国01-海外客户专用","type":"vmess","server":"1-gb.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":55878,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -213,15 +181,9 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - www.dongtaiwang.com 洛杉矶
-      - www.dongtaiwang.com+洛杉矶
-      - 🇺🇸_US_美国_11
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
-      - 🇯🇵_JP_日本_44
-      - 🇯🇵_JP_日本_55
-      - 🇯🇵_JP_日本_66
       - 🇸🇬_SG_新加坡_11
       - 🇭🇰HK|香港01
       - 🇭🇰HK|香港06
@@ -229,116 +191,84 @@ proxy-groups:
       - 🇺🇸US|美国01
       - 🇨🇳TW|台湾01
       - 🇨🇳TW|台湾04
-      - 🇨🇦_CA_加拿大->🇩🇪_DE_德国
       - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇫🇷_FR_法国
       - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇰🇷_KR_韩国->🇺🇸_US_美国_1
-      - 🇰🇷_KR_韩国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_2_2
-      - 🇬🇧_GB_英国
-      - TG@mfbpn-🇹🇼 Basic-台湾-BGP-01
-      - TG@mfbpn-🇹🇼 Basic-台湾-ChatGPT-01
-      - TG@mfbpn-🇹🇼 Basic-台湾-家庭宽带-01
-      - TG@mfbpn-🇸🇬 Basic-新加坡-BGP-01
-      - TG@mfbpn-🇯🇵 Basic-日本-BGP-01
-      - TG@mfbpn-🇯🇵 Basic-日本-BGP-02
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-01
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-02
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-03
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-04
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-05
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-06
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-07
-      - TG@mfbpn-🇫🇮 Basic-芬兰-BGP-01
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-01
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-02
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-03
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-04
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-05
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-06
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-07
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-08
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-09
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-10
-      - TG@mfbpn-🇭🇰 Basic-香港-家庭宽带-01
-      - TG@mfbpn-🇭🇰 Basic-香港-家庭宽带-02
-      - TG@mfbpn-🇭🇰 Basic-香港-家庭宽带-03
-      - TG@mfbpn-🇮🇳 Pro-印度-BGP-01
-      - TG@mfbpn-🇹🇼 Pro-台湾-BGP-01
-      - TG@mfbpn-🇹🇼 Pro-台湾-BGP-02
-      - TG@mfbpn-🇹🇼 Pro-台湾-BGP-03
-      - TG@mfbpn-🇹🇼 Pro-台湾-家庭宽带-01
-      - TG@mfbpn-🇹🇼 Pro-台湾-家庭宽带-02
-      - TG@mfbpn-🇸🇬 Pro-新加坡-BGP-01
-      - TG@mfbpn-🇸🇬 Pro-新加坡-BGP-02
-      - TG@mfbpn-🇸🇬 Pro-新加坡-BGP-03
-      - TG@mfbpn-🇸🇬 Pro-新加坡-BGP-04
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-01
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-02
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-03
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-04
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-05
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-06
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-07
-      - TG@mfbpn-🇫🇷 Pro-法国-BGP-01
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-01
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-02
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-03
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-04
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-05
-      - TG@mfbpn-🇦🇷 Pro-阿根廷-BGP-01
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-01
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-02
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-03
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-04
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-05
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-06
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-07
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-08
-      - TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-01
-      - TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-02
-      - TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-03
-      - TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-04
-      - TG@mfbpn-🇷🇺 俄罗斯-Pro-01
-      - TG@mfbpn-🇹🇷 土耳其-Pro-01
-      - TG@mfbpn-🇩🇪 德国-Pro-01
-      - TG@mfbpn-🇹🇭 泰国-Pro-01
-      - TG@mfbpn-🇰🇷 游戏节点-Pro-韩国
-      - TG@mfbpn-🇬🇧 英国-Pro-01
-      - TG@mfbpn-🇻🇳 越南-Pro-01
-      - TG@mfbpn-🇰🇷 韩国-Pro-01
-      - TG@mfbpn-🇲🇾 马来西亚-Pro-01
-      - TG@mfbpn-🇹🇼 Global-台湾01-海外客户专用
-      - TG@mfbpn-🇩🇪 Global-德国01-海外客户专用
-      - TG@mfbpn-🇩🇪 Global-德国02-海外客户专用
-      - TG@mfbpn-🇯🇵 Global-日本01-海外客户专用
-      - TG@mfbpn-🇯🇵 Global-日本02-海外客户专用
-      - TG@mfbpn-🇯🇵 Global-日本03-海外客户专用
-      - TG@mfbpn-🇦🇺 Global-澳大利亚01-海外客户专用
-      - TG@mfbpn-🇺🇲 Global-美国01-海外客户专用
-      - TG@mfbpn-🇺🇲 Global-美国02-海外客户专用
-      - TG@mfbpn-🇬🇧 Global-英国01-海外客户专用
+      - 🇹🇼 Basic-台湾-家庭宽带-01
+      - 🇸🇬 Basic-新加坡-BGP-01
+      - 🇯🇵 Basic-日本-BGP-01
+      - 🇯🇵 Basic-日本-BGP-02
+      - 🇭🇰 Basic-香港-BGP-01
+      - 🇭🇰 Basic-香港-BGP-02
+      - 🇭🇰 Basic-香港-BGP-03
+      - 🇭🇰 Basic-香港-BGP-04
+      - 🇭🇰 Basic-香港-BGP-05
+      - 🇭🇰 Basic-香港-BGP-06
+      - 🇭🇰 Basic-香港-BGP-07
+      - 🇭🇰 Basic-香港-BGP-08
+      - 🇭🇰 Basic-香港-BGP-09
+      - 🇭🇰 Basic-香港-BGP-10
+      - 🇭🇰 Basic-香港-家庭宽带-01
+      - 🇭🇰 Basic-香港-家庭宽带-02
+      - 🇭🇰 Basic-香港-家庭宽带-03
+      - 🇮🇳 Pro-印度-BGP-01
+      - 🇹🇼 Pro-台湾-BGP-01
+      - 🇹🇼 Pro-台湾-BGP-02
+      - 🇹🇼 Pro-台湾-BGP-03
+      - 🇹🇼 Pro-台湾-家庭宽带-01
+      - 🇸🇬 Pro-新加坡-BGP-01
+      - 🇸🇬 Pro-新加坡-BGP-02
+      - 🇸🇬 Pro-新加坡-BGP-03
+      - 🇸🇬 Pro-新加坡-BGP-04
+      - 🇯🇵 Pro-日本-BGP-01
+      - 🇯🇵 Pro-日本-BGP-02
+      - 🇯🇵 Pro-日本-BGP-03
+      - 🇯🇵 Pro-日本-BGP-04
+      - 🇯🇵 Pro-日本-BGP-05
+      - 🇯🇵 Pro-日本-BGP-06
+      - 🇯🇵 Pro-日本-BGP-07
+      - 🇫🇷 Pro-法国-BGP-01
+      - 🇺🇲 Pro-美国-BGP-01
+      - 🇺🇲 Pro-美国-BGP-02
+      - 🇺🇲 Pro-美国-BGP-03
+      - 🇺🇲 Pro-美国-BGP-04
+      - 🇺🇲 Pro-美国-BGP-05
+      - 🇦🇷 Pro-阿根廷-BGP-01
+      - 🇭🇰 Pro-香港-BGP-01
+      - 🇭🇰 Pro-香港-BGP-02
+      - 🇭🇰 Pro-香港-BGP-03
+      - 🇭🇰 Pro-香港-BGP-04
+      - 🇭🇰 Pro-香港-BGP-05
+      - 🇭🇰 Pro-香港-BGP-06
+      - 🇭🇰 Pro-香港-BGP-07
+      - 🇭🇰 Pro-香港-BGP-08
+      - 🇭🇰 Pro-香港-家庭宽带-01
+      - 🇭🇰 Pro-香港-家庭宽带-02
+      - 🇭🇰 Pro-香港-家庭宽带-03
+      - 🇷🇺 俄罗斯-Pro-01
+      - 🇹🇷 土耳其-Pro-01
+      - 🇩🇪 德国-Pro-01
+      - 🇹🇭 泰国-Pro-01
+      - 🇰🇷 游戏节点-Pro-韩国
+      - 🇬🇧 英国-Pro-01
+      - 🇻🇳 越南-Pro-01
+      - 🇰🇷 韩国-Pro-01
+      - 🇲🇾 马来西亚-Pro-01
+      - 🇩🇪 Global-德国02-海外客户专用
+      - 🇯🇵 Global-日本01-海外客户专用
+      - 🇯🇵 Global-日本02-海外客户专用
+      - 🇦🇺 Global-澳大利亚01-海外客户专用
+      - 🇺🇲 Global-美国01-海外客户专用
+      - 🇺🇲 Global-美国02-海外客户专用
+      - 🇬🇧 Global-英国01-海外客户专用
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - www.dongtaiwang.com 洛杉矶
-      - www.dongtaiwang.com+洛杉矶
-      - 🇺🇸_US_美国_11
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
-      - 🇯🇵_JP_日本_44
-      - 🇯🇵_JP_日本_55
-      - 🇯🇵_JP_日本_66
       - 🇸🇬_SG_新加坡_11
       - 🇭🇰HK|香港01
       - 🇭🇰HK|香港06
@@ -346,101 +276,75 @@ proxy-groups:
       - 🇺🇸US|美国01
       - 🇨🇳TW|台湾01
       - 🇨🇳TW|台湾04
-      - 🇨🇦_CA_加拿大->🇩🇪_DE_德国
       - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇫🇷_FR_法国
       - 🇺🇸_US_美国_4
-      - 🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇰🇷_KR_韩国->🇺🇸_US_美国_1
-      - 🇰🇷_KR_韩国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_2_2
-      - 🇬🇧_GB_英国
-      - TG@mfbpn-🇹🇼 Basic-台湾-BGP-01
-      - TG@mfbpn-🇹🇼 Basic-台湾-ChatGPT-01
-      - TG@mfbpn-🇹🇼 Basic-台湾-家庭宽带-01
-      - TG@mfbpn-🇸🇬 Basic-新加坡-BGP-01
-      - TG@mfbpn-🇯🇵 Basic-日本-BGP-01
-      - TG@mfbpn-🇯🇵 Basic-日本-BGP-02
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-01
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-02
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-03
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-04
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-05
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-06
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-07
-      - TG@mfbpn-🇫🇮 Basic-芬兰-BGP-01
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-01
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-02
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-03
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-04
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-05
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-06
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-07
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-08
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-09
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-10
-      - TG@mfbpn-🇭🇰 Basic-香港-家庭宽带-01
-      - TG@mfbpn-🇭🇰 Basic-香港-家庭宽带-02
-      - TG@mfbpn-🇭🇰 Basic-香港-家庭宽带-03
-      - TG@mfbpn-🇮🇳 Pro-印度-BGP-01
-      - TG@mfbpn-🇹🇼 Pro-台湾-BGP-01
-      - TG@mfbpn-🇹🇼 Pro-台湾-BGP-02
-      - TG@mfbpn-🇹🇼 Pro-台湾-BGP-03
-      - TG@mfbpn-🇹🇼 Pro-台湾-家庭宽带-01
-      - TG@mfbpn-🇹🇼 Pro-台湾-家庭宽带-02
-      - TG@mfbpn-🇸🇬 Pro-新加坡-BGP-01
-      - TG@mfbpn-🇸🇬 Pro-新加坡-BGP-02
-      - TG@mfbpn-🇸🇬 Pro-新加坡-BGP-03
-      - TG@mfbpn-🇸🇬 Pro-新加坡-BGP-04
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-01
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-02
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-03
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-04
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-05
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-06
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-07
-      - TG@mfbpn-🇫🇷 Pro-法国-BGP-01
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-01
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-02
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-03
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-04
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-05
-      - TG@mfbpn-🇦🇷 Pro-阿根廷-BGP-01
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-01
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-02
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-03
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-04
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-05
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-06
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-07
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-08
-      - TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-01
-      - TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-02
-      - TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-03
-      - TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-04
-      - TG@mfbpn-🇷🇺 俄罗斯-Pro-01
-      - TG@mfbpn-🇹🇷 土耳其-Pro-01
-      - TG@mfbpn-🇩🇪 德国-Pro-01
-      - TG@mfbpn-🇹🇭 泰国-Pro-01
-      - TG@mfbpn-🇰🇷 游戏节点-Pro-韩国
-      - TG@mfbpn-🇬🇧 英国-Pro-01
-      - TG@mfbpn-🇻🇳 越南-Pro-01
-      - TG@mfbpn-🇰🇷 韩国-Pro-01
-      - TG@mfbpn-🇲🇾 马来西亚-Pro-01
-      - TG@mfbpn-🇹🇼 Global-台湾01-海外客户专用
-      - TG@mfbpn-🇩🇪 Global-德国01-海外客户专用
-      - TG@mfbpn-🇩🇪 Global-德国02-海外客户专用
-      - TG@mfbpn-🇯🇵 Global-日本01-海外客户专用
-      - TG@mfbpn-🇯🇵 Global-日本02-海外客户专用
-      - TG@mfbpn-🇯🇵 Global-日本03-海外客户专用
-      - TG@mfbpn-🇦🇺 Global-澳大利亚01-海外客户专用
-      - TG@mfbpn-🇺🇲 Global-美国01-海外客户专用
-      - TG@mfbpn-🇺🇲 Global-美国02-海外客户专用
-      - TG@mfbpn-🇬🇧 Global-英国01-海外客户专用
+      - 🇹🇼 Basic-台湾-家庭宽带-01
+      - 🇸🇬 Basic-新加坡-BGP-01
+      - 🇯🇵 Basic-日本-BGP-01
+      - 🇯🇵 Basic-日本-BGP-02
+      - 🇭🇰 Basic-香港-BGP-01
+      - 🇭🇰 Basic-香港-BGP-02
+      - 🇭🇰 Basic-香港-BGP-03
+      - 🇭🇰 Basic-香港-BGP-04
+      - 🇭🇰 Basic-香港-BGP-05
+      - 🇭🇰 Basic-香港-BGP-06
+      - 🇭🇰 Basic-香港-BGP-07
+      - 🇭🇰 Basic-香港-BGP-08
+      - 🇭🇰 Basic-香港-BGP-09
+      - 🇭🇰 Basic-香港-BGP-10
+      - 🇭🇰 Basic-香港-家庭宽带-01
+      - 🇭🇰 Basic-香港-家庭宽带-02
+      - 🇭🇰 Basic-香港-家庭宽带-03
+      - 🇮🇳 Pro-印度-BGP-01
+      - 🇹🇼 Pro-台湾-BGP-01
+      - 🇹🇼 Pro-台湾-BGP-02
+      - 🇹🇼 Pro-台湾-BGP-03
+      - 🇹🇼 Pro-台湾-家庭宽带-01
+      - 🇸🇬 Pro-新加坡-BGP-01
+      - 🇸🇬 Pro-新加坡-BGP-02
+      - 🇸🇬 Pro-新加坡-BGP-03
+      - 🇸🇬 Pro-新加坡-BGP-04
+      - 🇯🇵 Pro-日本-BGP-01
+      - 🇯🇵 Pro-日本-BGP-02
+      - 🇯🇵 Pro-日本-BGP-03
+      - 🇯🇵 Pro-日本-BGP-04
+      - 🇯🇵 Pro-日本-BGP-05
+      - 🇯🇵 Pro-日本-BGP-06
+      - 🇯🇵 Pro-日本-BGP-07
+      - 🇫🇷 Pro-法国-BGP-01
+      - 🇺🇲 Pro-美国-BGP-01
+      - 🇺🇲 Pro-美国-BGP-02
+      - 🇺🇲 Pro-美国-BGP-03
+      - 🇺🇲 Pro-美国-BGP-04
+      - 🇺🇲 Pro-美国-BGP-05
+      - 🇦🇷 Pro-阿根廷-BGP-01
+      - 🇭🇰 Pro-香港-BGP-01
+      - 🇭🇰 Pro-香港-BGP-02
+      - 🇭🇰 Pro-香港-BGP-03
+      - 🇭🇰 Pro-香港-BGP-04
+      - 🇭🇰 Pro-香港-BGP-05
+      - 🇭🇰 Pro-香港-BGP-06
+      - 🇭🇰 Pro-香港-BGP-07
+      - 🇭🇰 Pro-香港-BGP-08
+      - 🇭🇰 Pro-香港-家庭宽带-01
+      - 🇭🇰 Pro-香港-家庭宽带-02
+      - 🇭🇰 Pro-香港-家庭宽带-03
+      - 🇷🇺 俄罗斯-Pro-01
+      - 🇹🇷 土耳其-Pro-01
+      - 🇩🇪 德国-Pro-01
+      - 🇹🇭 泰国-Pro-01
+      - 🇰🇷 游戏节点-Pro-韩国
+      - 🇬🇧 英国-Pro-01
+      - 🇻🇳 越南-Pro-01
+      - 🇰🇷 韩国-Pro-01
+      - 🇲🇾 马来西亚-Pro-01
+      - 🇩🇪 Global-德国02-海外客户专用
+      - 🇯🇵 Global-日本01-海外客户专用
+      - 🇯🇵 Global-日本02-海外客户专用
+      - 🇦🇺 Global-澳大利亚01-海外客户专用
+      - 🇺🇲 Global-美国01-海外客户专用
+      - 🇺🇲 Global-美国02-海外客户专用
+      - 🇬🇧 Global-英国01-海外客户专用
   - name: 📲 电报消息
     type: select
     proxies:
@@ -632,32 +536,30 @@ proxy-groups:
     proxies:
       - 🇭🇰HK|香港01
       - 🇭🇰HK|香港06
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-01
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-02
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-03
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-04
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-05
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-06
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-07
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-08
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-09
-      - TG@mfbpn-🇭🇰 Basic-香港-BGP-10
-      - TG@mfbpn-🇭🇰 Basic-香港-家庭宽带-01
-      - TG@mfbpn-🇭🇰 Basic-香港-家庭宽带-02
-      - TG@mfbpn-🇭🇰 Basic-香港-家庭宽带-03
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-01
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-02
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-03
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-04
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-05
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-06
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-07
-      - TG@mfbpn-🇭🇰 Pro-香港-BGP-08
-      - TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-01
-      - TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-02
-      - TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-03
-      - TG@mfbpn-🇭🇰 Pro-香港-家庭宽带-04
+      - 🇭🇰 Basic-香港-BGP-01
+      - 🇭🇰 Basic-香港-BGP-02
+      - 🇭🇰 Basic-香港-BGP-03
+      - 🇭🇰 Basic-香港-BGP-04
+      - 🇭🇰 Basic-香港-BGP-05
+      - 🇭🇰 Basic-香港-BGP-06
+      - 🇭🇰 Basic-香港-BGP-07
+      - 🇭🇰 Basic-香港-BGP-08
+      - 🇭🇰 Basic-香港-BGP-09
+      - 🇭🇰 Basic-香港-BGP-10
+      - 🇭🇰 Basic-香港-家庭宽带-01
+      - 🇭🇰 Basic-香港-家庭宽带-02
+      - 🇭🇰 Basic-香港-家庭宽带-03
+      - 🇭🇰 Pro-香港-BGP-01
+      - 🇭🇰 Pro-香港-BGP-02
+      - 🇭🇰 Pro-香港-BGP-03
+      - 🇭🇰 Pro-香港-BGP-04
+      - 🇭🇰 Pro-香港-BGP-05
+      - 🇭🇰 Pro-香港-BGP-06
+      - 🇭🇰 Pro-香港-BGP-07
+      - 🇭🇰 Pro-香港-BGP-08
+      - 🇭🇰 Pro-香港-家庭宽带-01
+      - 🇭🇰 Pro-香港-家庭宽带-02
+      - 🇭🇰 Pro-香港-家庭宽带-03
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -667,54 +569,34 @@ proxy-groups:
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
-      - 🇯🇵_JP_日本_44
-      - 🇯🇵_JP_日本_55
-      - 🇯🇵_JP_日本_66
       - 🇯🇵JP|日本01
-      - TG@mfbpn-🇯🇵 Basic-日本-BGP-01
-      - TG@mfbpn-🇯🇵 Basic-日本-BGP-02
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-01
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-02
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-03
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-04
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-05
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-06
-      - TG@mfbpn-🇯🇵 Pro-日本-BGP-07
-      - TG@mfbpn-🇯🇵 Global-日本01-海外客户专用
-      - TG@mfbpn-🇯🇵 Global-日本02-海外客户专用
-      - TG@mfbpn-🇯🇵 Global-日本03-海外客户专用
+      - 🇯🇵 Basic-日本-BGP-01
+      - 🇯🇵 Basic-日本-BGP-02
+      - 🇯🇵 Pro-日本-BGP-01
+      - 🇯🇵 Pro-日本-BGP-02
+      - 🇯🇵 Pro-日本-BGP-03
+      - 🇯🇵 Pro-日本-BGP-04
+      - 🇯🇵 Pro-日本-BGP-05
+      - 🇯🇵 Pro-日本-BGP-06
+      - 🇯🇵 Pro-日本-BGP-07
+      - 🇯🇵 Global-日本01-海外客户专用
+      - 🇯🇵 Global-日本02-海外客户专用
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - www.dongtaiwang.com 洛杉矶
-      - www.dongtaiwang.com+洛杉矶
-      - 🇺🇸_US_美国_11
       - 🇺🇸US|美国01
       - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇰🇷_KR_韩国->🇺🇸_US_美国_1
-      - 🇰🇷_KR_韩国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_2_2
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-01
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-02
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-03
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-04
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-05
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-06
-      - TG@mfbpn-🇺🇲 Basic-美国-BGP-07
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-01
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-02
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-03
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-04
-      - TG@mfbpn-🇺🇲 Pro-美国-BGP-05
-      - TG@mfbpn-🇺🇲 Global-美国01-海外客户专用
-      - TG@mfbpn-🇺🇲 Global-美国02-海外客户专用
+      - 🇺🇲 Pro-美国-BGP-01
+      - 🇺🇲 Pro-美国-BGP-02
+      - 🇺🇲 Pro-美国-BGP-03
+      - 🇺🇲 Pro-美国-BGP-04
+      - 🇺🇲 Pro-美国-BGP-05
+      - 🇺🇲 Global-美国01-海外客户专用
+      - 🇺🇲 Global-美国02-海外客户专用
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -723,15 +605,11 @@ proxy-groups:
     proxies:
       - 🇨🇳TW|台湾01
       - 🇨🇳TW|台湾04
-      - TG@mfbpn-🇹🇼 Basic-台湾-BGP-01
-      - TG@mfbpn-🇹🇼 Basic-台湾-ChatGPT-01
-      - TG@mfbpn-🇹🇼 Basic-台湾-家庭宽带-01
-      - TG@mfbpn-🇹🇼 Pro-台湾-BGP-01
-      - TG@mfbpn-🇹🇼 Pro-台湾-BGP-02
-      - TG@mfbpn-🇹🇼 Pro-台湾-BGP-03
-      - TG@mfbpn-🇹🇼 Pro-台湾-家庭宽带-01
-      - TG@mfbpn-🇹🇼 Pro-台湾-家庭宽带-02
-      - TG@mfbpn-🇹🇼 Global-台湾01-海外客户专用
+      - 🇹🇼 Basic-台湾-家庭宽带-01
+      - 🇹🇼 Pro-台湾-BGP-01
+      - 🇹🇼 Pro-台湾-BGP-02
+      - 🇹🇼 Pro-台湾-BGP-03
+      - 🇹🇼 Pro-台湾-家庭宽带-01
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -739,23 +617,19 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇸🇬_SG_新加坡_11
-      - 🇭🇰_HK_香港->🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - TG@mfbpn-🇸🇬 Basic-新加坡-BGP-01
-      - TG@mfbpn-🇸🇬 Pro-新加坡-BGP-01
-      - TG@mfbpn-🇸🇬 Pro-新加坡-BGP-02
-      - TG@mfbpn-🇸🇬 Pro-新加坡-BGP-03
-      - TG@mfbpn-🇸🇬 Pro-新加坡-BGP-04
+      - 🇸🇬 Basic-新加坡-BGP-01
+      - 🇸🇬 Pro-新加坡-BGP-01
+      - 🇸🇬 Pro-新加坡-BGP-02
+      - 🇸🇬 Pro-新加坡-BGP-03
+      - 🇸🇬 Pro-新加坡-BGP-04
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷_KR_韩国->🇺🇸_US_美国_1
-      - 🇰🇷_KR_韩国->🇺🇸_US_美国_2
-      - TG@mfbpn-🇰🇷 游戏节点-Pro-韩国
-      - TG@mfbpn-🇰🇷 韩国-Pro-01
+      - 🇰🇷 游戏节点-Pro-韩国
+      - 🇰🇷 韩国-Pro-01
   - name: 🎥 奈飞节点
     type: select
     proxies:
