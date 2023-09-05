@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-05 10:05:18
+# 创建时间：2023-09-05 10:38:28
 # 使用模版：ACL4SSR_Online_Full.ini
-# 节点数量：56
+# 节点数量：37
 # 节点类型：ssr, ss, trojan, vmess
 ####################################
 mixed-port: 7890
@@ -163,25 +163,6 @@ proxy-groups:
       - 美国 01
       - 香港 13
       - '日本 09 '
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
       - 🇭🇰_HK_香港->🇺🇸_US_美国_1
       - 🇭🇰_HK_香港_1
       - 🇭🇰_HK_香港->🇺🇸_US_美国_2
@@ -225,25 +206,6 @@ proxy-groups:
       - 美国 01
       - 香港 13
       - '日本 09 '
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
       - 🇭🇰_HK_香港->🇺🇸_US_美国_1
       - 🇭🇰_HK_香港_1
       - 🇭🇰_HK_香港->🇺🇸_US_美国_2
