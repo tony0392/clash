@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-05 11:33:40
+# 创建时间：2023-09-05 11:41:50
 # 使用模版：ACL4SSR_Online_Full.ini
-# 节点数量：38
+# 节点数量：29
 # 节点类型：ssr, ss, vmess, trojan
 ####################################
 mixed-port: 7890
@@ -88,7 +88,7 @@ dns:
 proxies:
   - {"name":"www.dongtaiwang.com 洛杉矶","type":"ssr","server":"t3.freegradely.xyz","port":22222,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
   - {"name":"www.dongtaiwang.com+洛杉矶","type":"ss","server":"www.dongtaiwang4.com","port":33008,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-  - {"name":"美国","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"87a95522-985c-4a17-afea-9b7d7208bce5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"3.freek1.xyz"}}}
+  - {"name":"🇺🇸_US_美国_11","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"87a95522-985c-4a17-afea-9b7d7208bce5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"3.freek1.xyz"}}}
   - {"name":"🇯🇵_JP_日本_11","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本_22","type":"trojan","server":"gsawshk2.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本_33","type":"trojan","server":"gsawsjp2.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
@@ -96,21 +96,12 @@ proxies:
   - {"name":"🇯🇵_JP_日本_55","type":"trojan","server":"gsawsjp1.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本_66","type":"trojan","server":"kbawsjp1.aiopen.cfd","port":443,"udp":true,"password":"343f9a0c-494e-4c23-8adc-afb3f75c1294","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬_SG_新加坡_11","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
-  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_1","type":"ss","server":"dx.ktmwan.top","port":27260,"password":"7259df62-a22e-4425-8fd0-c499c9362d99","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_2","type":"ss","server":"yd.ktmwan.top","port":27260,"password":"7259df62-a22e-4425-8fd0-c499c9362d99","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇰🇷_KR_韩国","type":"ss","server":"xiongda006.daxiongda.top","port":23333,"password":"70a93fcb-f8c0-4916-96b5-8c54f3394708","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇰HK|香港01","type":"ss","server":"zjcm.themars.top","port":23000,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇰HK|香港06","type":"ss","server":"gdcm.themars.top","port":33002,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇯🇵JP|日本01","type":"ss","server":"zjcm.themars.top","port":23003,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US|美国01","type":"ss","server":"zjcm.themars.top","port":23007,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇳TW|台湾01","type":"ss","server":"zjcm.themars.top","port":23009,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇳TW|台湾04","type":"ss","server":"gdcm.themars.top","port":33010,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港 02","type":"ss","server":"cn1.laomao2.xyz","port":30002,"password":"28d8bfdf-0010-4907-88af-fb7a55df2225","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本 01","type":"ss","server":"cn1.laomao2.xyz","port":30101,"password":"28d8bfdf-0010-4907-88af-fb7a55df2225","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡 09","type":"ss","server":"cn1.laomao2.xyz","port":30409,"password":"28d8bfdf-0010-4907-88af-fb7a55df2225","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国 01","type":"ss","server":"cn1.laomao2.xyz","port":30201,"password":"28d8bfdf-0010-4907-88af-fb7a55df2225","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港 13","type":"ss","server":"cn1.laomao2.xyz","port":30013,"password":"28d8bfdf-0010-4907-88af-fb7a55df2225","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本 09 ","type":"ss","server":"cn1.laomao2.xyz","port":30109,"password":"28d8bfdf-0010-4907-88af-fb7a55df2225","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇰_HK_香港->🇺🇸_US_美国_1","type":"vmess","server":"103.160.204.36","port":80,"cipher":"auto","uuid":"86d6d87f-497e-4be5-c30b-fb7c4eb78096","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"12.wyhkaa0.gq"}}}
   - {"name":"🇭🇰_HK_香港_1","type":"vmess","server":"103.160.204.215","port":80,"cipher":"auto","uuid":"2076a20e-5912-42d2-fc2e-e9d7580dbc7d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"6.wyhkaa0.gq"}}}
   - {"name":"🇭🇰_HK_香港->🇺🇸_US_美国_2","type":"vmess","server":"103.160.204.12","port":80,"cipher":"auto","uuid":"85e92153-91c7-4c1b-c4a4-6157b1706f7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"13.wyhkaa0.gq"}}}
@@ -142,7 +133,7 @@ proxy-groups:
     proxies:
       - www.dongtaiwang.com 洛杉矶
       - www.dongtaiwang.com+洛杉矶
-      - 美国
+      - 🇺🇸_US_美国_11
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
@@ -150,21 +141,12 @@ proxy-groups:
       - 🇯🇵_JP_日本_55
       - 🇯🇵_JP_日本_66
       - 🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
-      - 🇰🇷_KR_韩国
       - 🇭🇰HK|香港01
       - 🇭🇰HK|香港06
       - 🇯🇵JP|日本01
       - 🇺🇸US|美国01
       - 🇨🇳TW|台湾01
       - 🇨🇳TW|台湾04
-      - 香港 02
-      - 日本 01
-      - 新加坡 09
-      - 美国 01
-      - 香港 13
-      - '日本 09 '
       - 🇭🇰_HK_香港->🇺🇸_US_美国_1
       - 🇭🇰_HK_香港_1
       - 🇭🇰_HK_香港->🇺🇸_US_美国_2
@@ -186,7 +168,7 @@ proxy-groups:
     proxies:
       - www.dongtaiwang.com 洛杉矶
       - www.dongtaiwang.com+洛杉矶
-      - 美国
+      - 🇺🇸_US_美国_11
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
@@ -194,21 +176,12 @@ proxy-groups:
       - 🇯🇵_JP_日本_55
       - 🇯🇵_JP_日本_66
       - 🇸🇬_SG_新加坡_11
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
-      - 🇰🇷_KR_韩国
       - 🇭🇰HK|香港01
       - 🇭🇰HK|香港06
       - 🇯🇵JP|日本01
       - 🇺🇸US|美国01
       - 🇨🇳TW|台湾01
       - 🇨🇳TW|台湾04
-      - 香港 02
-      - 日本 01
-      - 新加坡 09
-      - 美国 01
-      - 香港 13
-      - '日本 09 '
       - 🇭🇰_HK_香港->🇺🇸_US_美国_1
       - 🇭🇰_HK_香港_1
       - 🇭🇰_HK_香港->🇺🇸_US_美国_2
@@ -413,8 +386,6 @@ proxy-groups:
     proxies:
       - 🇭🇰HK|香港01
       - 🇭🇰HK|香港06
-      - 香港 02
-      - 香港 13
       - 🇭🇰_HK_香港->🇺🇸_US_美国_1
       - 🇭🇰_HK_香港_1
       - 🇭🇰_HK_香港->🇺🇸_US_美国_2
@@ -432,8 +403,6 @@ proxy-groups:
       - 🇯🇵_JP_日本_55
       - 🇯🇵_JP_日本_66
       - 🇯🇵JP|日本01
-      - 日本 01
-      - '日本 09 '
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -442,9 +411,8 @@ proxy-groups:
     proxies:
       - www.dongtaiwang.com 洛杉矶
       - www.dongtaiwang.com+洛杉矶
-      - 美国
+      - 🇺🇸_US_美国_11
       - 🇺🇸US|美国01
-      - 美国 01
       - 🇭🇰_HK_香港->🇺🇸_US_美国_1
       - 🇭🇰_HK_香港->🇺🇸_US_美国_2
       - 🇺🇸_US_美国->🇻🇳_VN_越南
@@ -460,8 +428,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_1
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾_2
       - 🇨🇳TW|台湾01
       - 🇨🇳TW|台湾04
   - name: 🇸🇬 狮城节点
@@ -471,14 +437,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇸🇬_SG_新加坡_11
-      - 新加坡 09
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷_KR_韩国
       - 🇰🇷_KR_韩国->🇺🇸_US_美国
   - name: 🎥 奈飞节点
     type: select
