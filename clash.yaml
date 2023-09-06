@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-05 16:04:58
+# 创建时间：2023-09-06 08:16:44
 # 使用模版：ACL4SSR_Online_Full.ini
-# 节点数量：72
-# 节点类型：trojan, vmess, ss, ssr
+# 节点数量：16
+# 节点类型：ssr, ss, vmess, trojan
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -86,78 +86,22 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"name":"www.dongtaiwang.com 洛杉矶","type":"ssr","server":"t3.freegradely.xyz","port":22222,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
+  - {"name":"www.dongtaiwang.com+洛杉矶","type":"ss","server":"www.dongtaiwang4.com","port":33008,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"美国","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"87a95522-985c-4a17-afea-9b7d7208bce5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"3.freek1.xyz"}}}
   - {"name":"🇯🇵_JP_日本_11","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本_22","type":"trojan","server":"gsawsjp1.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本_33","type":"trojan","server":"kbawsjp1.aiopen.cfd","port":443,"udp":true,"password":"343f9a0c-494e-4c23-8adc-afb3f75c1294","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_44","type":"vmess","server":"word.1.1.fuckword.club","port":50001,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_55","type":"vmess","server":"word.18.fuckword.club","port":58417,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_66","type":"vmess","server":"word.2.fuckword.club","port":50187,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_77","type":"vmess","server":"word.2.fuckword.club","port":50188,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_88","type":"vmess","server":"word.2.fuckword.club","port":50189,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_99","type":"vmess","server":"word.12.1.fuckword.club","port":50191,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_00","type":"vmess","server":"2.9.0.fuckppppp.today","port":50192,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_10","type":"vmess","server":"1.5.1.fuckppppp.today","port":50810,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_20","type":"vmess","server":"3.2.1.fuckppppp.today","port":60302,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_30","type":"ss","server":"zjcm.themars.top","port":23003,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰_HK_香港_11","type":"vmess","server":"6.hk.zz.xxxxx.x-t-fuckword.network","port":49120,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_22","type":"vmess","server":"hkbgp.cdn.123.network-cdn-gw-zz.com","port":34794,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_33","type":"vmess","server":"1.hk.zz.xxxxx.x-t-fuckword.network","port":36672,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_44","type":"vmess","server":"2.7.1.fuckppppp.today","port":50882,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_55","type":"vmess","server":"3.jp.zz.xxxxx.x-t-fuckword.network","port":36675,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_66","type":"vmess","server":"hkbgp.0111.tg.network-cdn-gw-zz.com","port":34795,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_JP_日本_44","type":"ss","server":"zjcm.themars.top","port":23003,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇰_HK_香港_77","type":"vmess","server":"4.3.1.fuckppppp.today","port":58418,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_88","type":"vmess","server":"gb1.v2.zz.cn.fuckword.club","port":47836,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_99","type":"vmess","server":"2.jp.zz.xxxxx.x-t-fuckword.network","port":36671,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_00","type":"vmess","server":"2.sg.zz.xxxxx.x-t-fuckword.network","port":60301,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_10","type":"vmess","server":"2.hk.zz.xxxxx.x-t-fuckword.network","port":35419,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_20","type":"vmess","server":"hk1.v2.zz.cn.fuckword.club","port":49511,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_30","type":"vmess","server":"hk2.v2.zz.cn.fuckword.club","port":49112,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰_HK_香港_40","type":"vmess","server":"2.8.1.fuckppppp.today","port":20000,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰_HK_香港_50","type":"vmess","server":"2.3.1.fuckppppp.today","port":50000,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_60","type":"vmess","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":36154,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_70","type":"vmess","server":"iplc-9-8-7-6-5-4-3-2-1.001.zz.fuckword.club","port":53941,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰_HK_香港_80","type":"vmess","server":"hk2.v3.zz.cn.fuckword.club","port":47835,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_90","type":"vmess","server":"7.hk.zz.xxxxx.x-t-fuckword.network","port":58416,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_12","type":"vmess","server":"hk1.v3.zz.cn.fuckword.club","port":47605,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_13","type":"vmess","server":"hkt01.hk.zz.xxxxx.x-t-fuckword.network","port":56812,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_14","type":"vmess","server":"5.hk.zz.xxxxx.x-t-fuckword.network","port":36690,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_15","type":"vmess","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":36679,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港_16","type":"vmess","server":"word.10.1.fuckword.club","port":20001,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰_HK_香港_17","type":"ss","server":"zjcm.themars.top","port":23000,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇰_HK_香港_18","type":"ss","server":"gdcm.themars.top","port":33002,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼_TW_台湾_11","type":"vmess","server":"tw1.v3.zz.cn.fuckword.club","port":49111,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇼_TW_台湾_22","type":"vmess","server":"1.tw.zz.xxxxx.x-t-fuckword.network","port":53137,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇼_TW_台湾_33","type":"vmess","server":"2.tw.zz.xxxxx.x-t-fuckword.network","port":49484,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇼_TW_台湾_44","type":"vmess","server":"game.hk.udp.01.fuckword.club","port":60317,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇼_TW_台湾_55","type":"vmess","server":"5.jp.zz.xxxxx.x-t-fuckword.network","port":48752,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇹🇼_TW_台湾_66","type":"ss","server":"zjcm.themars.top","port":23009,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇼_TW_台湾_77","type":"ss","server":"gdcm.themars.top","port":33010,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬_SG_新加坡_11","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
-  - {"name":"🇸🇬_SG_新加坡_22","type":"vmess","server":"sg1.v3.zz.cn.fuckword.club","port":47533,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_SG_新加坡_33","type":"vmess","server":"sg2.v3.zz.cn.fuckword.club","port":47534,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_SG_新加坡_44","type":"vmess","server":"word.13.1.fuckword.club","port":53127,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_SG_新加坡_55","type":"vmess","server":"2.game.speed.zz.001.oooooooooo.icu","port":53945,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_SG_新加坡_66","type":"vmess","server":"1.kr.zz.xxxxx.x-t-fuckword.network","port":36676,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_11","type":"vmess","server":"1.us.zz.xxxxx.x-t-fuckword.network","port":36677,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_22","type":"vmess","server":"us4.v2.zz.cn.fuckword.club","port":23009,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_33","type":"vmess","server":"us2.v3.zz.cn.fuckword.club","port":58420,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_44","type":"vmess","server":"word.14.1.fuckword.club","port":48861,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_55","type":"vmess","server":"us05.cn.network-cdn-gw-zz.com","port":60300,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/game","headers":{"host":"us05.cn.network-cdn-gw-zz.com"}}}
   - {"name":"🇺🇸_US_美国_66","type":"ss","server":"zjcm.themars.top","port":23007,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国_77","type":"vmess","server":"171.22.116.45","port":36709,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_88","type":"vmess","server":"45.199.138.188","port":30008,"cipher":"auto","uuid":"4ec0ae62-de09-4029-904a-0313d4628ecf","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷_KR_韩国_11","type":"vmess","server":"2.1.1.fuckppppp.today","port":50109,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷_KR_韩国_22","type":"vmess","server":"ar2.v3.zz.cn.fuckword.club","port":50111,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇷_FR_法国","type":"vmess","server":"df56-3fs2-4g4v-4hvc-fg34.df4b-gbn5-bn45-drbv-4bws-7865-hj74.ghfd-45gf-45hg.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work","port":34765,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇦🇷_AR_阿根廷","type":"vmess","server":"1.ar.zz.xxxxx.x-t-fuckword.network","port":64141,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇷🇺_RU_俄罗斯","type":"vmess","server":"word.2.fuckword.club","port":50193,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇷_TR_土耳其","type":"vmess","server":"4.game.speed.zz.001.oooooooooo.icu","port":25842,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪_DE_德国","type":"vmess","server":"1.mo.zz.xxxxx.x-t-fuckword.network","port":53943,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇭_TH_泰国","type":"vmess","server":"3.0.1.fuckppppp.today","port":48414,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇳_IN_印度","type":"vmess","server":"in-game.1.fuckword.club","port":53845,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇬🇧_GB_英国","type":"vmess","server":"3.8.1.fuckppppp.today","port":53125,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇻🇳_VN_越南","type":"vmess","server":"fr1.v3.zz.cn.fuckword.club","port":47606,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇲🇾_MY_马来西亚","type":"vmess","server":"3.game.speed.zz.001.oooooooooo.icu","port":25841,"cipher":"auto","uuid":"fd8023ea-8a91-3351-aace-905f3b4a3d6e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -174,156 +118,44 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - www.dongtaiwang.com 洛杉矶
+      - www.dongtaiwang.com+洛杉矶
+      - 美国
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
       - 🇯🇵_JP_日本_44
-      - 🇯🇵_JP_日本_55
-      - 🇯🇵_JP_日本_66
-      - 🇯🇵_JP_日本_77
-      - 🇯🇵_JP_日本_88
-      - 🇯🇵_JP_日本_99
-      - 🇯🇵_JP_日本_00
-      - 🇯🇵_JP_日本_10
-      - 🇯🇵_JP_日本_20
-      - 🇯🇵_JP_日本_30
-      - 🇭🇰_HK_香港_11
-      - 🇭🇰_HK_香港_22
-      - 🇭🇰_HK_香港_33
-      - 🇭🇰_HK_香港_44
-      - 🇭🇰_HK_香港_55
-      - 🇭🇰_HK_香港_66
       - 🇭🇰_HK_香港_77
-      - 🇭🇰_HK_香港_88
-      - 🇭🇰_HK_香港_99
-      - 🇭🇰_HK_香港_00
-      - 🇭🇰_HK_香港_10
-      - 🇭🇰_HK_香港_20
-      - 🇭🇰_HK_香港_30
       - 🇭🇰_HK_香港_40
       - 🇭🇰_HK_香港_50
-      - 🇭🇰_HK_香港_60
-      - 🇭🇰_HK_香港_70
       - 🇭🇰_HK_香港_80
-      - 🇭🇰_HK_香港_90
-      - 🇭🇰_HK_香港_12
-      - 🇭🇰_HK_香港_13
-      - 🇭🇰_HK_香港_14
-      - 🇭🇰_HK_香港_15
-      - 🇭🇰_HK_香港_16
       - 🇭🇰_HK_香港_17
       - 🇭🇰_HK_香港_18
-      - 🇹🇼_TW_台湾_11
-      - 🇹🇼_TW_台湾_22
-      - 🇹🇼_TW_台湾_33
-      - 🇹🇼_TW_台湾_44
-      - 🇹🇼_TW_台湾_55
       - 🇹🇼_TW_台湾_66
       - 🇹🇼_TW_台湾_77
-      - 🇸🇬_SG_新加坡_11
-      - 🇸🇬_SG_新加坡_22
-      - 🇸🇬_SG_新加坡_33
-      - 🇸🇬_SG_新加坡_44
-      - 🇸🇬_SG_新加坡_55
-      - 🇸🇬_SG_新加坡_66
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_55
       - 🇺🇸_US_美国_66
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_88
-      - 🇰🇷_KR_韩国_11
-      - 🇰🇷_KR_韩国_22
-      - 🇫🇷_FR_法国
-      - 🇦🇷_AR_阿根廷
-      - 🇷🇺_RU_俄罗斯
-      - 🇹🇷_TR_土耳其
-      - 🇩🇪_DE_德国
-      - 🇹🇭_TH_泰国
-      - 🇮🇳_IN_印度
-      - 🇬🇧_GB_英国
-      - 🇻🇳_VN_越南
-      - 🇲🇾_MY_马来西亚
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - www.dongtaiwang.com 洛杉矶
+      - www.dongtaiwang.com+洛杉矶
+      - 美国
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
       - 🇯🇵_JP_日本_44
-      - 🇯🇵_JP_日本_55
-      - 🇯🇵_JP_日本_66
-      - 🇯🇵_JP_日本_77
-      - 🇯🇵_JP_日本_88
-      - 🇯🇵_JP_日本_99
-      - 🇯🇵_JP_日本_00
-      - 🇯🇵_JP_日本_10
-      - 🇯🇵_JP_日本_20
-      - 🇯🇵_JP_日本_30
-      - 🇭🇰_HK_香港_11
-      - 🇭🇰_HK_香港_22
-      - 🇭🇰_HK_香港_33
-      - 🇭🇰_HK_香港_44
-      - 🇭🇰_HK_香港_55
-      - 🇭🇰_HK_香港_66
       - 🇭🇰_HK_香港_77
-      - 🇭🇰_HK_香港_88
-      - 🇭🇰_HK_香港_99
-      - 🇭🇰_HK_香港_00
-      - 🇭🇰_HK_香港_10
-      - 🇭🇰_HK_香港_20
-      - 🇭🇰_HK_香港_30
       - 🇭🇰_HK_香港_40
       - 🇭🇰_HK_香港_50
-      - 🇭🇰_HK_香港_60
-      - 🇭🇰_HK_香港_70
       - 🇭🇰_HK_香港_80
-      - 🇭🇰_HK_香港_90
-      - 🇭🇰_HK_香港_12
-      - 🇭🇰_HK_香港_13
-      - 🇭🇰_HK_香港_14
-      - 🇭🇰_HK_香港_15
-      - 🇭🇰_HK_香港_16
       - 🇭🇰_HK_香港_17
       - 🇭🇰_HK_香港_18
-      - 🇹🇼_TW_台湾_11
-      - 🇹🇼_TW_台湾_22
-      - 🇹🇼_TW_台湾_33
-      - 🇹🇼_TW_台湾_44
-      - 🇹🇼_TW_台湾_55
       - 🇹🇼_TW_台湾_66
       - 🇹🇼_TW_台湾_77
-      - 🇸🇬_SG_新加坡_11
-      - 🇸🇬_SG_新加坡_22
-      - 🇸🇬_SG_新加坡_33
-      - 🇸🇬_SG_新加坡_44
-      - 🇸🇬_SG_新加坡_55
-      - 🇸🇬_SG_新加坡_66
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_55
       - 🇺🇸_US_美国_66
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_88
-      - 🇰🇷_KR_韩国_11
-      - 🇰🇷_KR_韩国_22
-      - 🇫🇷_FR_法国
-      - 🇦🇷_AR_阿根廷
-      - 🇷🇺_RU_俄罗斯
-      - 🇹🇷_TR_土耳其
-      - 🇩🇪_DE_德国
-      - 🇹🇭_TH_泰国
-      - 🇮🇳_IN_印度
-      - 🇬🇧_GB_英国
-      - 🇻🇳_VN_越南
-      - 🇲🇾_MY_马来西亚
   - name: 📲 电报消息
     type: select
     proxies:
@@ -513,30 +345,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰_HK_香港_11
-      - 🇭🇰_HK_香港_22
-      - 🇭🇰_HK_香港_33
-      - 🇭🇰_HK_香港_44
-      - 🇭🇰_HK_香港_55
-      - 🇭🇰_HK_香港_66
       - 🇭🇰_HK_香港_77
-      - 🇭🇰_HK_香港_88
-      - 🇭🇰_HK_香港_99
-      - 🇭🇰_HK_香港_00
-      - 🇭🇰_HK_香港_10
-      - 🇭🇰_HK_香港_20
-      - 🇭🇰_HK_香港_30
       - 🇭🇰_HK_香港_40
       - 🇭🇰_HK_香港_50
-      - 🇭🇰_HK_香港_60
-      - 🇭🇰_HK_香港_70
       - 🇭🇰_HK_香港_80
-      - 🇭🇰_HK_香港_90
-      - 🇭🇰_HK_香港_12
-      - 🇭🇰_HK_香港_13
-      - 🇭🇰_HK_香港_14
-      - 🇭🇰_HK_香港_15
-      - 🇭🇰_HK_香港_16
       - 🇭🇰_HK_香港_17
       - 🇭🇰_HK_香港_18
   - name: 🇯🇵 日本节点
@@ -549,40 +361,22 @@ proxy-groups:
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
       - 🇯🇵_JP_日本_44
-      - 🇯🇵_JP_日本_55
-      - 🇯🇵_JP_日本_66
-      - 🇯🇵_JP_日本_77
-      - 🇯🇵_JP_日本_88
-      - 🇯🇵_JP_日本_99
-      - 🇯🇵_JP_日本_00
-      - 🇯🇵_JP_日本_10
-      - 🇯🇵_JP_日本_20
-      - 🇯🇵_JP_日本_30
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_55
+      - www.dongtaiwang.com 洛杉矶
+      - www.dongtaiwang.com+洛杉矶
+      - 美国
       - 🇺🇸_US_美国_66
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_88
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇹🇼_TW_台湾_11
-      - 🇹🇼_TW_台湾_22
-      - 🇹🇼_TW_台湾_33
-      - 🇹🇼_TW_台湾_44
-      - 🇹🇼_TW_台湾_55
       - 🇹🇼_TW_台湾_66
       - 🇹🇼_TW_台湾_77
   - name: 🇸🇬 狮城节点
@@ -591,20 +385,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬_SG_新加坡_11
-      - 🇸🇬_SG_新加坡_22
-      - 🇸🇬_SG_新加坡_33
-      - 🇸🇬_SG_新加坡_44
-      - 🇸🇬_SG_新加坡_55
-      - 🇸🇬_SG_新加坡_66
+      - DIRECT
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷_KR_韩国_11
-      - 🇰🇷_KR_韩国_22
+      - DIRECT
   - name: 🎥 奈飞节点
     type: select
     proxies:
