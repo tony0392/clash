@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-06 08:16:44
+# 创建时间：2023-09-06 08:27:28
 # 使用模版：ACL4SSR_Online_Full.ini
-# 节点数量：16
+# 节点数量：44
 # 节点类型：ssr, ss, vmess, trojan
 ####################################
 mixed-port: 7890
@@ -88,7 +88,7 @@ dns:
 proxies:
   - {"name":"www.dongtaiwang.com 洛杉矶","type":"ssr","server":"t3.freegradely.xyz","port":22222,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
   - {"name":"www.dongtaiwang.com+洛杉矶","type":"ss","server":"www.dongtaiwang4.com","port":33008,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-  - {"name":"美国","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"87a95522-985c-4a17-afea-9b7d7208bce5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"3.freek1.xyz"}}}
+  - {"name":"美国","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"87a95522-985c-4a17-afea-9b7d7208bce5","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"3.freek1.xyz"}}}
   - {"name":"🇯🇵_JP_日本_11","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本_22","type":"trojan","server":"gsawsjp1.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本_33","type":"trojan","server":"kbawsjp1.aiopen.cfd","port":443,"udp":true,"password":"343f9a0c-494e-4c23-8adc-afb3f75c1294","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
@@ -102,6 +102,34 @@ proxies:
   - {"name":"🇹🇼_TW_台湾_66","type":"ss","server":"zjcm.themars.top","port":23009,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇼_TW_台湾_77","type":"ss","server":"gdcm.themars.top","port":33010,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_美国_66","type":"ss","server":"zjcm.themars.top","port":23007,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"剩余流量：97 GB","type":"ss","server":"gdcm.xmk.me","port":10013,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"距离下次重置剩余：24 天","type":"ss","server":"gdcm.xmk.me","port":10013,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"套餐到期：2023-12-05","type":"ss","server":"gdcm.xmk.me","port":10013,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"移动丨HK丨01丨E「已优化」","type":"ss","server":"gdcm.xmk.me","port":10013,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"移动丨HK丨03丨E「已优化」","type":"ss","server":"gdcm2.xmk.me","port":28880,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"联通丨JP丨02丨V.ps「已优化」","type":"ss","server":"gxlt.mqs.xyz","port":50055,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"联通丨JP丨03丨V.ps「已优化」","type":"vmess","server":"gxlt.mqs.xyz","port":35723,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"移动丨SG丨04丨AWS「已优化」","type":"ss","server":"gdcm.xmk.me","port":10020,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"aes-128-gcm"}
+  - {"name":"移动丨SG丨01丨O「已优化」","type":"vmess","server":"gdcm.xmk.me","port":10011,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"联通丨JP丨10丨O「已优化」","type":"vmess","server":"gxlt.mqs.xyz","port":48897,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"联通丨JP丨09丨O「已优化」","type":"vmess","server":"gxlt.mqs.xyz","port":50004,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"联通丨JP丨00丨AWS「待测试」","type":"ss","server":"gxlt.mqs.xyz","port":50012,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"aes-128-gcm"}
+  - {"name":"联通丨SG丨03丨AWS「已优化」","type":"ss","server":"gxlt.mqs.xyz","port":50011,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"台湾机（密码改成aa112233）\r","type":"ss","server":"tw.dyj.me","port":50005,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"aes-128-gcm"}
+  - {"name":"联通丨KR丨02丨O「待测试」","type":"vmess","server":"gxlt.mqs.xyz","port":50024,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"广港丨HK丨05丨Re「已优化」","type":"ss","server":"gdcm.xmk.me","port":42321,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"aes-128-gcm"}
+  - {"name":"直连丨HK丨09丨AZ「维护」","type":"vmess","server":"gdcm.xmk.me","port":28895,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"移动丨HK丨14丨「已优化」","type":"vmess","server":"gdcm.xmk.me","port":10014,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"移动丨HK丨10丨DV「已优化」","type":"vmess","server":"gdcm2.xmk.me","port":61605,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"广港丨HK丨11丨Az","type":"vmess","server":"gdcm.xmk.me","port":50001,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"广移丨JP丨01丨Osaka「待测试」","type":"ss","server":"gxlt.mqs.xyz","port":28811,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"aes-128-gcm"}
+  - {"name":"广港丨SG丨02丨Tencent「已优化」","type":"vmess","server":"gdcm.xmk.me","port":10006,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"联通丨JP丨05丨O「已优化」","type":"vmess","server":"gxlt.mqs.xyz","port":28992,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"联通丨KR丨01丨O「已优化」\r","type":"ss","server":"gxlt.mqs.xyz","port":50022,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"直连丨KR丨02丨O「待测试」","type":"vmess","server":"146.56.43.86","port":28894,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"直连丨非洲丨01丨Justg","type":"vmess","server":"102.223.72.49","port":38999,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"转发丨Los丨Vir","type":"vmess","server":"47.87.188.164","port":55556,"cipher":"auto","uuid":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"广港丨TR丨01丨istanbul「已优化」\r","type":"ss","server":"gdcm.xmk.me","port":10004,"password":"26bffd33-8351-4e22-ba5c-3fdc97a98bfc","cipher":"aes-128-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -134,6 +162,34 @@ proxy-groups:
       - 🇹🇼_TW_台湾_66
       - 🇹🇼_TW_台湾_77
       - 🇺🇸_US_美国_66
+      - 剩余流量：97 GB
+      - 距离下次重置剩余：24 天
+      - 套餐到期：2023-12-05
+      - 移动丨HK丨01丨E「已优化」
+      - 移动丨HK丨03丨E「已优化」
+      - 联通丨JP丨02丨V.ps「已优化」
+      - 联通丨JP丨03丨V.ps「已优化」
+      - 移动丨SG丨04丨AWS「已优化」
+      - 移动丨SG丨01丨O「已优化」
+      - 联通丨JP丨10丨O「已优化」
+      - 联通丨JP丨09丨O「已优化」
+      - 联通丨JP丨00丨AWS「待测试」
+      - 联通丨SG丨03丨AWS「已优化」
+      - "台湾机（密码改成aa112233）\r"
+      - 联通丨KR丨02丨O「待测试」
+      - 广港丨HK丨05丨Re「已优化」
+      - 直连丨HK丨09丨AZ「维护」
+      - 移动丨HK丨14丨「已优化」
+      - 移动丨HK丨10丨DV「已优化」
+      - 广港丨HK丨11丨Az
+      - 广移丨JP丨01丨Osaka「待测试」
+      - 广港丨SG丨02丨Tencent「已优化」
+      - 联通丨JP丨05丨O「已优化」
+      - "联通丨KR丨01丨O「已优化」\r"
+      - 直连丨KR丨02丨O「待测试」
+      - 直连丨非洲丨01丨Justg
+      - 转发丨Los丨Vir
+      - "广港丨TR丨01丨istanbul「已优化」\r"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -156,6 +212,34 @@ proxy-groups:
       - 🇹🇼_TW_台湾_66
       - 🇹🇼_TW_台湾_77
       - 🇺🇸_US_美国_66
+      - 剩余流量：97 GB
+      - 距离下次重置剩余：24 天
+      - 套餐到期：2023-12-05
+      - 移动丨HK丨01丨E「已优化」
+      - 移动丨HK丨03丨E「已优化」
+      - 联通丨JP丨02丨V.ps「已优化」
+      - 联通丨JP丨03丨V.ps「已优化」
+      - 移动丨SG丨04丨AWS「已优化」
+      - 移动丨SG丨01丨O「已优化」
+      - 联通丨JP丨10丨O「已优化」
+      - 联通丨JP丨09丨O「已优化」
+      - 联通丨JP丨00丨AWS「待测试」
+      - 联通丨SG丨03丨AWS「已优化」
+      - "台湾机（密码改成aa112233）\r"
+      - 联通丨KR丨02丨O「待测试」
+      - 广港丨HK丨05丨Re「已优化」
+      - 直连丨HK丨09丨AZ「维护」
+      - 移动丨HK丨14丨「已优化」
+      - 移动丨HK丨10丨DV「已优化」
+      - 广港丨HK丨11丨Az
+      - 广移丨JP丨01丨Osaka「待测试」
+      - 广港丨SG丨02丨Tencent「已优化」
+      - 联通丨JP丨05丨O「已优化」
+      - "联通丨KR丨01丨O「已优化」\r"
+      - 直连丨KR丨02丨O「待测试」
+      - 直连丨非洲丨01丨Justg
+      - 转发丨Los丨Vir
+      - "广港丨TR丨01丨istanbul「已优化」\r"
   - name: 📲 电报消息
     type: select
     proxies:
@@ -351,6 +435,15 @@ proxy-groups:
       - 🇭🇰_HK_香港_80
       - 🇭🇰_HK_香港_17
       - 🇭🇰_HK_香港_18
+      - 移动丨HK丨01丨E「已优化」
+      - 移动丨HK丨03丨E「已优化」
+      - 广港丨HK丨05丨Re「已优化」
+      - 直连丨HK丨09丨AZ「维护」
+      - 移动丨HK丨14丨「已优化」
+      - 移动丨HK丨10丨DV「已优化」
+      - 广港丨HK丨11丨Az
+      - 广港丨SG丨02丨Tencent「已优化」
+      - "广港丨TR丨01丨istanbul「已优化」\r"
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -361,6 +454,13 @@ proxy-groups:
       - 🇯🇵_JP_日本_22
       - 🇯🇵_JP_日本_33
       - 🇯🇵_JP_日本_44
+      - 联通丨JP丨02丨V.ps「已优化」
+      - 联通丨JP丨03丨V.ps「已优化」
+      - 联通丨JP丨10丨O「已优化」
+      - 联通丨JP丨09丨O「已优化」
+      - 联通丨JP丨00丨AWS「待测试」
+      - 广移丨JP丨01丨Osaka「待测试」
+      - 联通丨JP丨05丨O「已优化」
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -379,20 +479,26 @@ proxy-groups:
     proxies:
       - 🇹🇼_TW_台湾_66
       - 🇹🇼_TW_台湾_77
+      - "台湾机（密码改成aa112233）\r"
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 移动丨SG丨04丨AWS「已优化」
+      - 移动丨SG丨01丨O「已优化」
+      - 联通丨SG丨03丨AWS「已优化」
+      - 广港丨SG丨02丨Tencent「已优化」
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 联通丨KR丨02丨O「待测试」
+      - "联通丨KR丨01丨O「已优化」\r"
+      - 直连丨KR丨02丨O「待测试」
   - name: 🎥 奈飞节点
     type: select
     proxies:
