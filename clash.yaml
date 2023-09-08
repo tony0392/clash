@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-06 14:30:12
+# 创建时间：2023-09-08 17:22:46
 # 使用模版：ACL4SSR_Online_Full.ini
-# 节点数量：40
-# 节点类型：vmess, ssr, ss, trojan
+# 节点数量：17
+# 节点类型：ssr, ss, trojan, vmess
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -86,11 +86,8 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"剩余流量：500 GB","type":"vmess","server":"us-01.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"距离下次重置剩余：24 天","type":"vmess","server":"us-01.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"套餐到期：2023-12-06","type":"vmess","server":"us-01.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
   - {"name":"www.dongtaiwang.com 洛杉矶","type":"ssr","server":"t3.freegradely.xyz","port":22222,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
-  - {"name":"www.dongtaiwang.com+洛杉矶","type":"ss","server":"www.dongtaiwang4.com","port":33008,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"www.dongtaiwang.com+洛杉矶","type":"ss","server":"www.dongtaiwang4.com","port":44221,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
   - {"name":"🇯🇵_JP_日本_11","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本_22","type":"trojan","server":"gsawsjp1.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本_33","type":"trojan","server":"kbawsjp1.aiopen.cfd","port":443,"udp":true,"password":"343f9a0c-494e-4c23-8adc-afb3f75c1294","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
@@ -106,26 +103,6 @@ proxies:
   - {"name":"🇹🇼_TW_台湾_33","type":"ss","server":"tw.dyj.me","port":50005,"password":"aa112233","cipher":"aes-128-gcm"}
   - {"name":"🇺🇸_US_美国_11","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"87a95522-985c-4a17-afea-9b7d7208bce5","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"3.freek1.xyz"}}}
   - {"name":"🇺🇸_US_美国_22","type":"ss","server":"zjcm.themars.top","port":23007,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国_33","type":"vmess","server":"us-01.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇺🇸_US_美国_44","type":"vmess","server":"go.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us-01.cloudlion.me"}}}
-  - {"name":"🇺🇸_US_美国_55","type":"vmess","server":"us-02.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇺🇸_US_美国_66","type":"vmess","server":"go.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us-02.cloudlion.me"}}}
-  - {"name":"🇺🇸_US_美国_77","type":"vmess","server":"us-03.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇺🇸_US_美国_88","type":"vmess","server":"go.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us-03.cloudlion.me"}}}
-  - {"name":"🇺🇸_US_美国_99","type":"vmess","server":"us-04.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇺🇸_US_美国_10","type":"vmess","server":"go.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us-04.cloudlion.me"}}}
-  - {"name":"🇺🇸_US_美国_20","type":"vmess","server":"us-05.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇺🇸_US_美国_30","type":"vmess","server":"go.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us-05.cloudlion.me"}}}
-  - {"name":"🇳🇱_NL_荷兰_11","type":"vmess","server":"nl-01.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇳🇱_NL_荷兰_22","type":"vmess","server":"go.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"nl-01.cloudlion.me"}}}
-  - {"name":"🇦🇺_AU_澳大利亚_11","type":"vmess","server":"au-01.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇦🇺_AU_澳大利亚_22","type":"vmess","server":"go.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"au-01.cloudlion.me"}}}
-  - {"name":"🇫🇷_FR_法国_11","type":"vmess","server":"fr-01.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇫🇷_FR_法国_22","type":"vmess","server":"go.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fr-01.cloudlion.me"}}}
-  - {"name":"🇨🇦_CA_加拿大_11","type":"vmess","server":"ca-01.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇨🇦_CA_加拿大_22","type":"vmess","server":"go.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ca-01.cloudlion.me"}}}
-  - {"name":"🇹🇷_TR_土耳其_11","type":"vmess","server":"tr-01.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇹🇷_TR_土耳其_22","type":"vmess","server":"go.cloudlion.me","port":2082,"cipher":"auto","uuid":"343ecd7b-3272-4ed4-8516-14566f676742","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tr-01.cloudlion.me"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -142,9 +119,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 剩余流量：500 GB
-      - 距离下次重置剩余：24 天
-      - 套餐到期：2023-12-06
       - www.dongtaiwang.com 洛杉矶
       - www.dongtaiwang.com+洛杉矶
       - 🇯🇵_JP_日本_11
@@ -162,35 +136,12 @@ proxy-groups:
       - 🇹🇼_TW_台湾_33
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_55
-      - 🇺🇸_US_美国_66
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_88
-      - 🇺🇸_US_美国_99
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_30
-      - 🇳🇱_NL_荷兰_11
-      - 🇳🇱_NL_荷兰_22
-      - 🇦🇺_AU_澳大利亚_11
-      - 🇦🇺_AU_澳大利亚_22
-      - 🇫🇷_FR_法国_11
-      - 🇫🇷_FR_法国_22
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_22
-      - 🇹🇷_TR_土耳其_11
-      - 🇹🇷_TR_土耳其_22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 剩余流量：500 GB
-      - 距离下次重置剩余：24 天
-      - 套餐到期：2023-12-06
       - www.dongtaiwang.com 洛杉矶
       - www.dongtaiwang.com+洛杉矶
       - 🇯🇵_JP_日本_11
@@ -208,26 +159,6 @@ proxy-groups:
       - 🇹🇼_TW_台湾_33
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_55
-      - 🇺🇸_US_美国_66
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_88
-      - 🇺🇸_US_美国_99
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_30
-      - 🇳🇱_NL_荷兰_11
-      - 🇳🇱_NL_荷兰_22
-      - 🇦🇺_AU_澳大利亚_11
-      - 🇦🇺_AU_澳大利亚_22
-      - 🇫🇷_FR_法国_11
-      - 🇫🇷_FR_法国_22
-      - 🇨🇦_CA_加拿大_11
-      - 🇨🇦_CA_加拿大_22
-      - 🇹🇷_TR_土耳其_11
-      - 🇹🇷_TR_土耳其_22
   - name: 📲 电报消息
     type: select
     proxies:
@@ -443,16 +374,6 @@ proxy-groups:
       - www.dongtaiwang.com+洛杉矶
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_44
-      - 🇺🇸_US_美国_55
-      - 🇺🇸_US_美国_66
-      - 🇺🇸_US_美国_77
-      - 🇺🇸_US_美国_88
-      - 🇺🇸_US_美国_99
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_30
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -467,19 +388,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies:
-      - DIRECT
+    proxies: []
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies:
-      - DIRECT
+    proxies: []
   - name: 🎥 奈飞节点
     type: select
-    proxies:
-      - DIRECT
+    proxies: []
 
 rules:
 # 本地/局域网地址
