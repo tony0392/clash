@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-09 16:46:42
+# 创建时间：2023-10-09 16:49:58
 # 使用模版：V2RaySE 默认模版
-# 节点数量：67
+# 节点数量：65
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,7 +85,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7","type":"ssr","server":"dongtaiwang5.com","port":22666,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
+  - {"name":"www.dongtaiwang.com","type":"ssr","server":"dongtaiwang5.com","port":22666,"password":"dongtaiwang.com","cipher":"dummy","obfs":"plain","protocol":"auth_chain_a"}
   - {"name":"www.dongtaiwang.com 洛杉矶","type":"ss","server":"www.dongtaiwang4.com","port":30033,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
   - {"name":"🇯🇵_JP_日本_11","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_日本_22","type":"trojan","server":"gsawsjp1.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
@@ -99,9 +99,7 @@ proxies:
   - {"name":"🇭🇰_HK_香港_66","type":"ss","server":"gdcm.themars.top","port":33002,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇼_TW_台湾_11","type":"ss","server":"zjcm.themars.top","port":23009,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇼_TW_台湾_22","type":"ss","server":"gdcm.themars.top","port":33010,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼_TW_台湾_33","type":"ss","server":"tw.dyj.me","port":50005,"password":"aa112233","cipher":"aes-128-gcm"}
-  - {"name":"🇺🇸_US_美国_11","type":"vmess","server":"dongtaiwang2.com","port":443,"cipher":"auto","uuid":"87a95522-985c-4a17-afea-9b7d7208bce5","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"3.freek1.xyz"}}}
-  - {"name":"🇺🇸_US_美国_22","type":"ss","server":"zjcm.themars.top","port":23007,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国","type":"ss","server":"zjcm.themars.top","port":23007,"password":"ea9a23f5-799c-4163-aff1-8f094d1e2eb6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"TG频道@mfbpn-香港01","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10801,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
   - {"name":"TG频道@mfbpn-香港02","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10802,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
   - {"name":"TG频道@mfbpn-香港03","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10803,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
@@ -158,7 +156,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      -   https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
@@ -172,9 +170,7 @@ proxy-groups:
       - 🇭🇰_HK_香港_66
       - 🇹🇼_TW_台湾_11
       - 🇹🇼_TW_台湾_22
-      - 🇹🇼_TW_台湾_33
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国
       - TG频道@mfbpn-香港01
       - TG频道@mfbpn-香港02
       - TG频道@mfbpn-香港03
@@ -231,7 +227,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      -   https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
@@ -245,9 +241,7 @@ proxy-groups:
       - 🇭🇰_HK_香港_66
       - 🇹🇼_TW_台湾_11
       - 🇹🇼_TW_台湾_22
-      - 🇹🇼_TW_台湾_33
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国
       - TG频道@mfbpn-香港01
       - TG频道@mfbpn-香港02
       - TG频道@mfbpn-香港03
@@ -304,7 +298,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      -   https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
@@ -318,9 +312,7 @@ proxy-groups:
       - 🇭🇰_HK_香港_66
       - 🇹🇼_TW_台湾_11
       - 🇹🇼_TW_台湾_22
-      - 🇹🇼_TW_台湾_33
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国
       - TG频道@mfbpn-香港01
       - TG频道@mfbpn-香港02
       - TG频道@mfbpn-香港03
@@ -376,7 +368,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      -   https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
@@ -390,9 +382,7 @@ proxy-groups:
       - 🇭🇰_HK_香港_66
       - 🇹🇼_TW_台湾_11
       - 🇹🇼_TW_台湾_22
-      - 🇹🇼_TW_台湾_33
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国
       - TG频道@mfbpn-香港01
       - TG频道@mfbpn-香港02
       - TG频道@mfbpn-香港03
@@ -448,7 +438,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      -   https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
@@ -462,9 +452,7 @@ proxy-groups:
       - 🇭🇰_HK_香港_66
       - 🇹🇼_TW_台湾_11
       - 🇹🇼_TW_台湾_22
-      - 🇹🇼_TW_台湾_33
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国
       - TG频道@mfbpn-香港01
       - TG频道@mfbpn-香港02
       - TG频道@mfbpn-香港03
@@ -520,7 +508,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      -   https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
@@ -534,9 +522,7 @@ proxy-groups:
       - 🇭🇰_HK_香港_66
       - 🇹🇼_TW_台湾_11
       - 🇹🇼_TW_台湾_22
-      - 🇹🇼_TW_台湾_33
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国
       - TG频道@mfbpn-香港01
       - TG频道@mfbpn-香港02
       - TG频道@mfbpn-香港03
@@ -609,7 +595,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      -   https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+      - www.dongtaiwang.com
       - www.dongtaiwang.com 洛杉矶
       - 🇯🇵_JP_日本_11
       - 🇯🇵_JP_日本_22
@@ -623,9 +609,7 @@ proxy-groups:
       - 🇭🇰_HK_香港_66
       - 🇹🇼_TW_台湾_11
       - 🇹🇼_TW_台湾_22
-      - 🇹🇼_TW_台湾_33
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国
       - TG频道@mfbpn-香港01
       - TG频道@mfbpn-香港02
       - TG频道@mfbpn-香港03
