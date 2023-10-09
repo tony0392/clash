@@ -5,127 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TG频道@mfbpn|香港01, server: tg_mfbpn_p1.52vpn.eu.org, port: 26010, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|香港02, server: tg_mfbpn_p1.52vpn.eu.org, port: 26011, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|香港03, server: tg_mfbpn_p1.52vpn.eu.org, port: 26012, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|香港04, server: tg_mfbpn_p1.52vpn.eu.org, port: 26013, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|香港05, server: tg_mfbpn_p1.52vpn.eu.org, port: 26014, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|香港06, server: tg_mfbpn_p1.52vpn.eu.org, port: 26015, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|日本01, server: tg_mfbpn_p2.52vpn.eu.org, port: 26006, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|日本02, server: tg_mfbpn_p2.52vpn.eu.org, port: 26007, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|日本03, server: tg_mfbpn_p2.52vpn.eu.org, port: 26008, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|日本04, server: tg_mfbpn_p2.52vpn.eu.org, port: 26009, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|美国01, server: tg_mfbpn_p2.52vpn.eu.org, port: 26001, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|美国02, server: tg_mfbpn_p2.52vpn.eu.org, port: 26002, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|美国03, server: tg_mfbpn_p2.52vpn.eu.org, port: 26003, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|美国04, server: tg_mfbpn_p2.52vpn.eu.org, port: 26004, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|韩国01, server: tg_mfbpn_p1.52vpn.eu.org, port: 26072, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|韩国02, server: tg_mfbpn_p1.52vpn.eu.org, port: 26073, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|韩国03, server: tg_mfbpn_p1.52vpn.eu.org, port: 26074, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|韩国04, server: tg_mfbpn_p1.52vpn.eu.org, port: 26075, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|台湾01, server: tg_mfbpn_p2.52vpn.eu.org, port: 26059, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|台湾02, server: tg_mfbpn_p2.52vpn.eu.org, port: 26060, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|台湾03, server: tg_mfbpn_p2.52vpn.eu.org, port: 26061, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|台湾04, server: tg_mfbpn_p2.52vpn.eu.org, port: 26062, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|新加坡01, server: tg_mfbpn_p1.52vpn.eu.org, port: 26020, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|新加坡02, server: tg_mfbpn_p1.52vpn.eu.org, port: 26021, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|新加坡03, server: tg_mfbpn_p1.52vpn.eu.org, port: 26022, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn|新加坡04, server: tg_mfbpn_p1.52vpn.eu.org, port: 26023, type: vmess, uuid: d40d976d-d569-3e7d-9396-132dea60cf28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 香港 01, server: tg_mfbpn_t1.52vpn.eu.org, port: 35009, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 香港 02, server: tg_mfbpn_t1.52vpn.eu.org, port: 35010, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 香港 03, server: tg_mfbpn_t1.52vpn.eu.org, port: 35011, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 香港 04, server: tg_mfbpn_t1.52vpn.eu.org, port: 35012, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 香港 05, server: tg_mfbpn_t1.52vpn.eu.org, port: 35044, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 香港 06, server: tg_mfbpn_t1.52vpn.eu.org, port: 35045, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 香港 07, server: tg_mfbpn_t1.52vpn.eu.org, port: 35001, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 香港 08, server: tg_mfbpn_t1.52vpn.eu.org, port: 35002, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 香港 09, server: tg_mfbpn_t1.52vpn.eu.org, port: 35003, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 香港 10, server: tg_mfbpn_t1.52vpn.eu.org, port: 35004, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 日本 01, server: tg_mfbpn_t2.52vpn.eu.org, port: 35005, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 日本 02, server: tg_mfbpn_t2.52vpn.eu.org, port: 35006, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 日本 03, server: tg_mfbpn_t2.52vpn.eu.org, port: 35040, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 日本 04, server: tg_mfbpn_t2.52vpn.eu.org, port: 35041, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 美国 01, server: tg_mfbpn_t2.52vpn.eu.org, port: 35019, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 美国 02, server: tg_mfbpn_t2.52vpn.eu.org, port: 35020, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 美国 03, server: tg_mfbpn_t2.52vpn.eu.org, port: 35029, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 美国 04, server: tg_mfbpn_t2.52vpn.eu.org, port: 35030, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 台湾 01, server: tg_mfbpn_t2.52vpn.eu.org, port: 35067, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 台湾 02, server: tg_mfbpn_t2.52vpn.eu.org, port: 35068, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 台湾 03, server: tg_mfbpn_t2.52vpn.eu.org, port: 35072, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 台湾 04, server: tg_mfbpn_t2.52vpn.eu.org, port: 35073, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 韩国 01, server: tg_mfbpn_t1.52vpn.eu.org, port: 35007, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 韩国 02, server: tg_mfbpn_t1.52vpn.eu.org, port: 35008, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 韩国 03, server: tg_mfbpn_t1.52vpn.eu.org, port: 35015, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 韩国 04, server: tg_mfbpn_t1.52vpn.eu.org, port: 35016, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 新加坡 01, server: tg_mfbpn_t1.52vpn.eu.org, port: 35013, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 新加坡 02, server: tg_mfbpn_t1.52vpn.eu.org, port: 35014, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 新加坡 03, server: tg_mfbpn_t1.52vpn.eu.org, port: 35048, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn | 新加坡 04, server: tg_mfbpn_t1.52vpn.eu.org, port: 35049, type: vmess, uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道@mfbpn|香港01
-      - TG频道@mfbpn|香港02
-      - TG频道@mfbpn|香港03
-      - TG频道@mfbpn|香港04
-      - TG频道@mfbpn|香港05
-      - TG频道@mfbpn|香港06
-      - TG频道@mfbpn|日本01
-      - TG频道@mfbpn|日本02
-      - TG频道@mfbpn|日本03
-      - TG频道@mfbpn|日本04
-      - TG频道@mfbpn|美国01
-      - TG频道@mfbpn|美国02
-      - TG频道@mfbpn|美国03
-      - TG频道@mfbpn|美国04
-      - TG频道@mfbpn|韩国01
-      - TG频道@mfbpn|韩国02
-      - TG频道@mfbpn|韩国03
-      - TG频道@mfbpn|韩国04
-      - TG频道@mfbpn|台湾01
-      - TG频道@mfbpn|台湾02
-      - TG频道@mfbpn|台湾03
-      - TG频道@mfbpn|台湾04
-      - TG频道@mfbpn|新加坡01
-      - TG频道@mfbpn|新加坡02
-      - TG频道@mfbpn|新加坡03
-      - TG频道@mfbpn|新加坡04
+      - TG频道@mfbpn | 香港 01
+      - TG频道@mfbpn | 香港 02
+      - TG频道@mfbpn | 香港 03
+      - TG频道@mfbpn | 香港 04
+      - TG频道@mfbpn | 香港 05
+      - TG频道@mfbpn | 香港 06
+      - TG频道@mfbpn | 香港 07
+      - TG频道@mfbpn | 香港 08
+      - TG频道@mfbpn | 香港 09
+      - TG频道@mfbpn | 香港 10
+      - TG频道@mfbpn | 日本 01
+      - TG频道@mfbpn | 日本 02
+      - TG频道@mfbpn | 日本 03
+      - TG频道@mfbpn | 日本 04
+      - TG频道@mfbpn | 美国 01
+      - TG频道@mfbpn | 美国 02
+      - TG频道@mfbpn | 美国 03
+      - TG频道@mfbpn | 美国 04
+      - TG频道@mfbpn | 台湾 01
+      - TG频道@mfbpn | 台湾 02
+      - TG频道@mfbpn | 台湾 03
+      - TG频道@mfbpn | 台湾 04
+      - TG频道@mfbpn | 韩国 01
+      - TG频道@mfbpn | 韩国 02
+      - TG频道@mfbpn | 韩国 03
+      - TG频道@mfbpn | 韩国 04
+      - TG频道@mfbpn | 新加坡 01
+      - TG频道@mfbpn | 新加坡 02
+      - TG频道@mfbpn | 新加坡 03
+      - TG频道@mfbpn | 新加坡 04
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TG频道@mfbpn|香港01
-      - TG频道@mfbpn|香港02
-      - TG频道@mfbpn|香港03
-      - TG频道@mfbpn|香港04
-      - TG频道@mfbpn|香港05
-      - TG频道@mfbpn|香港06
-      - TG频道@mfbpn|日本01
-      - TG频道@mfbpn|日本02
-      - TG频道@mfbpn|日本03
-      - TG频道@mfbpn|日本04
-      - TG频道@mfbpn|美国01
-      - TG频道@mfbpn|美国02
-      - TG频道@mfbpn|美国03
-      - TG频道@mfbpn|美国04
-      - TG频道@mfbpn|韩国01
-      - TG频道@mfbpn|韩国02
-      - TG频道@mfbpn|韩国03
-      - TG频道@mfbpn|韩国04
-      - TG频道@mfbpn|台湾01
-      - TG频道@mfbpn|台湾02
-      - TG频道@mfbpn|台湾03
-      - TG频道@mfbpn|台湾04
-      - TG频道@mfbpn|新加坡01
-      - TG频道@mfbpn|新加坡02
-      - TG频道@mfbpn|新加坡03
-      - TG频道@mfbpn|新加坡04
+      - TG频道@mfbpn | 香港 01
+      - TG频道@mfbpn | 香港 02
+      - TG频道@mfbpn | 香港 03
+      - TG频道@mfbpn | 香港 04
+      - TG频道@mfbpn | 香港 05
+      - TG频道@mfbpn | 香港 06
+      - TG频道@mfbpn | 香港 07
+      - TG频道@mfbpn | 香港 08
+      - TG频道@mfbpn | 香港 09
+      - TG频道@mfbpn | 香港 10
+      - TG频道@mfbpn | 日本 01
+      - TG频道@mfbpn | 日本 02
+      - TG频道@mfbpn | 日本 03
+      - TG频道@mfbpn | 日本 04
+      - TG频道@mfbpn | 美国 01
+      - TG频道@mfbpn | 美国 02
+      - TG频道@mfbpn | 美国 03
+      - TG频道@mfbpn | 美国 04
+      - TG频道@mfbpn | 台湾 01
+      - TG频道@mfbpn | 台湾 02
+      - TG频道@mfbpn | 台湾 03
+      - TG频道@mfbpn | 台湾 04
+      - TG频道@mfbpn | 韩国 01
+      - TG频道@mfbpn | 韩国 02
+      - TG频道@mfbpn | 韩国 03
+      - TG频道@mfbpn | 韩国 04
+      - TG频道@mfbpn | 新加坡 01
+      - TG频道@mfbpn | 新加坡 02
+      - TG频道@mfbpn | 新加坡 03
+      - TG频道@mfbpn | 新加坡 04
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道@mfbpn|香港01
-      - TG频道@mfbpn|香港02
-      - TG频道@mfbpn|香港03
-      - TG频道@mfbpn|香港04
-      - TG频道@mfbpn|香港05
-      - TG频道@mfbpn|香港06
-      - TG频道@mfbpn|日本01
-      - TG频道@mfbpn|日本02
-      - TG频道@mfbpn|日本03
-      - TG频道@mfbpn|日本04
-      - TG频道@mfbpn|美国01
-      - TG频道@mfbpn|美国02
-      - TG频道@mfbpn|美国03
-      - TG频道@mfbpn|美国04
-      - TG频道@mfbpn|韩国01
-      - TG频道@mfbpn|韩国02
-      - TG频道@mfbpn|韩国03
-      - TG频道@mfbpn|韩国04
-      - TG频道@mfbpn|台湾01
-      - TG频道@mfbpn|台湾02
-      - TG频道@mfbpn|台湾03
-      - TG频道@mfbpn|台湾04
-      - TG频道@mfbpn|新加坡01
-      - TG频道@mfbpn|新加坡02
-      - TG频道@mfbpn|新加坡03
-      - TG频道@mfbpn|新加坡04
+      - TG频道@mfbpn | 香港 01
+      - TG频道@mfbpn | 香港 02
+      - TG频道@mfbpn | 香港 03
+      - TG频道@mfbpn | 香港 04
+      - TG频道@mfbpn | 香港 05
+      - TG频道@mfbpn | 香港 06
+      - TG频道@mfbpn | 香港 07
+      - TG频道@mfbpn | 香港 08
+      - TG频道@mfbpn | 香港 09
+      - TG频道@mfbpn | 香港 10
+      - TG频道@mfbpn | 日本 01
+      - TG频道@mfbpn | 日本 02
+      - TG频道@mfbpn | 日本 03
+      - TG频道@mfbpn | 日本 04
+      - TG频道@mfbpn | 美国 01
+      - TG频道@mfbpn | 美国 02
+      - TG频道@mfbpn | 美国 03
+      - TG频道@mfbpn | 美国 04
+      - TG频道@mfbpn | 台湾 01
+      - TG频道@mfbpn | 台湾 02
+      - TG频道@mfbpn | 台湾 03
+      - TG频道@mfbpn | 台湾 04
+      - TG频道@mfbpn | 韩国 01
+      - TG频道@mfbpn | 韩国 02
+      - TG频道@mfbpn | 韩国 03
+      - TG频道@mfbpn | 韩国 04
+      - TG频道@mfbpn | 新加坡 01
+      - TG频道@mfbpn | 新加坡 02
+      - TG频道@mfbpn | 新加坡 03
+      - TG频道@mfbpn | 新加坡 04
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -144,141 +160,161 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道@mfbpn|香港01
-      - TG频道@mfbpn|香港02
-      - TG频道@mfbpn|香港03
-      - TG频道@mfbpn|香港04
-      - TG频道@mfbpn|香港05
-      - TG频道@mfbpn|香港06
-      - TG频道@mfbpn|日本01
-      - TG频道@mfbpn|日本02
-      - TG频道@mfbpn|日本03
-      - TG频道@mfbpn|日本04
-      - TG频道@mfbpn|美国01
-      - TG频道@mfbpn|美国02
-      - TG频道@mfbpn|美国03
-      - TG频道@mfbpn|美国04
-      - TG频道@mfbpn|韩国01
-      - TG频道@mfbpn|韩国02
-      - TG频道@mfbpn|韩国03
-      - TG频道@mfbpn|韩国04
-      - TG频道@mfbpn|台湾01
-      - TG频道@mfbpn|台湾02
-      - TG频道@mfbpn|台湾03
-      - TG频道@mfbpn|台湾04
-      - TG频道@mfbpn|新加坡01
-      - TG频道@mfbpn|新加坡02
-      - TG频道@mfbpn|新加坡03
-      - TG频道@mfbpn|新加坡04
+      - TG频道@mfbpn | 香港 01
+      - TG频道@mfbpn | 香港 02
+      - TG频道@mfbpn | 香港 03
+      - TG频道@mfbpn | 香港 04
+      - TG频道@mfbpn | 香港 05
+      - TG频道@mfbpn | 香港 06
+      - TG频道@mfbpn | 香港 07
+      - TG频道@mfbpn | 香港 08
+      - TG频道@mfbpn | 香港 09
+      - TG频道@mfbpn | 香港 10
+      - TG频道@mfbpn | 日本 01
+      - TG频道@mfbpn | 日本 02
+      - TG频道@mfbpn | 日本 03
+      - TG频道@mfbpn | 日本 04
+      - TG频道@mfbpn | 美国 01
+      - TG频道@mfbpn | 美国 02
+      - TG频道@mfbpn | 美国 03
+      - TG频道@mfbpn | 美国 04
+      - TG频道@mfbpn | 台湾 01
+      - TG频道@mfbpn | 台湾 02
+      - TG频道@mfbpn | 台湾 03
+      - TG频道@mfbpn | 台湾 04
+      - TG频道@mfbpn | 韩国 01
+      - TG频道@mfbpn | 韩国 02
+      - TG频道@mfbpn | 韩国 03
+      - TG频道@mfbpn | 韩国 04
+      - TG频道@mfbpn | 新加坡 01
+      - TG频道@mfbpn | 新加坡 02
+      - TG频道@mfbpn | 新加坡 03
+      - TG频道@mfbpn | 新加坡 04
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - TG频道@mfbpn|香港01
-      - TG频道@mfbpn|香港02
-      - TG频道@mfbpn|香港03
-      - TG频道@mfbpn|香港04
-      - TG频道@mfbpn|香港05
-      - TG频道@mfbpn|香港06
-      - TG频道@mfbpn|台湾01
-      - TG频道@mfbpn|台湾02
-      - TG频道@mfbpn|台湾03
-      - TG频道@mfbpn|台湾04
+      - TG频道@mfbpn | 香港 01
+      - TG频道@mfbpn | 香港 02
+      - TG频道@mfbpn | 香港 03
+      - TG频道@mfbpn | 香港 04
+      - TG频道@mfbpn | 香港 05
+      - TG频道@mfbpn | 香港 06
+      - TG频道@mfbpn | 香港 07
+      - TG频道@mfbpn | 香港 08
+      - TG频道@mfbpn | 香港 09
+      - TG频道@mfbpn | 香港 10
+      - TG频道@mfbpn | 台湾 01
+      - TG频道@mfbpn | 台湾 02
+      - TG频道@mfbpn | 台湾 03
+      - TG频道@mfbpn | 台湾 04
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TG频道@mfbpn|香港01
-      - TG频道@mfbpn|香港02
-      - TG频道@mfbpn|香港03
-      - TG频道@mfbpn|香港04
-      - TG频道@mfbpn|香港05
-      - TG频道@mfbpn|香港06
-      - TG频道@mfbpn|日本01
-      - TG频道@mfbpn|日本02
-      - TG频道@mfbpn|日本03
-      - TG频道@mfbpn|日本04
-      - TG频道@mfbpn|美国01
-      - TG频道@mfbpn|美国02
-      - TG频道@mfbpn|美国03
-      - TG频道@mfbpn|美国04
-      - TG频道@mfbpn|韩国01
-      - TG频道@mfbpn|韩国02
-      - TG频道@mfbpn|韩国03
-      - TG频道@mfbpn|韩国04
-      - TG频道@mfbpn|台湾01
-      - TG频道@mfbpn|台湾02
-      - TG频道@mfbpn|台湾03
-      - TG频道@mfbpn|台湾04
-      - TG频道@mfbpn|新加坡01
-      - TG频道@mfbpn|新加坡02
-      - TG频道@mfbpn|新加坡03
-      - TG频道@mfbpn|新加坡04
+      - TG频道@mfbpn | 香港 01
+      - TG频道@mfbpn | 香港 02
+      - TG频道@mfbpn | 香港 03
+      - TG频道@mfbpn | 香港 04
+      - TG频道@mfbpn | 香港 05
+      - TG频道@mfbpn | 香港 06
+      - TG频道@mfbpn | 香港 07
+      - TG频道@mfbpn | 香港 08
+      - TG频道@mfbpn | 香港 09
+      - TG频道@mfbpn | 香港 10
+      - TG频道@mfbpn | 日本 01
+      - TG频道@mfbpn | 日本 02
+      - TG频道@mfbpn | 日本 03
+      - TG频道@mfbpn | 日本 04
+      - TG频道@mfbpn | 美国 01
+      - TG频道@mfbpn | 美国 02
+      - TG频道@mfbpn | 美国 03
+      - TG频道@mfbpn | 美国 04
+      - TG频道@mfbpn | 台湾 01
+      - TG频道@mfbpn | 台湾 02
+      - TG频道@mfbpn | 台湾 03
+      - TG频道@mfbpn | 台湾 04
+      - TG频道@mfbpn | 韩国 01
+      - TG频道@mfbpn | 韩国 02
+      - TG频道@mfbpn | 韩国 03
+      - TG频道@mfbpn | 韩国 04
+      - TG频道@mfbpn | 新加坡 01
+      - TG频道@mfbpn | 新加坡 02
+      - TG频道@mfbpn | 新加坡 03
+      - TG频道@mfbpn | 新加坡 04
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - TG频道@mfbpn|香港01
-      - TG频道@mfbpn|香港02
-      - TG频道@mfbpn|香港03
-      - TG频道@mfbpn|香港04
-      - TG频道@mfbpn|香港05
-      - TG频道@mfbpn|香港06
-      - TG频道@mfbpn|日本01
-      - TG频道@mfbpn|日本02
-      - TG频道@mfbpn|日本03
-      - TG频道@mfbpn|日本04
-      - TG频道@mfbpn|美国01
-      - TG频道@mfbpn|美国02
-      - TG频道@mfbpn|美国03
-      - TG频道@mfbpn|美国04
-      - TG频道@mfbpn|韩国01
-      - TG频道@mfbpn|韩国02
-      - TG频道@mfbpn|韩国03
-      - TG频道@mfbpn|韩国04
-      - TG频道@mfbpn|台湾01
-      - TG频道@mfbpn|台湾02
-      - TG频道@mfbpn|台湾03
-      - TG频道@mfbpn|台湾04
-      - TG频道@mfbpn|新加坡01
-      - TG频道@mfbpn|新加坡02
-      - TG频道@mfbpn|新加坡03
-      - TG频道@mfbpn|新加坡04
+      - TG频道@mfbpn | 香港 01
+      - TG频道@mfbpn | 香港 02
+      - TG频道@mfbpn | 香港 03
+      - TG频道@mfbpn | 香港 04
+      - TG频道@mfbpn | 香港 05
+      - TG频道@mfbpn | 香港 06
+      - TG频道@mfbpn | 香港 07
+      - TG频道@mfbpn | 香港 08
+      - TG频道@mfbpn | 香港 09
+      - TG频道@mfbpn | 香港 10
+      - TG频道@mfbpn | 日本 01
+      - TG频道@mfbpn | 日本 02
+      - TG频道@mfbpn | 日本 03
+      - TG频道@mfbpn | 日本 04
+      - TG频道@mfbpn | 美国 01
+      - TG频道@mfbpn | 美国 02
+      - TG频道@mfbpn | 美国 03
+      - TG频道@mfbpn | 美国 04
+      - TG频道@mfbpn | 台湾 01
+      - TG频道@mfbpn | 台湾 02
+      - TG频道@mfbpn | 台湾 03
+      - TG频道@mfbpn | 台湾 04
+      - TG频道@mfbpn | 韩国 01
+      - TG频道@mfbpn | 韩国 02
+      - TG频道@mfbpn | 韩国 03
+      - TG频道@mfbpn | 韩国 04
+      - TG频道@mfbpn | 新加坡 01
+      - TG频道@mfbpn | 新加坡 02
+      - TG频道@mfbpn | 新加坡 03
+      - TG频道@mfbpn | 新加坡 04
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道@mfbpn|香港01
-      - TG频道@mfbpn|香港02
-      - TG频道@mfbpn|香港03
-      - TG频道@mfbpn|香港04
-      - TG频道@mfbpn|香港05
-      - TG频道@mfbpn|香港06
-      - TG频道@mfbpn|日本01
-      - TG频道@mfbpn|日本02
-      - TG频道@mfbpn|日本03
-      - TG频道@mfbpn|日本04
-      - TG频道@mfbpn|美国01
-      - TG频道@mfbpn|美国02
-      - TG频道@mfbpn|美国03
-      - TG频道@mfbpn|美国04
-      - TG频道@mfbpn|韩国01
-      - TG频道@mfbpn|韩国02
-      - TG频道@mfbpn|韩国03
-      - TG频道@mfbpn|韩国04
-      - TG频道@mfbpn|台湾01
-      - TG频道@mfbpn|台湾02
-      - TG频道@mfbpn|台湾03
-      - TG频道@mfbpn|台湾04
-      - TG频道@mfbpn|新加坡01
-      - TG频道@mfbpn|新加坡02
-      - TG频道@mfbpn|新加坡03
-      - TG频道@mfbpn|新加坡04
+      - TG频道@mfbpn | 香港 01
+      - TG频道@mfbpn | 香港 02
+      - TG频道@mfbpn | 香港 03
+      - TG频道@mfbpn | 香港 04
+      - TG频道@mfbpn | 香港 05
+      - TG频道@mfbpn | 香港 06
+      - TG频道@mfbpn | 香港 07
+      - TG频道@mfbpn | 香港 08
+      - TG频道@mfbpn | 香港 09
+      - TG频道@mfbpn | 香港 10
+      - TG频道@mfbpn | 日本 01
+      - TG频道@mfbpn | 日本 02
+      - TG频道@mfbpn | 日本 03
+      - TG频道@mfbpn | 日本 04
+      - TG频道@mfbpn | 美国 01
+      - TG频道@mfbpn | 美国 02
+      - TG频道@mfbpn | 美国 03
+      - TG频道@mfbpn | 美国 04
+      - TG频道@mfbpn | 台湾 01
+      - TG频道@mfbpn | 台湾 02
+      - TG频道@mfbpn | 台湾 03
+      - TG频道@mfbpn | 台湾 04
+      - TG频道@mfbpn | 韩国 01
+      - TG频道@mfbpn | 韩国 02
+      - TG频道@mfbpn | 韩国 03
+      - TG频道@mfbpn | 韩国 04
+      - TG频道@mfbpn | 新加坡 01
+      - TG频道@mfbpn | 新加坡 02
+      - TG频道@mfbpn | 新加坡 03
+      - TG频道@mfbpn | 新加坡 04
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -294,32 +330,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道@mfbpn|香港01
-      - TG频道@mfbpn|香港02
-      - TG频道@mfbpn|香港03
-      - TG频道@mfbpn|香港04
-      - TG频道@mfbpn|香港05
-      - TG频道@mfbpn|香港06
-      - TG频道@mfbpn|日本01
-      - TG频道@mfbpn|日本02
-      - TG频道@mfbpn|日本03
-      - TG频道@mfbpn|日本04
-      - TG频道@mfbpn|美国01
-      - TG频道@mfbpn|美国02
-      - TG频道@mfbpn|美国03
-      - TG频道@mfbpn|美国04
-      - TG频道@mfbpn|韩国01
-      - TG频道@mfbpn|韩国02
-      - TG频道@mfbpn|韩国03
-      - TG频道@mfbpn|韩国04
-      - TG频道@mfbpn|台湾01
-      - TG频道@mfbpn|台湾02
-      - TG频道@mfbpn|台湾03
-      - TG频道@mfbpn|台湾04
-      - TG频道@mfbpn|新加坡01
-      - TG频道@mfbpn|新加坡02
-      - TG频道@mfbpn|新加坡03
-      - TG频道@mfbpn|新加坡04
+      - TG频道@mfbpn | 香港 01
+      - TG频道@mfbpn | 香港 02
+      - TG频道@mfbpn | 香港 03
+      - TG频道@mfbpn | 香港 04
+      - TG频道@mfbpn | 香港 05
+      - TG频道@mfbpn | 香港 06
+      - TG频道@mfbpn | 香港 07
+      - TG频道@mfbpn | 香港 08
+      - TG频道@mfbpn | 香港 09
+      - TG频道@mfbpn | 香港 10
+      - TG频道@mfbpn | 日本 01
+      - TG频道@mfbpn | 日本 02
+      - TG频道@mfbpn | 日本 03
+      - TG频道@mfbpn | 日本 04
+      - TG频道@mfbpn | 美国 01
+      - TG频道@mfbpn | 美国 02
+      - TG频道@mfbpn | 美国 03
+      - TG频道@mfbpn | 美国 04
+      - TG频道@mfbpn | 台湾 01
+      - TG频道@mfbpn | 台湾 02
+      - TG频道@mfbpn | 台湾 03
+      - TG频道@mfbpn | 台湾 04
+      - TG频道@mfbpn | 韩国 01
+      - TG频道@mfbpn | 韩国 02
+      - TG频道@mfbpn | 韩国 03
+      - TG频道@mfbpn | 韩国 04
+      - TG频道@mfbpn | 新加坡 01
+      - TG频道@mfbpn | 新加坡 02
+      - TG频道@mfbpn | 新加坡 03
+      - TG频道@mfbpn | 新加坡 04
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
