@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-10 09:17:07
+# 创建时间：2023-10-10 09:21:56
 # 使用模版：V2RaySE 默认模版
 # 节点数量：50
 ####################################
@@ -85,389 +85,389 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"TG频道@mfbpn-香港01","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10801,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-香港02","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10802,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-香港03","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10803,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-香港04","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10804,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-香港05","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10805,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-香港06","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10806,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-香港07","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10807,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-香港08","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10808,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-香港09家宽","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10809,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-香港10家宽","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10810,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-日本01","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10811,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-日本02","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10812,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-日本03","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10813,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-日本04","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10814,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-日本05","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10815,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-日本06","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10816,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-日本07","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10817,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-日本08","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10818,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-美国01","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10819,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-美国02","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10820,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-美国03","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10821,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-美国04","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10822,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-美国05","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10823,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-美国06","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10824,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-美国07","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10825,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-美国08","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10826,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-新加坡01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10827,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-新加坡02","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10828,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-新加坡03","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10829,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-新加坡04","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10830,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-新加坡05","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10831,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-新加坡06","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10832,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-新加坡07","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10833,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-新加坡08","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10834,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-台湾01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10835,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-韩国01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10836,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-英国01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10837,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-法国01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10838,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-德国01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10839,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-印度01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10840,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-迪拜01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10841,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-巴西01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10842,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-南非01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10843,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-俄罗斯01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10844,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-乌克兰01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10845,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-土耳其01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10846,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-阿根廷01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10847,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-奥地利01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10848,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-意大利01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10849,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@mfbpn-爱尔兰01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10850,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港01","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10801,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港02","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10802,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港03","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10803,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港04","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10804,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港05","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10805,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港06","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10806,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港07","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10807,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港08","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10808,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港09家宽","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10809,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港10家宽","type":"trojan","server":"tg_mfbpn_ppg1.52vpn.eu.org","port":10810,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本01","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10811,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本02","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10812,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本03","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10813,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本04","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10814,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本05","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10815,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本06","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10816,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本07","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10817,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本08","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10818,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国01","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10819,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国02","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10820,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国03","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10821,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国04","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10822,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国05","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10823,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国06","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10824,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国07","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10825,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国08","type":"trojan","server":"tg_mfbpn_ppg2.52vpn.eu.org","port":10826,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10827,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡02","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10828,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡03","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10829,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡04","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10830,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡05","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10831,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡06","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10832,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡07","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10833,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡08","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10834,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10835,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"韩国01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10836,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"英国01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10837,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"法国01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10838,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"德国01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10839,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"印度01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10840,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"迪拜01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10841,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"巴西01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10842,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"南非01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10843,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"俄罗斯01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10844,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"乌克兰01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10845,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"土耳其01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10846,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"阿根廷01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10847,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"奥地利01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10848,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"意大利01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10849,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"爱尔兰01","type":"trojan","server":"tg_mfbpn_ppg3.52vpn.eu.org","port":10850,"udp":true,"password":"c7fe7701-b90c-42c6-9f85-a816b83eb747","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09家宽
-      - TG频道@mfbpn-香港10家宽
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-韩国01
-      - TG频道@mfbpn-英国01
-      - TG频道@mfbpn-法国01
-      - TG频道@mfbpn-德国01
-      - TG频道@mfbpn-印度01
-      - TG频道@mfbpn-迪拜01
-      - TG频道@mfbpn-巴西01
-      - TG频道@mfbpn-南非01
-      - TG频道@mfbpn-俄罗斯01
-      - TG频道@mfbpn-乌克兰01
-      - TG频道@mfbpn-土耳其01
-      - TG频道@mfbpn-阿根廷01
-      - TG频道@mfbpn-奥地利01
-      - TG频道@mfbpn-意大利01
-      - TG频道@mfbpn-爱尔兰01
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09家宽
+      - 香港10家宽
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
+      - 日本06
+      - 日本07
+      - 日本08
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国04
+      - 美国05
+      - 美国06
+      - 美国07
+      - 美国08
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
+      - 新加坡04
+      - 新加坡05
+      - 新加坡06
+      - 新加坡07
+      - 新加坡08
+      - 台湾01
+      - 韩国01
+      - 英国01
+      - 法国01
+      - 德国01
+      - 印度01
+      - 迪拜01
+      - 巴西01
+      - 南非01
+      - 俄罗斯01
+      - 乌克兰01
+      - 土耳其01
+      - 阿根廷01
+      - 奥地利01
+      - 意大利01
+      - 爱尔兰01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09家宽
-      - TG频道@mfbpn-香港10家宽
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-韩国01
-      - TG频道@mfbpn-英国01
-      - TG频道@mfbpn-法国01
-      - TG频道@mfbpn-德国01
-      - TG频道@mfbpn-印度01
-      - TG频道@mfbpn-迪拜01
-      - TG频道@mfbpn-巴西01
-      - TG频道@mfbpn-南非01
-      - TG频道@mfbpn-俄罗斯01
-      - TG频道@mfbpn-乌克兰01
-      - TG频道@mfbpn-土耳其01
-      - TG频道@mfbpn-阿根廷01
-      - TG频道@mfbpn-奥地利01
-      - TG频道@mfbpn-意大利01
-      - TG频道@mfbpn-爱尔兰01
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09家宽
+      - 香港10家宽
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
+      - 日本06
+      - 日本07
+      - 日本08
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国04
+      - 美国05
+      - 美国06
+      - 美国07
+      - 美国08
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
+      - 新加坡04
+      - 新加坡05
+      - 新加坡06
+      - 新加坡07
+      - 新加坡08
+      - 台湾01
+      - 韩国01
+      - 英国01
+      - 法国01
+      - 德国01
+      - 印度01
+      - 迪拜01
+      - 巴西01
+      - 南非01
+      - 俄罗斯01
+      - 乌克兰01
+      - 土耳其01
+      - 阿根廷01
+      - 奥地利01
+      - 意大利01
+      - 爱尔兰01
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09家宽
-      - TG频道@mfbpn-香港10家宽
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-韩国01
-      - TG频道@mfbpn-英国01
-      - TG频道@mfbpn-法国01
-      - TG频道@mfbpn-德国01
-      - TG频道@mfbpn-印度01
-      - TG频道@mfbpn-迪拜01
-      - TG频道@mfbpn-巴西01
-      - TG频道@mfbpn-南非01
-      - TG频道@mfbpn-俄罗斯01
-      - TG频道@mfbpn-乌克兰01
-      - TG频道@mfbpn-土耳其01
-      - TG频道@mfbpn-阿根廷01
-      - TG频道@mfbpn-奥地利01
-      - TG频道@mfbpn-意大利01
-      - TG频道@mfbpn-爱尔兰01
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09家宽
+      - 香港10家宽
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
+      - 日本06
+      - 日本07
+      - 日本08
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国04
+      - 美国05
+      - 美国06
+      - 美国07
+      - 美国08
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
+      - 新加坡04
+      - 新加坡05
+      - 新加坡06
+      - 新加坡07
+      - 新加坡08
+      - 台湾01
+      - 韩国01
+      - 英国01
+      - 法国01
+      - 德国01
+      - 印度01
+      - 迪拜01
+      - 巴西01
+      - 南非01
+      - 俄罗斯01
+      - 乌克兰01
+      - 土耳其01
+      - 阿根廷01
+      - 奥地利01
+      - 意大利01
+      - 爱尔兰01
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09家宽
-      - TG频道@mfbpn-香港10家宽
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-韩国01
-      - TG频道@mfbpn-英国01
-      - TG频道@mfbpn-法国01
-      - TG频道@mfbpn-德国01
-      - TG频道@mfbpn-印度01
-      - TG频道@mfbpn-迪拜01
-      - TG频道@mfbpn-巴西01
-      - TG频道@mfbpn-南非01
-      - TG频道@mfbpn-俄罗斯01
-      - TG频道@mfbpn-乌克兰01
-      - TG频道@mfbpn-土耳其01
-      - TG频道@mfbpn-阿根廷01
-      - TG频道@mfbpn-奥地利01
-      - TG频道@mfbpn-意大利01
-      - TG频道@mfbpn-爱尔兰01
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09家宽
+      - 香港10家宽
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
+      - 日本06
+      - 日本07
+      - 日本08
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国04
+      - 美国05
+      - 美国06
+      - 美国07
+      - 美国08
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
+      - 新加坡04
+      - 新加坡05
+      - 新加坡06
+      - 新加坡07
+      - 新加坡08
+      - 台湾01
+      - 韩国01
+      - 英国01
+      - 法国01
+      - 德国01
+      - 印度01
+      - 迪拜01
+      - 巴西01
+      - 南非01
+      - 俄罗斯01
+      - 乌克兰01
+      - 土耳其01
+      - 阿根廷01
+      - 奥地利01
+      - 意大利01
+      - 爱尔兰01
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09家宽
-      - TG频道@mfbpn-香港10家宽
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-韩国01
-      - TG频道@mfbpn-英国01
-      - TG频道@mfbpn-法国01
-      - TG频道@mfbpn-德国01
-      - TG频道@mfbpn-印度01
-      - TG频道@mfbpn-迪拜01
-      - TG频道@mfbpn-巴西01
-      - TG频道@mfbpn-南非01
-      - TG频道@mfbpn-俄罗斯01
-      - TG频道@mfbpn-乌克兰01
-      - TG频道@mfbpn-土耳其01
-      - TG频道@mfbpn-阿根廷01
-      - TG频道@mfbpn-奥地利01
-      - TG频道@mfbpn-意大利01
-      - TG频道@mfbpn-爱尔兰01
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09家宽
+      - 香港10家宽
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
+      - 日本06
+      - 日本07
+      - 日本08
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国04
+      - 美国05
+      - 美国06
+      - 美国07
+      - 美国08
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
+      - 新加坡04
+      - 新加坡05
+      - 新加坡06
+      - 新加坡07
+      - 新加坡08
+      - 台湾01
+      - 韩国01
+      - 英国01
+      - 法国01
+      - 德国01
+      - 印度01
+      - 迪拜01
+      - 巴西01
+      - 南非01
+      - 俄罗斯01
+      - 乌克兰01
+      - 土耳其01
+      - 阿根廷01
+      - 奥地利01
+      - 意大利01
+      - 爱尔兰01
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09家宽
-      - TG频道@mfbpn-香港10家宽
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-韩国01
-      - TG频道@mfbpn-英国01
-      - TG频道@mfbpn-法国01
-      - TG频道@mfbpn-德国01
-      - TG频道@mfbpn-印度01
-      - TG频道@mfbpn-迪拜01
-      - TG频道@mfbpn-巴西01
-      - TG频道@mfbpn-南非01
-      - TG频道@mfbpn-俄罗斯01
-      - TG频道@mfbpn-乌克兰01
-      - TG频道@mfbpn-土耳其01
-      - TG频道@mfbpn-阿根廷01
-      - TG频道@mfbpn-奥地利01
-      - TG频道@mfbpn-意大利01
-      - TG频道@mfbpn-爱尔兰01
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09家宽
+      - 香港10家宽
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
+      - 日本06
+      - 日本07
+      - 日本08
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国04
+      - 美国05
+      - 美国06
+      - 美国07
+      - 美国08
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
+      - 新加坡04
+      - 新加坡05
+      - 新加坡06
+      - 新加坡07
+      - 新加坡08
+      - 台湾01
+      - 韩国01
+      - 英国01
+      - 法国01
+      - 德国01
+      - 印度01
+      - 迪拜01
+      - 巴西01
+      - 南非01
+      - 俄罗斯01
+      - 乌克兰01
+      - 土耳其01
+      - 阿根廷01
+      - 奥地利01
+      - 意大利01
+      - 爱尔兰01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -490,56 +490,56 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道@mfbpn-香港01
-      - TG频道@mfbpn-香港02
-      - TG频道@mfbpn-香港03
-      - TG频道@mfbpn-香港04
-      - TG频道@mfbpn-香港05
-      - TG频道@mfbpn-香港06
-      - TG频道@mfbpn-香港07
-      - TG频道@mfbpn-香港08
-      - TG频道@mfbpn-香港09家宽
-      - TG频道@mfbpn-香港10家宽
-      - TG频道@mfbpn-日本01
-      - TG频道@mfbpn-日本02
-      - TG频道@mfbpn-日本03
-      - TG频道@mfbpn-日本04
-      - TG频道@mfbpn-日本05
-      - TG频道@mfbpn-日本06
-      - TG频道@mfbpn-日本07
-      - TG频道@mfbpn-日本08
-      - TG频道@mfbpn-美国01
-      - TG频道@mfbpn-美国02
-      - TG频道@mfbpn-美国03
-      - TG频道@mfbpn-美国04
-      - TG频道@mfbpn-美国05
-      - TG频道@mfbpn-美国06
-      - TG频道@mfbpn-美国07
-      - TG频道@mfbpn-美国08
-      - TG频道@mfbpn-新加坡01
-      - TG频道@mfbpn-新加坡02
-      - TG频道@mfbpn-新加坡03
-      - TG频道@mfbpn-新加坡04
-      - TG频道@mfbpn-新加坡05
-      - TG频道@mfbpn-新加坡06
-      - TG频道@mfbpn-新加坡07
-      - TG频道@mfbpn-新加坡08
-      - TG频道@mfbpn-台湾01
-      - TG频道@mfbpn-韩国01
-      - TG频道@mfbpn-英国01
-      - TG频道@mfbpn-法国01
-      - TG频道@mfbpn-德国01
-      - TG频道@mfbpn-印度01
-      - TG频道@mfbpn-迪拜01
-      - TG频道@mfbpn-巴西01
-      - TG频道@mfbpn-南非01
-      - TG频道@mfbpn-俄罗斯01
-      - TG频道@mfbpn-乌克兰01
-      - TG频道@mfbpn-土耳其01
-      - TG频道@mfbpn-阿根廷01
-      - TG频道@mfbpn-奥地利01
-      - TG频道@mfbpn-意大利01
-      - TG频道@mfbpn-爱尔兰01
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09家宽
+      - 香港10家宽
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
+      - 日本06
+      - 日本07
+      - 日本08
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国04
+      - 美国05
+      - 美国06
+      - 美国07
+      - 美国08
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
+      - 新加坡04
+      - 新加坡05
+      - 新加坡06
+      - 新加坡07
+      - 新加坡08
+      - 台湾01
+      - 韩国01
+      - 英国01
+      - 法国01
+      - 德国01
+      - 印度01
+      - 迪拜01
+      - 巴西01
+      - 南非01
+      - 俄罗斯01
+      - 乌克兰01
+      - 土耳其01
+      - 阿根廷01
+      - 奥地利01
+      - 意大利01
+      - 爱尔兰01
 
 rules:
 # 本地/局域网地址
