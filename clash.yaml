@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-14 09:09:25
+# 创建时间：2023-10-14 16:14:06
 # 使用模版：V2RaySE 默认模版
-# 节点数量：98
+# 节点数量：21
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,725 +85,186 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"TG频道@mfbpn-台湾","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30031,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-台湾 2","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30032,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-新加坡","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30019,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-新加坡 2","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30020,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30023,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本 2","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30024,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本 3","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30025,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本 4","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30026,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-美国","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30029,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-美国 2","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30030,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-韩国","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30021,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-韩国 2","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30022,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30017,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港 2","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30018,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港 3","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30015,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港 4","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30016,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-台湾 3","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30013,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-台湾 4","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30014,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-新加坡 3","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30007,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-新加坡 4","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30008,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本 5","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30011,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本 6","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30012,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-美国 3","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30027,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-美国 4","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30028,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-韩国 3","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30009,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-韩国 4","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30010,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港 5","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30005,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港 6","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30006,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港 7","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30003,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港 8","type":"vmess","server":"tg_mfbpn_ky1.52vpn.eu.org","port":30004,"cipher":"auto","uuid":"d8020aeb-17c7-38bf-a153-2f75b7a4d006","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-台湾TW","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":11203,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-台湾TW 2","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":11204,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-台湾TW 3","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":11205,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-台湾TW 4","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":11206,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-新加坡SG","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":11207,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-新加坡SG 2","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":11208,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-美国US","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":11401,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-美国US 2","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":11402,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-美国US 3","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":11403,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港HK","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":11301,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港HK 2","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":11302,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港HK 3","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":11303,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-印度IN","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13105,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-印度IN 2","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13106,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-台湾TW 5","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13004,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-台湾TW 6","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13005,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-台湾TW 7","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13103,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-台湾TW 8","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13104,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-新加坡SG 3","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13006,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-新加坡SG 4","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13007,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本JP","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13008,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本JP 2","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13009,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-美国US 4","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13201,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-美国US 5","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13202,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-美国US 6","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13203,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-韩国KR","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13101,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-韩国KR 2","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13102,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港HK 4","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13001,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港HK 5","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13002,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港HK 6","type":"vmess","server":"tg_mfbpn_z1.52vpn.eu.org","port":13003,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-台湾TW 9","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47006,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-新加坡SG 5","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47009,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-新加坡SG 6","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47010,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本JP 3","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47007,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本JP 4","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47008,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-美国US 7","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47004,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-美国US 8","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47005,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-英国GB","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47104,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-英国GB 2","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47105,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-韩国KR 3","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47101,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-韩国KR 4","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47102,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港HK 7","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47001,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港HK 8","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47002,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港HK 9","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47003,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-新加坡SG 7","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":11502,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-新加坡SG 8","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":11504,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本JP 5","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":11501,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本JP 6","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":11503,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-日本JP 7","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":11505,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港HK 10","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":11506,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港HK 11","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":11507,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-香港HK 12","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":11508,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-2-台湾TW","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":32003,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-2-新加坡SG","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":32005,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-2-日本JP","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":32004,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-2-美国US","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":32006,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-2-香港HK","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":32001,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-2-香港HK 2","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":32002,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-台湾TW","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":18004,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-台湾TW 2","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":18005,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-美国US","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":18006,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-美国US 2","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":18007,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-香港HK","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":18001,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-香港HK 2","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":18002,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-IEPL-香港HK 3","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":18003,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47110,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn 2","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47111,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"TG频道@mfbpn-巴西BR","type":"vmess","server":"tg_mfbpn_z2.52vpn.eu.org","port":47112,"cipher":"auto","uuid":"f986894a-1553-349a-abdc-d7243f785627","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"剩余流量：49.99 GB\r","type":"ss","server":"yy.yingwuyun.cyou","port":27301,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"距离下次重置剩余：29 天\r","type":"ss","server":"yy.yingwuyun.cyou","port":27301,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"套餐到期：2023-11-12\r","type":"ss","server":"yy.yingwuyun.cyou","port":27301,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 Singapore-01\r","type":"ss","server":"yy.yingwuyun.cyou","port":27301,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 Singapore-02\r","type":"ss","server":"ly.yingwuyun.cyou","port":27301,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 Singapore-03\r","type":"ss","server":"dy.yingwuyun.cyou","port":27301,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 Japan-01\r","type":"ss","server":"yy.yingwuyun.cyou","port":27302,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 Japan-02\r","type":"ss","server":"ly.yingwuyun.cyou","port":27302,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 Japan-03\r","type":"ss","server":"dy.yingwuyun.cyou","port":27302,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇰🇷 South Korea-01\r","type":"ss","server":"yy.yingwuyun.cyou","port":27303,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇰🇷 South Korea-02\r","type":"ss","server":"ly.yingwuyun.cyou","port":27303,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇰🇷 South Korea-03\r","type":"ss","server":"dy.yingwuyun.cyou","port":27303,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 USA-01\r","type":"ss","server":"yy.yingwuyun.cyou","port":27304,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 USA-02\r","type":"ss","server":"ly.yingwuyun.cyou","port":27304,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 USA-03\r","type":"ss","server":"dy.yingwuyun.cyou","port":27304,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 Taiwan-01\r","type":"ss","server":"yy.yingwuyun.cyou","port":27305,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 Taiwan-02\r","type":"ss","server":"ly.yingwuyun.cyou","port":27305,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 Taiwan-03\r","type":"ss","server":"dy.yingwuyun.cyou","port":27305,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 Hongkong-01\r","type":"ss","server":"yy.yingwuyun.cyou","port":27306,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 Hongkong-02\r","type":"ss","server":"ly.yingwuyun.cyou","port":27306,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 Hongkong-03\r","type":"ss","server":"dy.yingwuyun.cyou","port":27306,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG频道@mfbpn-台湾
-      - TG频道@mfbpn-台湾 2
-      - TG频道@mfbpn-新加坡
-      - TG频道@mfbpn-新加坡 2
-      - TG频道@mfbpn-日本
-      - TG频道@mfbpn-日本 2
-      - TG频道@mfbpn-日本 3
-      - TG频道@mfbpn-日本 4
-      - TG频道@mfbpn-美国
-      - TG频道@mfbpn-美国 2
-      - TG频道@mfbpn-韩国
-      - TG频道@mfbpn-韩国 2
-      - TG频道@mfbpn-香港
-      - TG频道@mfbpn-香港 2
-      - TG频道@mfbpn-香港 3
-      - TG频道@mfbpn-香港 4
-      - TG频道@mfbpn-台湾 3
-      - TG频道@mfbpn-台湾 4
-      - TG频道@mfbpn-新加坡 3
-      - TG频道@mfbpn-新加坡 4
-      - TG频道@mfbpn-日本 5
-      - TG频道@mfbpn-日本 6
-      - TG频道@mfbpn-美国 3
-      - TG频道@mfbpn-美国 4
-      - TG频道@mfbpn-韩国 3
-      - TG频道@mfbpn-韩国 4
-      - TG频道@mfbpn-香港 5
-      - TG频道@mfbpn-香港 6
-      - TG频道@mfbpn-香港 7
-      - TG频道@mfbpn-香港 8
-      - TG频道@mfbpn-台湾TW
-      - TG频道@mfbpn-台湾TW 2
-      - TG频道@mfbpn-台湾TW 3
-      - TG频道@mfbpn-台湾TW 4
-      - TG频道@mfbpn-新加坡SG
-      - TG频道@mfbpn-新加坡SG 2
-      - TG频道@mfbpn-美国US
-      - TG频道@mfbpn-美国US 2
-      - TG频道@mfbpn-美国US 3
-      - TG频道@mfbpn-香港HK
-      - TG频道@mfbpn-香港HK 2
-      - TG频道@mfbpn-香港HK 3
-      - TG频道@mfbpn-印度IN
-      - TG频道@mfbpn-印度IN 2
-      - TG频道@mfbpn-台湾TW 5
-      - TG频道@mfbpn-台湾TW 6
-      - TG频道@mfbpn-台湾TW 7
-      - TG频道@mfbpn-台湾TW 8
-      - TG频道@mfbpn-新加坡SG 3
-      - TG频道@mfbpn-新加坡SG 4
-      - TG频道@mfbpn-日本JP
-      - TG频道@mfbpn-日本JP 2
-      - TG频道@mfbpn-美国US 4
-      - TG频道@mfbpn-美国US 5
-      - TG频道@mfbpn-美国US 6
-      - TG频道@mfbpn-韩国KR
-      - TG频道@mfbpn-韩国KR 2
-      - TG频道@mfbpn-香港HK 4
-      - TG频道@mfbpn-香港HK 5
-      - TG频道@mfbpn-香港HK 6
-      - TG频道@mfbpn-台湾TW 9
-      - TG频道@mfbpn-新加坡SG 5
-      - TG频道@mfbpn-新加坡SG 6
-      - TG频道@mfbpn-日本JP 3
-      - TG频道@mfbpn-日本JP 4
-      - TG频道@mfbpn-美国US 7
-      - TG频道@mfbpn-美国US 8
-      - TG频道@mfbpn-英国GB
-      - TG频道@mfbpn-英国GB 2
-      - TG频道@mfbpn-韩国KR 3
-      - TG频道@mfbpn-韩国KR 4
-      - TG频道@mfbpn-香港HK 7
-      - TG频道@mfbpn-香港HK 8
-      - TG频道@mfbpn-香港HK 9
-      - TG频道@mfbpn-新加坡SG 7
-      - TG频道@mfbpn-新加坡SG 8
-      - TG频道@mfbpn-日本JP 5
-      - TG频道@mfbpn-日本JP 6
-      - TG频道@mfbpn-日本JP 7
-      - TG频道@mfbpn-香港HK 10
-      - TG频道@mfbpn-香港HK 11
-      - TG频道@mfbpn-香港HK 12
-      - TG频道@mfbpn-IEPL-2-台湾TW
-      - TG频道@mfbpn-IEPL-2-新加坡SG
-      - TG频道@mfbpn-IEPL-2-日本JP
-      - TG频道@mfbpn-IEPL-2-美国US
-      - TG频道@mfbpn-IEPL-2-香港HK
-      - TG频道@mfbpn-IEPL-2-香港HK 2
-      - TG频道@mfbpn-IEPL-台湾TW
-      - TG频道@mfbpn-IEPL-台湾TW 2
-      - TG频道@mfbpn-IEPL-美国US
-      - TG频道@mfbpn-IEPL-美国US 2
-      - TG频道@mfbpn-IEPL-香港HK
-      - TG频道@mfbpn-IEPL-香港HK 2
-      - TG频道@mfbpn-IEPL-香港HK 3
-      - TG频道@mfbpn
-      - TG频道@mfbpn 2
-      - TG频道@mfbpn-巴西BR
+      - "剩余流量：49.99 GB\r"
+      - "距离下次重置剩余：29 天\r"
+      - "套餐到期：2023-11-12\r"
+      - "🇸🇬 Singapore-01\r"
+      - "🇸🇬 Singapore-02\r"
+      - "🇸🇬 Singapore-03\r"
+      - "🇯🇵 Japan-01\r"
+      - "🇯🇵 Japan-02\r"
+      - "🇯🇵 Japan-03\r"
+      - "🇰🇷 South Korea-01\r"
+      - "🇰🇷 South Korea-02\r"
+      - "🇰🇷 South Korea-03\r"
+      - "🇺🇸 USA-01\r"
+      - "🇺🇸 USA-02\r"
+      - "🇺🇸 USA-03\r"
+      - "🇹🇼 Taiwan-01\r"
+      - "🇹🇼 Taiwan-02\r"
+      - "🇹🇼 Taiwan-03\r"
+      - "🇭🇰 Hongkong-01\r"
+      - "🇭🇰 Hongkong-02\r"
+      - "🇭🇰 Hongkong-03\r"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG频道@mfbpn-台湾
-      - TG频道@mfbpn-台湾 2
-      - TG频道@mfbpn-新加坡
-      - TG频道@mfbpn-新加坡 2
-      - TG频道@mfbpn-日本
-      - TG频道@mfbpn-日本 2
-      - TG频道@mfbpn-日本 3
-      - TG频道@mfbpn-日本 4
-      - TG频道@mfbpn-美国
-      - TG频道@mfbpn-美国 2
-      - TG频道@mfbpn-韩国
-      - TG频道@mfbpn-韩国 2
-      - TG频道@mfbpn-香港
-      - TG频道@mfbpn-香港 2
-      - TG频道@mfbpn-香港 3
-      - TG频道@mfbpn-香港 4
-      - TG频道@mfbpn-台湾 3
-      - TG频道@mfbpn-台湾 4
-      - TG频道@mfbpn-新加坡 3
-      - TG频道@mfbpn-新加坡 4
-      - TG频道@mfbpn-日本 5
-      - TG频道@mfbpn-日本 6
-      - TG频道@mfbpn-美国 3
-      - TG频道@mfbpn-美国 4
-      - TG频道@mfbpn-韩国 3
-      - TG频道@mfbpn-韩国 4
-      - TG频道@mfbpn-香港 5
-      - TG频道@mfbpn-香港 6
-      - TG频道@mfbpn-香港 7
-      - TG频道@mfbpn-香港 8
-      - TG频道@mfbpn-台湾TW
-      - TG频道@mfbpn-台湾TW 2
-      - TG频道@mfbpn-台湾TW 3
-      - TG频道@mfbpn-台湾TW 4
-      - TG频道@mfbpn-新加坡SG
-      - TG频道@mfbpn-新加坡SG 2
-      - TG频道@mfbpn-美国US
-      - TG频道@mfbpn-美国US 2
-      - TG频道@mfbpn-美国US 3
-      - TG频道@mfbpn-香港HK
-      - TG频道@mfbpn-香港HK 2
-      - TG频道@mfbpn-香港HK 3
-      - TG频道@mfbpn-印度IN
-      - TG频道@mfbpn-印度IN 2
-      - TG频道@mfbpn-台湾TW 5
-      - TG频道@mfbpn-台湾TW 6
-      - TG频道@mfbpn-台湾TW 7
-      - TG频道@mfbpn-台湾TW 8
-      - TG频道@mfbpn-新加坡SG 3
-      - TG频道@mfbpn-新加坡SG 4
-      - TG频道@mfbpn-日本JP
-      - TG频道@mfbpn-日本JP 2
-      - TG频道@mfbpn-美国US 4
-      - TG频道@mfbpn-美国US 5
-      - TG频道@mfbpn-美国US 6
-      - TG频道@mfbpn-韩国KR
-      - TG频道@mfbpn-韩国KR 2
-      - TG频道@mfbpn-香港HK 4
-      - TG频道@mfbpn-香港HK 5
-      - TG频道@mfbpn-香港HK 6
-      - TG频道@mfbpn-台湾TW 9
-      - TG频道@mfbpn-新加坡SG 5
-      - TG频道@mfbpn-新加坡SG 6
-      - TG频道@mfbpn-日本JP 3
-      - TG频道@mfbpn-日本JP 4
-      - TG频道@mfbpn-美国US 7
-      - TG频道@mfbpn-美国US 8
-      - TG频道@mfbpn-英国GB
-      - TG频道@mfbpn-英国GB 2
-      - TG频道@mfbpn-韩国KR 3
-      - TG频道@mfbpn-韩国KR 4
-      - TG频道@mfbpn-香港HK 7
-      - TG频道@mfbpn-香港HK 8
-      - TG频道@mfbpn-香港HK 9
-      - TG频道@mfbpn-新加坡SG 7
-      - TG频道@mfbpn-新加坡SG 8
-      - TG频道@mfbpn-日本JP 5
-      - TG频道@mfbpn-日本JP 6
-      - TG频道@mfbpn-日本JP 7
-      - TG频道@mfbpn-香港HK 10
-      - TG频道@mfbpn-香港HK 11
-      - TG频道@mfbpn-香港HK 12
-      - TG频道@mfbpn-IEPL-2-台湾TW
-      - TG频道@mfbpn-IEPL-2-新加坡SG
-      - TG频道@mfbpn-IEPL-2-日本JP
-      - TG频道@mfbpn-IEPL-2-美国US
-      - TG频道@mfbpn-IEPL-2-香港HK
-      - TG频道@mfbpn-IEPL-2-香港HK 2
-      - TG频道@mfbpn-IEPL-台湾TW
-      - TG频道@mfbpn-IEPL-台湾TW 2
-      - TG频道@mfbpn-IEPL-美国US
-      - TG频道@mfbpn-IEPL-美国US 2
-      - TG频道@mfbpn-IEPL-香港HK
-      - TG频道@mfbpn-IEPL-香港HK 2
-      - TG频道@mfbpn-IEPL-香港HK 3
-      - TG频道@mfbpn
-      - TG频道@mfbpn 2
-      - TG频道@mfbpn-巴西BR
+      - "剩余流量：49.99 GB\r"
+      - "距离下次重置剩余：29 天\r"
+      - "套餐到期：2023-11-12\r"
+      - "🇸🇬 Singapore-01\r"
+      - "🇸🇬 Singapore-02\r"
+      - "🇸🇬 Singapore-03\r"
+      - "🇯🇵 Japan-01\r"
+      - "🇯🇵 Japan-02\r"
+      - "🇯🇵 Japan-03\r"
+      - "🇰🇷 South Korea-01\r"
+      - "🇰🇷 South Korea-02\r"
+      - "🇰🇷 South Korea-03\r"
+      - "🇺🇸 USA-01\r"
+      - "🇺🇸 USA-02\r"
+      - "🇺🇸 USA-03\r"
+      - "🇹🇼 Taiwan-01\r"
+      - "🇹🇼 Taiwan-02\r"
+      - "🇹🇼 Taiwan-03\r"
+      - "🇭🇰 Hongkong-01\r"
+      - "🇭🇰 Hongkong-02\r"
+      - "🇭🇰 Hongkong-03\r"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道@mfbpn-台湾
-      - TG频道@mfbpn-台湾 2
-      - TG频道@mfbpn-新加坡
-      - TG频道@mfbpn-新加坡 2
-      - TG频道@mfbpn-日本
-      - TG频道@mfbpn-日本 2
-      - TG频道@mfbpn-日本 3
-      - TG频道@mfbpn-日本 4
-      - TG频道@mfbpn-美国
-      - TG频道@mfbpn-美国 2
-      - TG频道@mfbpn-韩国
-      - TG频道@mfbpn-韩国 2
-      - TG频道@mfbpn-香港
-      - TG频道@mfbpn-香港 2
-      - TG频道@mfbpn-香港 3
-      - TG频道@mfbpn-香港 4
-      - TG频道@mfbpn-台湾 3
-      - TG频道@mfbpn-台湾 4
-      - TG频道@mfbpn-新加坡 3
-      - TG频道@mfbpn-新加坡 4
-      - TG频道@mfbpn-日本 5
-      - TG频道@mfbpn-日本 6
-      - TG频道@mfbpn-美国 3
-      - TG频道@mfbpn-美国 4
-      - TG频道@mfbpn-韩国 3
-      - TG频道@mfbpn-韩国 4
-      - TG频道@mfbpn-香港 5
-      - TG频道@mfbpn-香港 6
-      - TG频道@mfbpn-香港 7
-      - TG频道@mfbpn-香港 8
-      - TG频道@mfbpn-台湾TW
-      - TG频道@mfbpn-台湾TW 2
-      - TG频道@mfbpn-台湾TW 3
-      - TG频道@mfbpn-台湾TW 4
-      - TG频道@mfbpn-新加坡SG
-      - TG频道@mfbpn-新加坡SG 2
-      - TG频道@mfbpn-美国US
-      - TG频道@mfbpn-美国US 2
-      - TG频道@mfbpn-美国US 3
-      - TG频道@mfbpn-香港HK
-      - TG频道@mfbpn-香港HK 2
-      - TG频道@mfbpn-香港HK 3
-      - TG频道@mfbpn-印度IN
-      - TG频道@mfbpn-印度IN 2
-      - TG频道@mfbpn-台湾TW 5
-      - TG频道@mfbpn-台湾TW 6
-      - TG频道@mfbpn-台湾TW 7
-      - TG频道@mfbpn-台湾TW 8
-      - TG频道@mfbpn-新加坡SG 3
-      - TG频道@mfbpn-新加坡SG 4
-      - TG频道@mfbpn-日本JP
-      - TG频道@mfbpn-日本JP 2
-      - TG频道@mfbpn-美国US 4
-      - TG频道@mfbpn-美国US 5
-      - TG频道@mfbpn-美国US 6
-      - TG频道@mfbpn-韩国KR
-      - TG频道@mfbpn-韩国KR 2
-      - TG频道@mfbpn-香港HK 4
-      - TG频道@mfbpn-香港HK 5
-      - TG频道@mfbpn-香港HK 6
-      - TG频道@mfbpn-台湾TW 9
-      - TG频道@mfbpn-新加坡SG 5
-      - TG频道@mfbpn-新加坡SG 6
-      - TG频道@mfbpn-日本JP 3
-      - TG频道@mfbpn-日本JP 4
-      - TG频道@mfbpn-美国US 7
-      - TG频道@mfbpn-美国US 8
-      - TG频道@mfbpn-英国GB
-      - TG频道@mfbpn-英国GB 2
-      - TG频道@mfbpn-韩国KR 3
-      - TG频道@mfbpn-韩国KR 4
-      - TG频道@mfbpn-香港HK 7
-      - TG频道@mfbpn-香港HK 8
-      - TG频道@mfbpn-香港HK 9
-      - TG频道@mfbpn-新加坡SG 7
-      - TG频道@mfbpn-新加坡SG 8
-      - TG频道@mfbpn-日本JP 5
-      - TG频道@mfbpn-日本JP 6
-      - TG频道@mfbpn-日本JP 7
-      - TG频道@mfbpn-香港HK 10
-      - TG频道@mfbpn-香港HK 11
-      - TG频道@mfbpn-香港HK 12
-      - TG频道@mfbpn-IEPL-2-台湾TW
-      - TG频道@mfbpn-IEPL-2-新加坡SG
-      - TG频道@mfbpn-IEPL-2-日本JP
-      - TG频道@mfbpn-IEPL-2-美国US
-      - TG频道@mfbpn-IEPL-2-香港HK
-      - TG频道@mfbpn-IEPL-2-香港HK 2
-      - TG频道@mfbpn-IEPL-台湾TW
-      - TG频道@mfbpn-IEPL-台湾TW 2
-      - TG频道@mfbpn-IEPL-美国US
-      - TG频道@mfbpn-IEPL-美国US 2
-      - TG频道@mfbpn-IEPL-香港HK
-      - TG频道@mfbpn-IEPL-香港HK 2
-      - TG频道@mfbpn-IEPL-香港HK 3
-      - TG频道@mfbpn
-      - TG频道@mfbpn 2
-      - TG频道@mfbpn-巴西BR
+      - "剩余流量：49.99 GB\r"
+      - "距离下次重置剩余：29 天\r"
+      - "套餐到期：2023-11-12\r"
+      - "🇸🇬 Singapore-01\r"
+      - "🇸🇬 Singapore-02\r"
+      - "🇸🇬 Singapore-03\r"
+      - "🇯🇵 Japan-01\r"
+      - "🇯🇵 Japan-02\r"
+      - "🇯🇵 Japan-03\r"
+      - "🇰🇷 South Korea-01\r"
+      - "🇰🇷 South Korea-02\r"
+      - "🇰🇷 South Korea-03\r"
+      - "🇺🇸 USA-01\r"
+      - "🇺🇸 USA-02\r"
+      - "🇺🇸 USA-03\r"
+      - "🇹🇼 Taiwan-01\r"
+      - "🇹🇼 Taiwan-02\r"
+      - "🇹🇼 Taiwan-03\r"
+      - "🇭🇰 Hongkong-01\r"
+      - "🇭🇰 Hongkong-02\r"
+      - "🇭🇰 Hongkong-03\r"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道@mfbpn-台湾
-      - TG频道@mfbpn-台湾 2
-      - TG频道@mfbpn-新加坡
-      - TG频道@mfbpn-新加坡 2
-      - TG频道@mfbpn-日本
-      - TG频道@mfbpn-日本 2
-      - TG频道@mfbpn-日本 3
-      - TG频道@mfbpn-日本 4
-      - TG频道@mfbpn-美国
-      - TG频道@mfbpn-美国 2
-      - TG频道@mfbpn-韩国
-      - TG频道@mfbpn-韩国 2
-      - TG频道@mfbpn-香港
-      - TG频道@mfbpn-香港 2
-      - TG频道@mfbpn-香港 3
-      - TG频道@mfbpn-香港 4
-      - TG频道@mfbpn-台湾 3
-      - TG频道@mfbpn-台湾 4
-      - TG频道@mfbpn-新加坡 3
-      - TG频道@mfbpn-新加坡 4
-      - TG频道@mfbpn-日本 5
-      - TG频道@mfbpn-日本 6
-      - TG频道@mfbpn-美国 3
-      - TG频道@mfbpn-美国 4
-      - TG频道@mfbpn-韩国 3
-      - TG频道@mfbpn-韩国 4
-      - TG频道@mfbpn-香港 5
-      - TG频道@mfbpn-香港 6
-      - TG频道@mfbpn-香港 7
-      - TG频道@mfbpn-香港 8
-      - TG频道@mfbpn-台湾TW
-      - TG频道@mfbpn-台湾TW 2
-      - TG频道@mfbpn-台湾TW 3
-      - TG频道@mfbpn-台湾TW 4
-      - TG频道@mfbpn-新加坡SG
-      - TG频道@mfbpn-新加坡SG 2
-      - TG频道@mfbpn-美国US
-      - TG频道@mfbpn-美国US 2
-      - TG频道@mfbpn-美国US 3
-      - TG频道@mfbpn-香港HK
-      - TG频道@mfbpn-香港HK 2
-      - TG频道@mfbpn-香港HK 3
-      - TG频道@mfbpn-印度IN
-      - TG频道@mfbpn-印度IN 2
-      - TG频道@mfbpn-台湾TW 5
-      - TG频道@mfbpn-台湾TW 6
-      - TG频道@mfbpn-台湾TW 7
-      - TG频道@mfbpn-台湾TW 8
-      - TG频道@mfbpn-新加坡SG 3
-      - TG频道@mfbpn-新加坡SG 4
-      - TG频道@mfbpn-日本JP
-      - TG频道@mfbpn-日本JP 2
-      - TG频道@mfbpn-美国US 4
-      - TG频道@mfbpn-美国US 5
-      - TG频道@mfbpn-美国US 6
-      - TG频道@mfbpn-韩国KR
-      - TG频道@mfbpn-韩国KR 2
-      - TG频道@mfbpn-香港HK 4
-      - TG频道@mfbpn-香港HK 5
-      - TG频道@mfbpn-香港HK 6
-      - TG频道@mfbpn-台湾TW 9
-      - TG频道@mfbpn-新加坡SG 5
-      - TG频道@mfbpn-新加坡SG 6
-      - TG频道@mfbpn-日本JP 3
-      - TG频道@mfbpn-日本JP 4
-      - TG频道@mfbpn-美国US 7
-      - TG频道@mfbpn-美国US 8
-      - TG频道@mfbpn-英国GB
-      - TG频道@mfbpn-英国GB 2
-      - TG频道@mfbpn-韩国KR 3
-      - TG频道@mfbpn-韩国KR 4
-      - TG频道@mfbpn-香港HK 7
-      - TG频道@mfbpn-香港HK 8
-      - TG频道@mfbpn-香港HK 9
-      - TG频道@mfbpn-新加坡SG 7
-      - TG频道@mfbpn-新加坡SG 8
-      - TG频道@mfbpn-日本JP 5
-      - TG频道@mfbpn-日本JP 6
-      - TG频道@mfbpn-日本JP 7
-      - TG频道@mfbpn-香港HK 10
-      - TG频道@mfbpn-香港HK 11
-      - TG频道@mfbpn-香港HK 12
-      - TG频道@mfbpn-IEPL-2-台湾TW
-      - TG频道@mfbpn-IEPL-2-新加坡SG
-      - TG频道@mfbpn-IEPL-2-日本JP
-      - TG频道@mfbpn-IEPL-2-美国US
-      - TG频道@mfbpn-IEPL-2-香港HK
-      - TG频道@mfbpn-IEPL-2-香港HK 2
-      - TG频道@mfbpn-IEPL-台湾TW
-      - TG频道@mfbpn-IEPL-台湾TW 2
-      - TG频道@mfbpn-IEPL-美国US
-      - TG频道@mfbpn-IEPL-美国US 2
-      - TG频道@mfbpn-IEPL-香港HK
-      - TG频道@mfbpn-IEPL-香港HK 2
-      - TG频道@mfbpn-IEPL-香港HK 3
-      - TG频道@mfbpn
-      - TG频道@mfbpn 2
-      - TG频道@mfbpn-巴西BR
+      - "剩余流量：49.99 GB\r"
+      - "距离下次重置剩余：29 天\r"
+      - "套餐到期：2023-11-12\r"
+      - "🇸🇬 Singapore-01\r"
+      - "🇸🇬 Singapore-02\r"
+      - "🇸🇬 Singapore-03\r"
+      - "🇯🇵 Japan-01\r"
+      - "🇯🇵 Japan-02\r"
+      - "🇯🇵 Japan-03\r"
+      - "🇰🇷 South Korea-01\r"
+      - "🇰🇷 South Korea-02\r"
+      - "🇰🇷 South Korea-03\r"
+      - "🇺🇸 USA-01\r"
+      - "🇺🇸 USA-02\r"
+      - "🇺🇸 USA-03\r"
+      - "🇹🇼 Taiwan-01\r"
+      - "🇹🇼 Taiwan-02\r"
+      - "🇹🇼 Taiwan-03\r"
+      - "🇭🇰 Hongkong-01\r"
+      - "🇭🇰 Hongkong-02\r"
+      - "🇭🇰 Hongkong-03\r"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG频道@mfbpn-台湾
-      - TG频道@mfbpn-台湾 2
-      - TG频道@mfbpn-新加坡
-      - TG频道@mfbpn-新加坡 2
-      - TG频道@mfbpn-日本
-      - TG频道@mfbpn-日本 2
-      - TG频道@mfbpn-日本 3
-      - TG频道@mfbpn-日本 4
-      - TG频道@mfbpn-美国
-      - TG频道@mfbpn-美国 2
-      - TG频道@mfbpn-韩国
-      - TG频道@mfbpn-韩国 2
-      - TG频道@mfbpn-香港
-      - TG频道@mfbpn-香港 2
-      - TG频道@mfbpn-香港 3
-      - TG频道@mfbpn-香港 4
-      - TG频道@mfbpn-台湾 3
-      - TG频道@mfbpn-台湾 4
-      - TG频道@mfbpn-新加坡 3
-      - TG频道@mfbpn-新加坡 4
-      - TG频道@mfbpn-日本 5
-      - TG频道@mfbpn-日本 6
-      - TG频道@mfbpn-美国 3
-      - TG频道@mfbpn-美国 4
-      - TG频道@mfbpn-韩国 3
-      - TG频道@mfbpn-韩国 4
-      - TG频道@mfbpn-香港 5
-      - TG频道@mfbpn-香港 6
-      - TG频道@mfbpn-香港 7
-      - TG频道@mfbpn-香港 8
-      - TG频道@mfbpn-台湾TW
-      - TG频道@mfbpn-台湾TW 2
-      - TG频道@mfbpn-台湾TW 3
-      - TG频道@mfbpn-台湾TW 4
-      - TG频道@mfbpn-新加坡SG
-      - TG频道@mfbpn-新加坡SG 2
-      - TG频道@mfbpn-美国US
-      - TG频道@mfbpn-美国US 2
-      - TG频道@mfbpn-美国US 3
-      - TG频道@mfbpn-香港HK
-      - TG频道@mfbpn-香港HK 2
-      - TG频道@mfbpn-香港HK 3
-      - TG频道@mfbpn-印度IN
-      - TG频道@mfbpn-印度IN 2
-      - TG频道@mfbpn-台湾TW 5
-      - TG频道@mfbpn-台湾TW 6
-      - TG频道@mfbpn-台湾TW 7
-      - TG频道@mfbpn-台湾TW 8
-      - TG频道@mfbpn-新加坡SG 3
-      - TG频道@mfbpn-新加坡SG 4
-      - TG频道@mfbpn-日本JP
-      - TG频道@mfbpn-日本JP 2
-      - TG频道@mfbpn-美国US 4
-      - TG频道@mfbpn-美国US 5
-      - TG频道@mfbpn-美国US 6
-      - TG频道@mfbpn-韩国KR
-      - TG频道@mfbpn-韩国KR 2
-      - TG频道@mfbpn-香港HK 4
-      - TG频道@mfbpn-香港HK 5
-      - TG频道@mfbpn-香港HK 6
-      - TG频道@mfbpn-台湾TW 9
-      - TG频道@mfbpn-新加坡SG 5
-      - TG频道@mfbpn-新加坡SG 6
-      - TG频道@mfbpn-日本JP 3
-      - TG频道@mfbpn-日本JP 4
-      - TG频道@mfbpn-美国US 7
-      - TG频道@mfbpn-美国US 8
-      - TG频道@mfbpn-英国GB
-      - TG频道@mfbpn-英国GB 2
-      - TG频道@mfbpn-韩国KR 3
-      - TG频道@mfbpn-韩国KR 4
-      - TG频道@mfbpn-香港HK 7
-      - TG频道@mfbpn-香港HK 8
-      - TG频道@mfbpn-香港HK 9
-      - TG频道@mfbpn-新加坡SG 7
-      - TG频道@mfbpn-新加坡SG 8
-      - TG频道@mfbpn-日本JP 5
-      - TG频道@mfbpn-日本JP 6
-      - TG频道@mfbpn-日本JP 7
-      - TG频道@mfbpn-香港HK 10
-      - TG频道@mfbpn-香港HK 11
-      - TG频道@mfbpn-香港HK 12
-      - TG频道@mfbpn-IEPL-2-台湾TW
-      - TG频道@mfbpn-IEPL-2-新加坡SG
-      - TG频道@mfbpn-IEPL-2-日本JP
-      - TG频道@mfbpn-IEPL-2-美国US
-      - TG频道@mfbpn-IEPL-2-香港HK
-      - TG频道@mfbpn-IEPL-2-香港HK 2
-      - TG频道@mfbpn-IEPL-台湾TW
-      - TG频道@mfbpn-IEPL-台湾TW 2
-      - TG频道@mfbpn-IEPL-美国US
-      - TG频道@mfbpn-IEPL-美国US 2
-      - TG频道@mfbpn-IEPL-香港HK
-      - TG频道@mfbpn-IEPL-香港HK 2
-      - TG频道@mfbpn-IEPL-香港HK 3
-      - TG频道@mfbpn
-      - TG频道@mfbpn 2
-      - TG频道@mfbpn-巴西BR
+      - "剩余流量：49.99 GB\r"
+      - "距离下次重置剩余：29 天\r"
+      - "套餐到期：2023-11-12\r"
+      - "🇸🇬 Singapore-01\r"
+      - "🇸🇬 Singapore-02\r"
+      - "🇸🇬 Singapore-03\r"
+      - "🇯🇵 Japan-01\r"
+      - "🇯🇵 Japan-02\r"
+      - "🇯🇵 Japan-03\r"
+      - "🇰🇷 South Korea-01\r"
+      - "🇰🇷 South Korea-02\r"
+      - "🇰🇷 South Korea-03\r"
+      - "🇺🇸 USA-01\r"
+      - "🇺🇸 USA-02\r"
+      - "🇺🇸 USA-03\r"
+      - "🇹🇼 Taiwan-01\r"
+      - "🇹🇼 Taiwan-02\r"
+      - "🇹🇼 Taiwan-03\r"
+      - "🇭🇰 Hongkong-01\r"
+      - "🇭🇰 Hongkong-02\r"
+      - "🇭🇰 Hongkong-03\r"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道@mfbpn-台湾
-      - TG频道@mfbpn-台湾 2
-      - TG频道@mfbpn-新加坡
-      - TG频道@mfbpn-新加坡 2
-      - TG频道@mfbpn-日本
-      - TG频道@mfbpn-日本 2
-      - TG频道@mfbpn-日本 3
-      - TG频道@mfbpn-日本 4
-      - TG频道@mfbpn-美国
-      - TG频道@mfbpn-美国 2
-      - TG频道@mfbpn-韩国
-      - TG频道@mfbpn-韩国 2
-      - TG频道@mfbpn-香港
-      - TG频道@mfbpn-香港 2
-      - TG频道@mfbpn-香港 3
-      - TG频道@mfbpn-香港 4
-      - TG频道@mfbpn-台湾 3
-      - TG频道@mfbpn-台湾 4
-      - TG频道@mfbpn-新加坡 3
-      - TG频道@mfbpn-新加坡 4
-      - TG频道@mfbpn-日本 5
-      - TG频道@mfbpn-日本 6
-      - TG频道@mfbpn-美国 3
-      - TG频道@mfbpn-美国 4
-      - TG频道@mfbpn-韩国 3
-      - TG频道@mfbpn-韩国 4
-      - TG频道@mfbpn-香港 5
-      - TG频道@mfbpn-香港 6
-      - TG频道@mfbpn-香港 7
-      - TG频道@mfbpn-香港 8
-      - TG频道@mfbpn-台湾TW
-      - TG频道@mfbpn-台湾TW 2
-      - TG频道@mfbpn-台湾TW 3
-      - TG频道@mfbpn-台湾TW 4
-      - TG频道@mfbpn-新加坡SG
-      - TG频道@mfbpn-新加坡SG 2
-      - TG频道@mfbpn-美国US
-      - TG频道@mfbpn-美国US 2
-      - TG频道@mfbpn-美国US 3
-      - TG频道@mfbpn-香港HK
-      - TG频道@mfbpn-香港HK 2
-      - TG频道@mfbpn-香港HK 3
-      - TG频道@mfbpn-印度IN
-      - TG频道@mfbpn-印度IN 2
-      - TG频道@mfbpn-台湾TW 5
-      - TG频道@mfbpn-台湾TW 6
-      - TG频道@mfbpn-台湾TW 7
-      - TG频道@mfbpn-台湾TW 8
-      - TG频道@mfbpn-新加坡SG 3
-      - TG频道@mfbpn-新加坡SG 4
-      - TG频道@mfbpn-日本JP
-      - TG频道@mfbpn-日本JP 2
-      - TG频道@mfbpn-美国US 4
-      - TG频道@mfbpn-美国US 5
-      - TG频道@mfbpn-美国US 6
-      - TG频道@mfbpn-韩国KR
-      - TG频道@mfbpn-韩国KR 2
-      - TG频道@mfbpn-香港HK 4
-      - TG频道@mfbpn-香港HK 5
-      - TG频道@mfbpn-香港HK 6
-      - TG频道@mfbpn-台湾TW 9
-      - TG频道@mfbpn-新加坡SG 5
-      - TG频道@mfbpn-新加坡SG 6
-      - TG频道@mfbpn-日本JP 3
-      - TG频道@mfbpn-日本JP 4
-      - TG频道@mfbpn-美国US 7
-      - TG频道@mfbpn-美国US 8
-      - TG频道@mfbpn-英国GB
-      - TG频道@mfbpn-英国GB 2
-      - TG频道@mfbpn-韩国KR 3
-      - TG频道@mfbpn-韩国KR 4
-      - TG频道@mfbpn-香港HK 7
-      - TG频道@mfbpn-香港HK 8
-      - TG频道@mfbpn-香港HK 9
-      - TG频道@mfbpn-新加坡SG 7
-      - TG频道@mfbpn-新加坡SG 8
-      - TG频道@mfbpn-日本JP 5
-      - TG频道@mfbpn-日本JP 6
-      - TG频道@mfbpn-日本JP 7
-      - TG频道@mfbpn-香港HK 10
-      - TG频道@mfbpn-香港HK 11
-      - TG频道@mfbpn-香港HK 12
-      - TG频道@mfbpn-IEPL-2-台湾TW
-      - TG频道@mfbpn-IEPL-2-新加坡SG
-      - TG频道@mfbpn-IEPL-2-日本JP
-      - TG频道@mfbpn-IEPL-2-美国US
-      - TG频道@mfbpn-IEPL-2-香港HK
-      - TG频道@mfbpn-IEPL-2-香港HK 2
-      - TG频道@mfbpn-IEPL-台湾TW
-      - TG频道@mfbpn-IEPL-台湾TW 2
-      - TG频道@mfbpn-IEPL-美国US
-      - TG频道@mfbpn-IEPL-美国US 2
-      - TG频道@mfbpn-IEPL-香港HK
-      - TG频道@mfbpn-IEPL-香港HK 2
-      - TG频道@mfbpn-IEPL-香港HK 3
-      - TG频道@mfbpn
-      - TG频道@mfbpn 2
-      - TG频道@mfbpn-巴西BR
+      - "剩余流量：49.99 GB\r"
+      - "距离下次重置剩余：29 天\r"
+      - "套餐到期：2023-11-12\r"
+      - "🇸🇬 Singapore-01\r"
+      - "🇸🇬 Singapore-02\r"
+      - "🇸🇬 Singapore-03\r"
+      - "🇯🇵 Japan-01\r"
+      - "🇯🇵 Japan-02\r"
+      - "🇯🇵 Japan-03\r"
+      - "🇰🇷 South Korea-01\r"
+      - "🇰🇷 South Korea-02\r"
+      - "🇰🇷 South Korea-03\r"
+      - "🇺🇸 USA-01\r"
+      - "🇺🇸 USA-02\r"
+      - "🇺🇸 USA-03\r"
+      - "🇹🇼 Taiwan-01\r"
+      - "🇹🇼 Taiwan-02\r"
+      - "🇹🇼 Taiwan-03\r"
+      - "🇭🇰 Hongkong-01\r"
+      - "🇭🇰 Hongkong-02\r"
+      - "🇭🇰 Hongkong-03\r"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -826,104 +287,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道@mfbpn-台湾
-      - TG频道@mfbpn-台湾 2
-      - TG频道@mfbpn-新加坡
-      - TG频道@mfbpn-新加坡 2
-      - TG频道@mfbpn-日本
-      - TG频道@mfbpn-日本 2
-      - TG频道@mfbpn-日本 3
-      - TG频道@mfbpn-日本 4
-      - TG频道@mfbpn-美国
-      - TG频道@mfbpn-美国 2
-      - TG频道@mfbpn-韩国
-      - TG频道@mfbpn-韩国 2
-      - TG频道@mfbpn-香港
-      - TG频道@mfbpn-香港 2
-      - TG频道@mfbpn-香港 3
-      - TG频道@mfbpn-香港 4
-      - TG频道@mfbpn-台湾 3
-      - TG频道@mfbpn-台湾 4
-      - TG频道@mfbpn-新加坡 3
-      - TG频道@mfbpn-新加坡 4
-      - TG频道@mfbpn-日本 5
-      - TG频道@mfbpn-日本 6
-      - TG频道@mfbpn-美国 3
-      - TG频道@mfbpn-美国 4
-      - TG频道@mfbpn-韩国 3
-      - TG频道@mfbpn-韩国 4
-      - TG频道@mfbpn-香港 5
-      - TG频道@mfbpn-香港 6
-      - TG频道@mfbpn-香港 7
-      - TG频道@mfbpn-香港 8
-      - TG频道@mfbpn-台湾TW
-      - TG频道@mfbpn-台湾TW 2
-      - TG频道@mfbpn-台湾TW 3
-      - TG频道@mfbpn-台湾TW 4
-      - TG频道@mfbpn-新加坡SG
-      - TG频道@mfbpn-新加坡SG 2
-      - TG频道@mfbpn-美国US
-      - TG频道@mfbpn-美国US 2
-      - TG频道@mfbpn-美国US 3
-      - TG频道@mfbpn-香港HK
-      - TG频道@mfbpn-香港HK 2
-      - TG频道@mfbpn-香港HK 3
-      - TG频道@mfbpn-印度IN
-      - TG频道@mfbpn-印度IN 2
-      - TG频道@mfbpn-台湾TW 5
-      - TG频道@mfbpn-台湾TW 6
-      - TG频道@mfbpn-台湾TW 7
-      - TG频道@mfbpn-台湾TW 8
-      - TG频道@mfbpn-新加坡SG 3
-      - TG频道@mfbpn-新加坡SG 4
-      - TG频道@mfbpn-日本JP
-      - TG频道@mfbpn-日本JP 2
-      - TG频道@mfbpn-美国US 4
-      - TG频道@mfbpn-美国US 5
-      - TG频道@mfbpn-美国US 6
-      - TG频道@mfbpn-韩国KR
-      - TG频道@mfbpn-韩国KR 2
-      - TG频道@mfbpn-香港HK 4
-      - TG频道@mfbpn-香港HK 5
-      - TG频道@mfbpn-香港HK 6
-      - TG频道@mfbpn-台湾TW 9
-      - TG频道@mfbpn-新加坡SG 5
-      - TG频道@mfbpn-新加坡SG 6
-      - TG频道@mfbpn-日本JP 3
-      - TG频道@mfbpn-日本JP 4
-      - TG频道@mfbpn-美国US 7
-      - TG频道@mfbpn-美国US 8
-      - TG频道@mfbpn-英国GB
-      - TG频道@mfbpn-英国GB 2
-      - TG频道@mfbpn-韩国KR 3
-      - TG频道@mfbpn-韩国KR 4
-      - TG频道@mfbpn-香港HK 7
-      - TG频道@mfbpn-香港HK 8
-      - TG频道@mfbpn-香港HK 9
-      - TG频道@mfbpn-新加坡SG 7
-      - TG频道@mfbpn-新加坡SG 8
-      - TG频道@mfbpn-日本JP 5
-      - TG频道@mfbpn-日本JP 6
-      - TG频道@mfbpn-日本JP 7
-      - TG频道@mfbpn-香港HK 10
-      - TG频道@mfbpn-香港HK 11
-      - TG频道@mfbpn-香港HK 12
-      - TG频道@mfbpn-IEPL-2-台湾TW
-      - TG频道@mfbpn-IEPL-2-新加坡SG
-      - TG频道@mfbpn-IEPL-2-日本JP
-      - TG频道@mfbpn-IEPL-2-美国US
-      - TG频道@mfbpn-IEPL-2-香港HK
-      - TG频道@mfbpn-IEPL-2-香港HK 2
-      - TG频道@mfbpn-IEPL-台湾TW
-      - TG频道@mfbpn-IEPL-台湾TW 2
-      - TG频道@mfbpn-IEPL-美国US
-      - TG频道@mfbpn-IEPL-美国US 2
-      - TG频道@mfbpn-IEPL-香港HK
-      - TG频道@mfbpn-IEPL-香港HK 2
-      - TG频道@mfbpn-IEPL-香港HK 3
-      - TG频道@mfbpn
-      - TG频道@mfbpn 2
-      - TG频道@mfbpn-巴西BR
+      - "剩余流量：49.99 GB\r"
+      - "距离下次重置剩余：29 天\r"
+      - "套餐到期：2023-11-12\r"
+      - "🇸🇬 Singapore-01\r"
+      - "🇸🇬 Singapore-02\r"
+      - "🇸🇬 Singapore-03\r"
+      - "🇯🇵 Japan-01\r"
+      - "🇯🇵 Japan-02\r"
+      - "🇯🇵 Japan-03\r"
+      - "🇰🇷 South Korea-01\r"
+      - "🇰🇷 South Korea-02\r"
+      - "🇰🇷 South Korea-03\r"
+      - "🇺🇸 USA-01\r"
+      - "🇺🇸 USA-02\r"
+      - "🇺🇸 USA-03\r"
+      - "🇹🇼 Taiwan-01\r"
+      - "🇹🇼 Taiwan-02\r"
+      - "🇹🇼 Taiwan-03\r"
+      - "🇭🇰 Hongkong-01\r"
+      - "🇭🇰 Hongkong-02\r"
+      - "🇭🇰 Hongkong-03\r"
 
 rules:
 # 本地/局域网地址
