@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-14 16:24:58
+# 创建时间：2023-10-14 16:30:17
 # 使用模版：V2RaySE 默认模版
-# 节点数量：48
+# 节点数量：44
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -125,10 +125,6 @@ proxies:
   - {"name":"台湾02","type":"vmess","server":"tw.nodegroups.ink","port":33207,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
   - {"name":"台湾03-Netflix|Disney+|动画疯","type":"vmess","server":"tw.nodegroups.ink","port":33221,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
   - {"name":"实验性线路1|全节点轮询自动切换","type":"vmess","server":"hk.nodegroups.ink","port":49001,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"公告 -【TG群组】t.me/sfjsq1","type":"ssr","server":"127.0.0.1","port":31307,"password":"fTvbd6Rs3FBVRF3v","cipher":"chacha20-ietf","obfs":"http_simple","protocol":"auth_aes128_sha1"}
-  - {"name":"公告 -【官方网站】盛丰.com","type":"ssr","server":"127.0.0.1","port":31307,"password":"fTvbd6Rs3FBVRF3v","cipher":"chacha20-ietf","obfs":"http_simple","protocol":"auth_aes128_sha1"}
-  - {"name":"公告 -【温馨提示】如有疑问请联系客服","type":"ssr","server":"127.0.0.1","port":31307,"password":"fTvbd6Rs3FBVRF3v","cipher":"chacha20-ietf","obfs":"http_simple","protocol":"auth_aes128_sha1"}
-  - {"name":"官网xxxu.xyz   有问题请加群反馈 tg群@zyfx01","type":"vmess","server":"mxc3.lbuy.top","port":8080,"cipher":"auto","uuid":"4efab502-0812-473c-aa0a-d83b7f6817d9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v?ed=2048","headers":{"host":"us.tashancloud.link"}}}
   - {"name":"🇺🇸United 移动优化01 领优惠券@zyfx01","type":"vmess","server":"yd1.992688.xyz","port":8080,"cipher":"auto","uuid":"4efab502-0812-473c-aa0a-d83b7f6817d9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v?ed=2048","headers":{"host":"us.tashancloud.link"}}}
   - {"name":"🇺🇸选择对应的网络","type":"vmess","server":"www.visa.com","port":8080,"cipher":"auto","uuid":"4efab502-0812-473c-aa0a-d83b7f6817d9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v?ed=2048","headers":{"host":"us2.tashancloud.link"}}}
   - {"name":"🇺🇸United联通优化 03    tg群@zyfx01","type":"vmess","server":"skk.moe","port":8080,"cipher":"auto","uuid":"4efab502-0812-473c-aa0a-d83b7f6817d9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v?ed=2048","headers":{"host":"us2.tashancloud.link"}}}
@@ -179,10 +175,6 @@ proxy-groups:
       - 台湾02
       - 台湾03-Netflix|Disney+|动画疯
       - 实验性线路1|全节点轮询自动切换
-      - 公告 -【TG群组】t.me/sfjsq1
-      - 公告 -【官方网站】盛丰.com
-      - 公告 -【温馨提示】如有疑问请联系客服
-      - 官网xxxu.xyz   有问题请加群反馈 tg群@zyfx01
       - 🇺🇸United 移动优化01 领优惠券@zyfx01
       - 🇺🇸选择对应的网络
       - 🇺🇸United联通优化 03    tg群@zyfx01
@@ -233,10 +225,6 @@ proxy-groups:
       - 台湾02
       - 台湾03-Netflix|Disney+|动画疯
       - 实验性线路1|全节点轮询自动切换
-      - 公告 -【TG群组】t.me/sfjsq1
-      - 公告 -【官方网站】盛丰.com
-      - 公告 -【温馨提示】如有疑问请联系客服
-      - 官网xxxu.xyz   有问题请加群反馈 tg群@zyfx01
       - 🇺🇸United 移动优化01 领优惠券@zyfx01
       - 🇺🇸选择对应的网络
       - 🇺🇸United联通优化 03    tg群@zyfx01
@@ -287,10 +275,6 @@ proxy-groups:
       - 台湾02
       - 台湾03-Netflix|Disney+|动画疯
       - 实验性线路1|全节点轮询自动切换
-      - 公告 -【TG群组】t.me/sfjsq1
-      - 公告 -【官方网站】盛丰.com
-      - 公告 -【温馨提示】如有疑问请联系客服
-      - 官网xxxu.xyz   有问题请加群反馈 tg群@zyfx01
       - 🇺🇸United 移动优化01 领优惠券@zyfx01
       - 🇺🇸选择对应的网络
       - 🇺🇸United联通优化 03    tg群@zyfx01
@@ -340,10 +324,6 @@ proxy-groups:
       - 台湾02
       - 台湾03-Netflix|Disney+|动画疯
       - 实验性线路1|全节点轮询自动切换
-      - 公告 -【TG群组】t.me/sfjsq1
-      - 公告 -【官方网站】盛丰.com
-      - 公告 -【温馨提示】如有疑问请联系客服
-      - 官网xxxu.xyz   有问题请加群反馈 tg群@zyfx01
       - 🇺🇸United 移动优化01 领优惠券@zyfx01
       - 🇺🇸选择对应的网络
       - 🇺🇸United联通优化 03    tg群@zyfx01
@@ -393,10 +373,6 @@ proxy-groups:
       - 台湾02
       - 台湾03-Netflix|Disney+|动画疯
       - 实验性线路1|全节点轮询自动切换
-      - 公告 -【TG群组】t.me/sfjsq1
-      - 公告 -【官方网站】盛丰.com
-      - 公告 -【温馨提示】如有疑问请联系客服
-      - 官网xxxu.xyz   有问题请加群反馈 tg群@zyfx01
       - 🇺🇸United 移动优化01 领优惠券@zyfx01
       - 🇺🇸选择对应的网络
       - 🇺🇸United联通优化 03    tg群@zyfx01
@@ -446,10 +422,6 @@ proxy-groups:
       - 台湾02
       - 台湾03-Netflix|Disney+|动画疯
       - 实验性线路1|全节点轮询自动切换
-      - 公告 -【TG群组】t.me/sfjsq1
-      - 公告 -【官方网站】盛丰.com
-      - 公告 -【温馨提示】如有疑问请联系客服
-      - 官网xxxu.xyz   有问题请加群反馈 tg群@zyfx01
       - 🇺🇸United 移动优化01 领优惠券@zyfx01
       - 🇺🇸选择对应的网络
       - 🇺🇸United联通优化 03    tg群@zyfx01
@@ -516,10 +488,6 @@ proxy-groups:
       - 台湾02
       - 台湾03-Netflix|Disney+|动画疯
       - 实验性线路1|全节点轮询自动切换
-      - 公告 -【TG群组】t.me/sfjsq1
-      - 公告 -【官方网站】盛丰.com
-      - 公告 -【温馨提示】如有疑问请联系客服
-      - 官网xxxu.xyz   有问题请加群反馈 tg群@zyfx01
       - 🇺🇸United 移动优化01 领优惠券@zyfx01
       - 🇺🇸选择对应的网络
       - 🇺🇸United联通优化 03    tg群@zyfx01
