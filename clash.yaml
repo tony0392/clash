@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-14 16:30:17
+# 创建时间：2023-10-16 14:39:20
 # 使用模版：V2RaySE 默认模版
-# 节点数量：44
+# 节点数量：15
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,343 +85,144 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇸🇬 Singapore-01","type":"ss","server":"yy.yingwuyun.cyou","port":27301,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬 Singapore-02","type":"ss","server":"ly.yingwuyun.cyou","port":27301,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬 Singapore-03","type":"ss","server":"dy.yingwuyun.cyou","port":27301,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵 Japan-01","type":"ss","server":"yy.yingwuyun.cyou","port":27302,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵 Japan-02","type":"ss","server":"ly.yingwuyun.cyou","port":27302,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵 Japan-03","type":"ss","server":"dy.yingwuyun.cyou","port":27302,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇰🇷 South Korea-01","type":"ss","server":"yy.yingwuyun.cyou","port":27303,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇰🇷 South Korea-02","type":"ss","server":"ly.yingwuyun.cyou","port":27303,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇰🇷 South Korea-03","type":"ss","server":"dy.yingwuyun.cyou","port":27303,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 USA-01","type":"ss","server":"yy.yingwuyun.cyou","port":27304,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 USA-02","type":"ss","server":"ly.yingwuyun.cyou","port":27304,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 USA-03","type":"ss","server":"dy.yingwuyun.cyou","port":27304,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼 Taiwan-01","type":"ss","server":"yy.yingwuyun.cyou","port":27305,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼 Taiwan-02","type":"ss","server":"ly.yingwuyun.cyou","port":27305,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼 Taiwan-03","type":"ss","server":"dy.yingwuyun.cyou","port":27305,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 Hongkong-01","type":"ss","server":"yy.yingwuyun.cyou","port":27306,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 Hongkong-02","type":"ss","server":"ly.yingwuyun.cyou","port":27306,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 Hongkong-03","type":"ss","server":"dy.yingwuyun.cyou","port":27306,"password":"7a00f930-a4ab-4295-ad5f-a11da0b608c4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港01-Neflix|Disney+|HBO","type":"vmess","server":"hk.nodegroups.ink","port":33203,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"香港02-Neflix|Disney+|HBO","type":"vmess","server":"hk.nodegroups.ink","port":33204,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"香港03-Netflix|Disney+|HBO","type":"vmess","server":"hk.nodegroups.ink","port":33205,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"香港04-Netflix|Disney+|HBO","type":"vmess","server":"hk.nodegroups.ink","port":33218,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"日本01-Netflix|Disney+|动画疯","type":"vmess","server":"jp.nodegroups.ink","port":33211,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"日本02","type":"vmess","server":"jp.nodegroups.ink","port":33212,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"日本03","type":"vmess","server":"jp.nodegroups.ink","port":33213,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"新加坡01-Netflix|Disney+|动画疯","type":"vmess","server":"sg.nodegroups.ink","port":33214,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"新加坡02","type":"vmess","server":"sg.nodegroups.ink","port":33910,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"新加坡03","type":"vmess","server":"sg.nodegroups.ink","port":33215,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"美国01-Netflix|Disney+|动画疯","type":"vmess","server":"us.nodegroups.ink","port":33208,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"美国02","type":"vmess","server":"us.nodegroups.ink","port":33209,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"美国03","type":"vmess","server":"us.nodegroups.ink","port":33210,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"韩国01-Netflix|Disney+|动画疯","type":"vmess","server":"kr.nodegroups.ink","port":33216,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"韩国02","type":"vmess","server":"kr.nodegroups.ink","port":33217,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"台湾01-Hinet|Netflix|Disney+|动画疯","type":"vmess","server":"tw.nodegroups.ink","port":33206,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"台湾02","type":"vmess","server":"tw.nodegroups.ink","port":33207,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"台湾03-Netflix|Disney+|动画疯","type":"vmess","server":"tw.nodegroups.ink","port":33221,"cipher":"auto","uuid":"fe5b91f5-69ef-3ca1-914b-0847e10d38ed","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇺🇸United 移动优化01 领优惠券@zyfx01","type":"vmess","server":"yd1.992688.xyz","port":8080,"cipher":"auto","uuid":"4efab502-0812-473c-aa0a-d83b7f6817d9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v?ed=2048","headers":{"host":"us.tashancloud.link"}}}
-  - {"name":"🇺🇸选择对应的网络","type":"vmess","server":"www.visa.com","port":8080,"cipher":"auto","uuid":"4efab502-0812-473c-aa0a-d83b7f6817d9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v?ed=2048","headers":{"host":"us2.tashancloud.link"}}}
-  - {"name":"🇺🇸United联通优化 03    tg群@zyfx01","type":"vmess","server":"skk.moe","port":8080,"cipher":"auto","uuid":"4efab502-0812-473c-aa0a-d83b7f6817d9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v?ed=2048","headers":{"host":"us2.tashancloud.link"}}}
-  - {"name":"🇺🇸United电信优化04    tg群@zyfx01","type":"vmess","server":"dx1.992688.xyz","port":8080,"cipher":"auto","uuid":"4efab502-0812-473c-aa0a-d83b7f6817d9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v?ed=2048","headers":{"host":"us.tashancloud.link"}}}
+  - {"name":"🇺🇸美国1号-0.1倍","type":"trojan","server":"23.227.38.11","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"kus1.djjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us1","headers":{"host":"kus1.djjc.sbs"}}}
+  - {"name":"🇺🇸美国2号-0.1倍","type":"trojan","server":"104.17.233.95","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"k1us2.djjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us2","headers":{"host":"k1us2.djjc.sbs"}}}
+  - {"name":"🇺🇸美国3号-0.1倍","type":"trojan","server":"104.17.126.23","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"k1us3.djjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us3","headers":{"host":"k1us3.djjc.sbs"}}}
+  - {"name":"🇯🇵日本-0.1倍","type":"trojan","server":"23.227.38.91","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"kjp1.djjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/jp1","headers":{"host":"kjp1.djjc.sbs"}}}
+  - {"name":"🇸🇬新加坡-0.1倍","type":"trojan","server":"104.18.15.139","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"k1sg1.djjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/sg1","headers":{"host":"k1sg1.djjc.sbs"}}}
+  - {"name":"🇩🇪德国1号","type":"trojan","server":"5.104.107.143","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"de1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪德国2号","type":"trojan","server":"23.227.39.176","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"kde1.djjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/de1","headers":{"host":"kde1.djjc.sbs"}}}
+  - {"name":"🇯🇵日本亚马逊","type":"trojan","server":"hk1.downloadvip.cfd","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵日本亚马逊2","type":"trojan","server":"jp1.downloadvip.cfd","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬新加坡亚马逊","type":"trojan","server":"sg1.downloadvip.cfd","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬新加坡亚马逊2","type":"trojan","server":"sg2.downloadvip.cfd","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵日本高速-5倍","type":"trojan","server":"azjp2.downloadvip.cfd","port":38200,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"jp1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬新加坡高速-5倍","type":"trojan","server":"azjp2.downloadvip.cfd","port":38200,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"sg1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇼台湾Hinet","type":"trojan","server":"hinet1.downloadvip.cfd","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰香港HKT","type":"trojan","server":"42.3.66.67","port":443,"udp":true,"password":"bb897a73-5dda-4d21-aec1-57b80fe49ea6","sni":"downloadhk.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 剩余流量：49.99 GB
-      - 距离下次重置剩余：29 天
-      - 套餐到期：2023-11-12
-      - 🇸🇬 Singapore-01
-      - 🇸🇬 Singapore-02
-      - 🇸🇬 Singapore-03
-      - 🇯🇵 Japan-01
-      - 🇯🇵 Japan-02
-      - 🇯🇵 Japan-03
-      - 🇰🇷 South Korea-01
-      - 🇰🇷 South Korea-02
-      - 🇰🇷 South Korea-03
-      - 🇺🇸 USA-01
-      - 🇺🇸 USA-02
-      - 🇺🇸 USA-03
-      - 🇹🇼 Taiwan-01
-      - 🇹🇼 Taiwan-02
-      - 🇹🇼 Taiwan-03
-      - 🇭🇰 Hongkong-01
-      - 🇭🇰 Hongkong-02
-      - 🇭🇰 Hongkong-03
-      - 香港01-Neflix|Disney+|HBO
-      - 香港02-Neflix|Disney+|HBO
-      - 香港03-Netflix|Disney+|HBO
-      - 香港04-Netflix|Disney+|HBO
-      - 日本01-Netflix|Disney+|动画疯
-      - 日本02
-      - 日本03
-      - 新加坡01-Netflix|Disney+|动画疯
-      - 新加坡02
-      - 新加坡03
-      - 美国01-Netflix|Disney+|动画疯
-      - 美国02
-      - 美国03
-      - 韩国01-Netflix|Disney+|动画疯
-      - 韩国02
-      - 台湾01-Hinet|Netflix|Disney+|动画疯
-      - 台湾02
-      - 台湾03-Netflix|Disney+|动画疯
-      - 实验性线路1|全节点轮询自动切换
-      - 🇺🇸United 移动优化01 领优惠券@zyfx01
-      - 🇺🇸选择对应的网络
-      - 🇺🇸United联通优化 03    tg群@zyfx01
-      - 🇺🇸United电信优化04    tg群@zyfx01
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国2号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇯🇵日本-0.1倍
+      - 🇸🇬新加坡-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇹🇼台湾Hinet
+      - 🇭🇰香港HKT
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 剩余流量：49.99 GB
-      - 距离下次重置剩余：29 天
-      - 套餐到期：2023-11-12
-      - 🇸🇬 Singapore-01
-      - 🇸🇬 Singapore-02
-      - 🇸🇬 Singapore-03
-      - 🇯🇵 Japan-01
-      - 🇯🇵 Japan-02
-      - 🇯🇵 Japan-03
-      - 🇰🇷 South Korea-01
-      - 🇰🇷 South Korea-02
-      - 🇰🇷 South Korea-03
-      - 🇺🇸 USA-01
-      - 🇺🇸 USA-02
-      - 🇺🇸 USA-03
-      - 🇹🇼 Taiwan-01
-      - 🇹🇼 Taiwan-02
-      - 🇹🇼 Taiwan-03
-      - 🇭🇰 Hongkong-01
-      - 🇭🇰 Hongkong-02
-      - 🇭🇰 Hongkong-03
-      - 香港01-Neflix|Disney+|HBO
-      - 香港02-Neflix|Disney+|HBO
-      - 香港03-Netflix|Disney+|HBO
-      - 香港04-Netflix|Disney+|HBO
-      - 日本01-Netflix|Disney+|动画疯
-      - 日本02
-      - 日本03
-      - 新加坡01-Netflix|Disney+|动画疯
-      - 新加坡02
-      - 新加坡03
-      - 美国01-Netflix|Disney+|动画疯
-      - 美国02
-      - 美国03
-      - 韩国01-Netflix|Disney+|动画疯
-      - 韩国02
-      - 台湾01-Hinet|Netflix|Disney+|动画疯
-      - 台湾02
-      - 台湾03-Netflix|Disney+|动画疯
-      - 实验性线路1|全节点轮询自动切换
-      - 🇺🇸United 移动优化01 领优惠券@zyfx01
-      - 🇺🇸选择对应的网络
-      - 🇺🇸United联通优化 03    tg群@zyfx01
-      - 🇺🇸United电信优化04    tg群@zyfx01
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国2号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇯🇵日本-0.1倍
+      - 🇸🇬新加坡-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇹🇼台湾Hinet
+      - 🇭🇰香港HKT
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 剩余流量：49.99 GB
-      - 距离下次重置剩余：29 天
-      - 套餐到期：2023-11-12
-      - 🇸🇬 Singapore-01
-      - 🇸🇬 Singapore-02
-      - 🇸🇬 Singapore-03
-      - 🇯🇵 Japan-01
-      - 🇯🇵 Japan-02
-      - 🇯🇵 Japan-03
-      - 🇰🇷 South Korea-01
-      - 🇰🇷 South Korea-02
-      - 🇰🇷 South Korea-03
-      - 🇺🇸 USA-01
-      - 🇺🇸 USA-02
-      - 🇺🇸 USA-03
-      - 🇹🇼 Taiwan-01
-      - 🇹🇼 Taiwan-02
-      - 🇹🇼 Taiwan-03
-      - 🇭🇰 Hongkong-01
-      - 🇭🇰 Hongkong-02
-      - 🇭🇰 Hongkong-03
-      - 香港01-Neflix|Disney+|HBO
-      - 香港02-Neflix|Disney+|HBO
-      - 香港03-Netflix|Disney+|HBO
-      - 香港04-Netflix|Disney+|HBO
-      - 日本01-Netflix|Disney+|动画疯
-      - 日本02
-      - 日本03
-      - 新加坡01-Netflix|Disney+|动画疯
-      - 新加坡02
-      - 新加坡03
-      - 美国01-Netflix|Disney+|动画疯
-      - 美国02
-      - 美国03
-      - 韩国01-Netflix|Disney+|动画疯
-      - 韩国02
-      - 台湾01-Hinet|Netflix|Disney+|动画疯
-      - 台湾02
-      - 台湾03-Netflix|Disney+|动画疯
-      - 实验性线路1|全节点轮询自动切换
-      - 🇺🇸United 移动优化01 领优惠券@zyfx01
-      - 🇺🇸选择对应的网络
-      - 🇺🇸United联通优化 03    tg群@zyfx01
-      - 🇺🇸United电信优化04    tg群@zyfx01
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国2号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇯🇵日本-0.1倍
+      - 🇸🇬新加坡-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇹🇼台湾Hinet
+      - 🇭🇰香港HKT
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 剩余流量：49.99 GB
-      - 距离下次重置剩余：29 天
-      - 套餐到期：2023-11-12
-      - 🇸🇬 Singapore-01
-      - 🇸🇬 Singapore-02
-      - 🇸🇬 Singapore-03
-      - 🇯🇵 Japan-01
-      - 🇯🇵 Japan-02
-      - 🇯🇵 Japan-03
-      - 🇰🇷 South Korea-01
-      - 🇰🇷 South Korea-02
-      - 🇰🇷 South Korea-03
-      - 🇺🇸 USA-01
-      - 🇺🇸 USA-02
-      - 🇺🇸 USA-03
-      - 🇹🇼 Taiwan-01
-      - 🇹🇼 Taiwan-02
-      - 🇹🇼 Taiwan-03
-      - 🇭🇰 Hongkong-01
-      - 🇭🇰 Hongkong-02
-      - 🇭🇰 Hongkong-03
-      - 香港01-Neflix|Disney+|HBO
-      - 香港02-Neflix|Disney+|HBO
-      - 香港03-Netflix|Disney+|HBO
-      - 香港04-Netflix|Disney+|HBO
-      - 日本01-Netflix|Disney+|动画疯
-      - 日本02
-      - 日本03
-      - 新加坡01-Netflix|Disney+|动画疯
-      - 新加坡02
-      - 新加坡03
-      - 美国01-Netflix|Disney+|动画疯
-      - 美国02
-      - 美国03
-      - 韩国01-Netflix|Disney+|动画疯
-      - 韩国02
-      - 台湾01-Hinet|Netflix|Disney+|动画疯
-      - 台湾02
-      - 台湾03-Netflix|Disney+|动画疯
-      - 实验性线路1|全节点轮询自动切换
-      - 🇺🇸United 移动优化01 领优惠券@zyfx01
-      - 🇺🇸选择对应的网络
-      - 🇺🇸United联通优化 03    tg群@zyfx01
-      - 🇺🇸United电信优化04    tg群@zyfx01
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国2号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇯🇵日本-0.1倍
+      - 🇸🇬新加坡-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇹🇼台湾Hinet
+      - 🇭🇰香港HKT
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 剩余流量：49.99 GB
-      - 距离下次重置剩余：29 天
-      - 套餐到期：2023-11-12
-      - 🇸🇬 Singapore-01
-      - 🇸🇬 Singapore-02
-      - 🇸🇬 Singapore-03
-      - 🇯🇵 Japan-01
-      - 🇯🇵 Japan-02
-      - 🇯🇵 Japan-03
-      - 🇰🇷 South Korea-01
-      - 🇰🇷 South Korea-02
-      - 🇰🇷 South Korea-03
-      - 🇺🇸 USA-01
-      - 🇺🇸 USA-02
-      - 🇺🇸 USA-03
-      - 🇹🇼 Taiwan-01
-      - 🇹🇼 Taiwan-02
-      - 🇹🇼 Taiwan-03
-      - 🇭🇰 Hongkong-01
-      - 🇭🇰 Hongkong-02
-      - 🇭🇰 Hongkong-03
-      - 香港01-Neflix|Disney+|HBO
-      - 香港02-Neflix|Disney+|HBO
-      - 香港03-Netflix|Disney+|HBO
-      - 香港04-Netflix|Disney+|HBO
-      - 日本01-Netflix|Disney+|动画疯
-      - 日本02
-      - 日本03
-      - 新加坡01-Netflix|Disney+|动画疯
-      - 新加坡02
-      - 新加坡03
-      - 美国01-Netflix|Disney+|动画疯
-      - 美国02
-      - 美国03
-      - 韩国01-Netflix|Disney+|动画疯
-      - 韩国02
-      - 台湾01-Hinet|Netflix|Disney+|动画疯
-      - 台湾02
-      - 台湾03-Netflix|Disney+|动画疯
-      - 实验性线路1|全节点轮询自动切换
-      - 🇺🇸United 移动优化01 领优惠券@zyfx01
-      - 🇺🇸选择对应的网络
-      - 🇺🇸United联通优化 03    tg群@zyfx01
-      - 🇺🇸United电信优化04    tg群@zyfx01
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国2号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇯🇵日本-0.1倍
+      - 🇸🇬新加坡-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇹🇼台湾Hinet
+      - 🇭🇰香港HKT
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 剩余流量：49.99 GB
-      - 距离下次重置剩余：29 天
-      - 套餐到期：2023-11-12
-      - 🇸🇬 Singapore-01
-      - 🇸🇬 Singapore-02
-      - 🇸🇬 Singapore-03
-      - 🇯🇵 Japan-01
-      - 🇯🇵 Japan-02
-      - 🇯🇵 Japan-03
-      - 🇰🇷 South Korea-01
-      - 🇰🇷 South Korea-02
-      - 🇰🇷 South Korea-03
-      - 🇺🇸 USA-01
-      - 🇺🇸 USA-02
-      - 🇺🇸 USA-03
-      - 🇹🇼 Taiwan-01
-      - 🇹🇼 Taiwan-02
-      - 🇹🇼 Taiwan-03
-      - 🇭🇰 Hongkong-01
-      - 🇭🇰 Hongkong-02
-      - 🇭🇰 Hongkong-03
-      - 香港01-Neflix|Disney+|HBO
-      - 香港02-Neflix|Disney+|HBO
-      - 香港03-Netflix|Disney+|HBO
-      - 香港04-Netflix|Disney+|HBO
-      - 日本01-Netflix|Disney+|动画疯
-      - 日本02
-      - 日本03
-      - 新加坡01-Netflix|Disney+|动画疯
-      - 新加坡02
-      - 新加坡03
-      - 美国01-Netflix|Disney+|动画疯
-      - 美国02
-      - 美国03
-      - 韩国01-Netflix|Disney+|动画疯
-      - 韩国02
-      - 台湾01-Hinet|Netflix|Disney+|动画疯
-      - 台湾02
-      - 台湾03-Netflix|Disney+|动画疯
-      - 实验性线路1|全节点轮询自动切换
-      - 🇺🇸United 移动优化01 领优惠券@zyfx01
-      - 🇺🇸选择对应的网络
-      - 🇺🇸United联通优化 03    tg群@zyfx01
-      - 🇺🇸United电信优化04    tg群@zyfx01
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国2号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇯🇵日本-0.1倍
+      - 🇸🇬新加坡-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇹🇼台湾Hinet
+      - 🇭🇰香港HKT
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -444,50 +245,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 剩余流量：49.99 GB
-      - 距离下次重置剩余：29 天
-      - 套餐到期：2023-11-12
-      - 🇸🇬 Singapore-01
-      - 🇸🇬 Singapore-02
-      - 🇸🇬 Singapore-03
-      - 🇯🇵 Japan-01
-      - 🇯🇵 Japan-02
-      - 🇯🇵 Japan-03
-      - 🇰🇷 South Korea-01
-      - 🇰🇷 South Korea-02
-      - 🇰🇷 South Korea-03
-      - 🇺🇸 USA-01
-      - 🇺🇸 USA-02
-      - 🇺🇸 USA-03
-      - 🇹🇼 Taiwan-01
-      - 🇹🇼 Taiwan-02
-      - 🇹🇼 Taiwan-03
-      - 🇭🇰 Hongkong-01
-      - 🇭🇰 Hongkong-02
-      - 🇭🇰 Hongkong-03
-      - 香港01-Neflix|Disney+|HBO
-      - 香港02-Neflix|Disney+|HBO
-      - 香港03-Netflix|Disney+|HBO
-      - 香港04-Netflix|Disney+|HBO
-      - 日本01-Netflix|Disney+|动画疯
-      - 日本02
-      - 日本03
-      - 新加坡01-Netflix|Disney+|动画疯
-      - 新加坡02
-      - 新加坡03
-      - 美国01-Netflix|Disney+|动画疯
-      - 美国02
-      - 美国03
-      - 韩国01-Netflix|Disney+|动画疯
-      - 韩国02
-      - 台湾01-Hinet|Netflix|Disney+|动画疯
-      - 台湾02
-      - 台湾03-Netflix|Disney+|动画疯
-      - 实验性线路1|全节点轮询自动切换
-      - 🇺🇸United 移动优化01 领优惠券@zyfx01
-      - 🇺🇸选择对应的网络
-      - 🇺🇸United联通优化 03    tg群@zyfx01
-      - 🇺🇸United电信优化04    tg群@zyfx01
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国2号-0.1倍
+      - 🇺🇸美国3号-0.1倍
+      - 🇯🇵日本-0.1倍
+      - 🇸🇬新加坡-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇹🇼台湾Hinet
+      - 🇭🇰香港HKT
 
 rules:
 # 本地/局域网地址
