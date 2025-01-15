@@ -47,468 +47,293 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: 1日本 TG@WFVPN
+    port: 14228
+    server: 138.2.37.59
+    type: vless
+    network: tcp
+    udp: true
+    servername: icloud.cdn-apple.com
+    skip-cert-verify: true
+    uuid: ede893a4-243f-4e9c-b2fc-31cd53e8c007
+    flow: xtls-rprx-vision
+  - name: 2日本 TG@WFVPN
+    port: 443
+    server: 52.68.33.227
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 1西班牙 TG@WFVPN
+    port: 23701
+    server: 146.190.16.108
+    type: vless
+    network: http
+    udp: true
+    skip-cert-verify: true
+    uuid: 677a41e5-dbe6-429b-8f91-cc014b1ae1bd
+  - name: 2西班牙 TG@WFVPN
+    port: 53221
+    server: jsxzcm.concubine.top
+    type: vless
+    network: tcp
+    udp: true
+    skip-cert-verify: true
+    uuid: 26c320f1-5b23-478c-f873-b1779bbcf055
+  - name: 3西班牙 TG@WFVPN
+    port: 8880
+    server: 38.6.219.82
+    type: vless
+    network: tcp
+    udp: true
+    servername: www.apple.com
+    skip-cert-verify: true
+    uuid: 1fba6015-e6d4-4cd7-a90c-83b6d3d64c22
+    flow: xtls-rprx-vision
+  - name: 1新加坡 TG@WFVPN
+    port: 443
+    server: 54.179.150.222
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 2新加坡 TG@WFVPN
+    port: 443
+    server: 3.1.204.240
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 3新加坡 TG@WFVPN
+    port: 443
+    server: 13.229.248.183
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 4新加坡 TG@WFVPN
+    port: 443
+    server: 13.229.99.83
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 5新加坡 TG@WFVPN
+    port: 443
+    server: 54.169.119.131
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 6新加坡 TG@WFVPN
+    port: 443
+    server: 54.179.76.173
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 7新加坡 TG@WFVPN
+    port: 443
+    server: 54.179.104.38
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 8新加坡 TG@WFVPN
+    port: 30001
+    server: 223.113.53.141
+    type: ss
+    udp: true
+    password: a2c25d38-44dc-4b53-9377-9f98bd8d7e2b
+    cipher: chacha20-ietf-poly1305
+  - name: 9新加坡 TG@WFVPN
+    port: 443
+    server: 54.238.128.77
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 10新加坡 TG@WFVPN
+    port: 443
+    server: 52.194.218.0
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 11新加坡 TG@WFVPN
+    port: 443
+    server: 54.248.144.193
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 12新加坡 TG@WFVPN
+    port: 443
+    server: 13.113.219.226
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 13新加坡 TG@WFVPN
+    port: 443
+    server: 43.206.222.22
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 14新加坡 TG@WFVPN
+    port: 443
+    server: 3.112.13.208
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 15新加坡 TG@WFVPN
+    port: 443
+    server: 13.113.190.198
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 16新加坡 TG@WFVPN
+    port: 443
+    server: 52.195.214.124
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 17新加坡 TG@WFVPN
+    port: 443
+    server: 18.183.98.103
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 18新加坡 TG@WFVPN
+    port: 443
+    server: 18.141.235.81
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
   - name: 1美国 TG@WFVPN
-    port: 2086
-    server: cdn1.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
+    port: 443
+    server: 35.89.145.157
+    type: ss
     udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: gz4wah11v4bem6ws.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
+    password: amazonskr05
+    cipher: aes-256-cfb
   - name: 2美国 TG@WFVPN
-    port: 2086
-    server: cdn2.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
+    port: 443
+    server: 35.163.106.65
+    type: ss
     udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: gz4wah11v4bem6ws.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
+    password: amazonskr05
+    cipher: aes-256-cfb
   - name: 3美国 TG@WFVPN
-    port: 2086
-    server: cdn3.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
+    port: 443
+    server: 54.187.203.164
+    type: ss
     udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: gz4wah11v4bem6ws.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
+    password: amazonskr05
+    cipher: aes-256-cfb
   - name: 4美国 TG@WFVPN
-    port: 80
-    server: 170.114.45.51
-    type: vmess
-    network: ws
-    tls: false
+    port: 443
+    server: 35.89.145.123
+    type: ss
     udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: us1.849yht89w.jiesk4pdqcqjo16j.xyz
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
+    password: amazonskr05
+    cipher: aes-256-cfb
   - name: 5美国 TG@WFVPN
     port: 80
-    server: 170.114.45.52
-    type: vmess
+    server: 167.82.66.165
+    type: vless
     network: ws
-    tls: false
     udp: true
-    version: "2"
     skip-cert-verify: true
     ws-opts:
       path: /
       headers:
-        host: us1.849yht89w.jiesk4pdqcqjo16j.xyz
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 6美国 TG@WFVPN
-    port: 80
-    server: 170.114.45.53
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: us1.849yht89w.jiesk4pdqcqjo16j.xyz
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 7美国 TG@WFVPN
-    port: 2086
-    server: 141.193.213.167
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: ustoucjjnid18sj6us.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 8美国 TG@WFVPN
-    port: 2086
-    server: 141.193.213.168
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: ustoucjjnid18sj6us.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 9美国 TG@WFVPN
-    port: 2086
-    server: 141.193.213.169
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: ustoucjjnid18sj6us.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 1俄罗斯 TG@WFVPN
-    port: 80
-    server: eedp257bubu2wefy1.lovebaipiao.net
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /iphone
-      headers:
-        host: www.apple.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 2俄罗斯 TG@WFVPN
-    port: 80
-    server: eedp257bubu2wefy2.lovebaipiao.net
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /iphone
-      headers:
-        host: www.apple.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 1加拿大 TG@WFVPN
-    port: 2086
-    server: cdn2.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cae3mg9qsg55eo5lhq.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 2加拿大 TG@WFVPN
-    port: 2086
-    server: cdn3.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cae3mg9qsg55eo5lhq.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 1新加坡 TG@WFVPN
-    port: 2086
-    server: cdn1.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: sgtxv82wilpfh6a8vm.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 2新加坡 TG@WFVPN
-    port: 2086
-    server: cdn2.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: sgtxv82wilpfh6a8vm.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 3新加坡 TG@WFVPN
-    port: 2086
-    server: cdn3.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: sgtxv82wilpfh6a8vm.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
+        host: teleirani.ir
+    uuid: 253ef561-9e57-4336-befd-878ddd30df01
   - name: 1香港 TG@WFVPN
-    port: 2086
-    server: cdn1.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
+    port: 46029
+    server: jsxzcm.concubine.top
+    type: vless
+    network: tcp
     udp: true
-    version: "2"
     skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: hkrg0nf30ik5piq1zr.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 2香港 TG@WFVPN
-    port: 2086
-    server: cdn2.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: hkrg0nf30ik5piq1zr.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 3香港 TG@WFVPN
-    port: 2086
-    server: cdn3.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: hkrg0nf30ik5piq1zr.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 1土耳其 TG@WFVPN
-    port: 80
-    server: cdn1.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 2土耳其 TG@WFVPN
-    port: 80
-    server: cdn2.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 3土耳其 TG@WFVPN
-    port: 80
-    server: cdn3.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 1英国 TG@WFVPN
-    port: 2086
-    server: cdn1.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: ukh74wfshj2jg2jcsq.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 2英国 TG@WFVPN
-    port: 2086
-    server: cdn2.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: ukh74wfshj2jg2jcsq.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
-  - name: 3英国 TG@WFVPN
-    port: 2086
-    server: cdn3.bpcdn.cc
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: ukh74wfshj2jg2jcsq.lovebaipiao.com
-    cipher: auto
-    uuid: 839ebb68-8a8b-4cf3-aa78-bf8d8721cd04
-    alterId: 0
+    uuid: 1d0926e1-9fd3-4a48-8dd5-fa73928723f9
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 1日本 TG@WFVPN
+      - 2日本 TG@WFVPN
+      - 1西班牙 TG@WFVPN
+      - 2西班牙 TG@WFVPN
+      - 3西班牙 TG@WFVPN
+      - 1新加坡 TG@WFVPN
+      - 2新加坡 TG@WFVPN
+      - 3新加坡 TG@WFVPN
+      - 4新加坡 TG@WFVPN
+      - 5新加坡 TG@WFVPN
+      - 6新加坡 TG@WFVPN
+      - 7新加坡 TG@WFVPN
+      - 8新加坡 TG@WFVPN
+      - 9新加坡 TG@WFVPN
+      - 10新加坡 TG@WFVPN
+      - 11新加坡 TG@WFVPN
+      - 12新加坡 TG@WFVPN
+      - 13新加坡 TG@WFVPN
+      - 14新加坡 TG@WFVPN
+      - 15新加坡 TG@WFVPN
+      - 16新加坡 TG@WFVPN
+      - 17新加坡 TG@WFVPN
+      - 18新加坡 TG@WFVPN
       - 1美国 TG@WFVPN
       - 2美国 TG@WFVPN
       - 3美国 TG@WFVPN
       - 4美国 TG@WFVPN
       - 5美国 TG@WFVPN
-      - 6美国 TG@WFVPN
-      - 7美国 TG@WFVPN
-      - 8美国 TG@WFVPN
-      - 9美国 TG@WFVPN
-      - 1俄罗斯 TG@WFVPN
-      - 2俄罗斯 TG@WFVPN
-      - 1加拿大 TG@WFVPN
-      - 2加拿大 TG@WFVPN
-      - 1新加坡 TG@WFVPN
-      - 2新加坡 TG@WFVPN
-      - 3新加坡 TG@WFVPN
       - 1香港 TG@WFVPN
-      - 2香港 TG@WFVPN
-      - 3香港 TG@WFVPN
-      - 1土耳其 TG@WFVPN
-      - 2土耳其 TG@WFVPN
-      - 3土耳其 TG@WFVPN
-      - 1英国 TG@WFVPN
-      - 2英国 TG@WFVPN
-      - 3英国 TG@WFVPN
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 1日本 TG@WFVPN
+      - 2日本 TG@WFVPN
+      - 1西班牙 TG@WFVPN
+      - 2西班牙 TG@WFVPN
+      - 3西班牙 TG@WFVPN
+      - 1新加坡 TG@WFVPN
+      - 2新加坡 TG@WFVPN
+      - 3新加坡 TG@WFVPN
+      - 4新加坡 TG@WFVPN
+      - 5新加坡 TG@WFVPN
+      - 6新加坡 TG@WFVPN
+      - 7新加坡 TG@WFVPN
+      - 8新加坡 TG@WFVPN
+      - 9新加坡 TG@WFVPN
+      - 10新加坡 TG@WFVPN
+      - 11新加坡 TG@WFVPN
+      - 12新加坡 TG@WFVPN
+      - 13新加坡 TG@WFVPN
+      - 14新加坡 TG@WFVPN
+      - 15新加坡 TG@WFVPN
+      - 16新加坡 TG@WFVPN
+      - 17新加坡 TG@WFVPN
+      - 18新加坡 TG@WFVPN
       - 1美国 TG@WFVPN
       - 2美国 TG@WFVPN
       - 3美国 TG@WFVPN
       - 4美国 TG@WFVPN
       - 5美国 TG@WFVPN
-      - 6美国 TG@WFVPN
-      - 7美国 TG@WFVPN
-      - 8美国 TG@WFVPN
-      - 9美国 TG@WFVPN
-      - 1俄罗斯 TG@WFVPN
-      - 2俄罗斯 TG@WFVPN
-      - 1加拿大 TG@WFVPN
-      - 2加拿大 TG@WFVPN
-      - 1新加坡 TG@WFVPN
-      - 2新加坡 TG@WFVPN
-      - 3新加坡 TG@WFVPN
       - 1香港 TG@WFVPN
-      - 2香港 TG@WFVPN
-      - 3香港 TG@WFVPN
-      - 1土耳其 TG@WFVPN
-      - 2土耳其 TG@WFVPN
-      - 3土耳其 TG@WFVPN
-      - 1英国 TG@WFVPN
-      - 2英国 TG@WFVPN
-      - 3英国 TG@WFVPN
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -526,31 +351,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 1日本 TG@WFVPN
+      - 2日本 TG@WFVPN
+      - 1西班牙 TG@WFVPN
+      - 2西班牙 TG@WFVPN
+      - 3西班牙 TG@WFVPN
+      - 1新加坡 TG@WFVPN
+      - 2新加坡 TG@WFVPN
+      - 3新加坡 TG@WFVPN
+      - 4新加坡 TG@WFVPN
+      - 5新加坡 TG@WFVPN
+      - 6新加坡 TG@WFVPN
+      - 7新加坡 TG@WFVPN
+      - 8新加坡 TG@WFVPN
+      - 9新加坡 TG@WFVPN
+      - 10新加坡 TG@WFVPN
+      - 11新加坡 TG@WFVPN
+      - 12新加坡 TG@WFVPN
+      - 13新加坡 TG@WFVPN
+      - 14新加坡 TG@WFVPN
+      - 15新加坡 TG@WFVPN
+      - 16新加坡 TG@WFVPN
+      - 17新加坡 TG@WFVPN
+      - 18新加坡 TG@WFVPN
       - 1美国 TG@WFVPN
       - 2美国 TG@WFVPN
       - 3美国 TG@WFVPN
       - 4美国 TG@WFVPN
       - 5美国 TG@WFVPN
-      - 6美国 TG@WFVPN
-      - 7美国 TG@WFVPN
-      - 8美国 TG@WFVPN
-      - 9美国 TG@WFVPN
-      - 1俄罗斯 TG@WFVPN
-      - 2俄罗斯 TG@WFVPN
-      - 1加拿大 TG@WFVPN
-      - 2加拿大 TG@WFVPN
-      - 1新加坡 TG@WFVPN
-      - 2新加坡 TG@WFVPN
-      - 3新加坡 TG@WFVPN
       - 1香港 TG@WFVPN
-      - 2香港 TG@WFVPN
-      - 3香港 TG@WFVPN
-      - 1土耳其 TG@WFVPN
-      - 2土耳其 TG@WFVPN
-      - 3土耳其 TG@WFVPN
-      - 1英国 TG@WFVPN
-      - 2英国 TG@WFVPN
-      - 3英国 TG@WFVPN
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
