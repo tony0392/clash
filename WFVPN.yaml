@@ -47,293 +47,284 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 1日本 TG@WFVPN
-    port: 14228
-    server: 138.2.37.59
-    type: vless
-    network: tcp
+  - name: 1英国 TG@WFVPN
+    port: 35600
+    server: dddoyg.naisicloud.xyz
+    type: hysteria2
     udp: true
-    servername: icloud.cdn-apple.com
+    sni: dddoyg.naisicloud.xyz
+    password: 2687510c-f33b-44fd-905f-e3fcfc5fabbc
     skip-cert-verify: true
-    uuid: ede893a4-243f-4e9c-b2fc-31cd53e8c007
-    flow: xtls-rprx-vision
-  - name: 2日本 TG@WFVPN
-    port: 443
-    server: 52.68.33.227
-    type: ss
+  - name: 2英国 TG@WFVPN
+    port: 35600
+    server: dddoyg.naisicloud.xyz
+    type: hysteria2
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 1西班牙 TG@WFVPN
-    port: 23701
-    server: 146.190.16.108
-    type: vless
-    network: http
-    udp: true
+    sni: dddoyg.naisicloud.xyz
+    password: 5e82542b-5961-4a08-8100-0b4bc78b8ca2
     skip-cert-verify: true
-    uuid: 677a41e5-dbe6-429b-8f91-cc014b1ae1bd
-  - name: 2西班牙 TG@WFVPN
-    port: 53221
-    server: jsxzcm.concubine.top
-    type: vless
-    network: tcp
+  - name: 3英国 TG@WFVPN
+    port: 35600
+    server: dddoyg.naisicloud.xyz
+    type: hysteria2
     udp: true
+    sni: dddoyg.naisicloud.xyz
+    password: 067c29fb-e1d5-43ca-b227-da92075be570
     skip-cert-verify: true
-    uuid: 26c320f1-5b23-478c-f873-b1779bbcf055
-  - name: 3西班牙 TG@WFVPN
-    port: 8880
-    server: 38.6.219.82
-    type: vless
-    network: tcp
+  - name: 1印度 TG@WFVPN
+    port: 35600
+    server: dddoyd.naisicloud.xyz
+    type: hysteria2
     udp: true
-    servername: www.apple.com
+    sni: dddoyd.naisicloud.xyz
+    password: 2687510c-f33b-44fd-905f-e3fcfc5fabbc
     skip-cert-verify: true
-    uuid: 1fba6015-e6d4-4cd7-a90c-83b6d3d64c22
-    flow: xtls-rprx-vision
+  - name: 2印度 TG@WFVPN
+    port: 35600
+    server: dddoyd.naisicloud.xyz
+    type: hysteria2
+    udp: true
+    sni: dddoyd.naisicloud.xyz
+    password: 5e82542b-5961-4a08-8100-0b4bc78b8ca2
+    skip-cert-verify: true
+  - name: 3印度 TG@WFVPN
+    port: 35600
+    server: dddoyd.naisicloud.xyz
+    type: hysteria2
+    udp: true
+    sni: dddoyd.naisicloud.xyz
+    password: 067c29fb-e1d5-43ca-b227-da92075be570
+    skip-cert-verify: true
   - name: 1新加坡 TG@WFVPN
     port: 443
-    server: 54.179.150.222
+    server: 13.124.144.212
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
   - name: 2新加坡 TG@WFVPN
-    port: 443
-    server: 3.1.204.240
-    type: ss
+    port: 20542
+    server: meiyou-sg.jiumaojiu.org
+    type: hysteria2
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
+    sni: meiyou-sg.jiumaojiu.org
+    password: 01a4c9b1-7a34-469d-ba13-f763bf21f6f9
+    skip-cert-verify: true
   - name: 3新加坡 TG@WFVPN
-    port: 443
-    server: 13.229.248.183
-    type: ss
+    port: 35600
+    server: dddoxjp.naisicloud.xyz
+    type: hysteria2
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 4新加坡 TG@WFVPN
-    port: 443
-    server: 13.229.99.83
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 5新加坡 TG@WFVPN
-    port: 443
-    server: 54.169.119.131
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 6新加坡 TG@WFVPN
-    port: 443
-    server: 54.179.76.173
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 7新加坡 TG@WFVPN
-    port: 443
-    server: 54.179.104.38
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 8新加坡 TG@WFVPN
-    port: 30001
-    server: 223.113.53.141
-    type: ss
-    udp: true
-    password: a2c25d38-44dc-4b53-9377-9f98bd8d7e2b
-    cipher: chacha20-ietf-poly1305
-  - name: 9新加坡 TG@WFVPN
-    port: 443
-    server: 54.238.128.77
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 10新加坡 TG@WFVPN
-    port: 443
-    server: 52.194.218.0
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 11新加坡 TG@WFVPN
-    port: 443
-    server: 54.248.144.193
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 12新加坡 TG@WFVPN
-    port: 443
-    server: 13.113.219.226
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 13新加坡 TG@WFVPN
-    port: 443
-    server: 43.206.222.22
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 14新加坡 TG@WFVPN
-    port: 443
-    server: 3.112.13.208
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 15新加坡 TG@WFVPN
-    port: 443
-    server: 13.113.190.198
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 16新加坡 TG@WFVPN
-    port: 443
-    server: 52.195.214.124
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 17新加坡 TG@WFVPN
-    port: 443
-    server: 18.183.98.103
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 18新加坡 TG@WFVPN
-    port: 443
-    server: 18.141.235.81
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
+    sni: dddoxjp.naisicloud.xyz
+    password: 2687510c-f33b-44fd-905f-e3fcfc5fabbc
+    skip-cert-verify: true
   - name: 1美国 TG@WFVPN
     port: 443
-    server: 35.89.145.157
+    server: 34.211.250.149
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
   - name: 2美国 TG@WFVPN
     port: 443
-    server: 35.163.106.65
+    server: 52.11.79.56
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
   - name: 3美国 TG@WFVPN
     port: 443
-    server: 54.187.203.164
+    server: 34.221.178.146
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 4美国 TG@WFVPN
-    port: 443
-    server: 35.89.145.123
-    type: ss
+  - name: 1台湾 TG@WFVPN
+    port: 35600
+    server: tw.naisicloud.xyz
+    type: hysteria2
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 5美国 TG@WFVPN
-    port: 80
-    server: 167.82.66.165
-    type: vless
-    network: ws
-    udp: true
+    sni: tw.naisicloud.xyz
+    password: fc049c9d-681e-436a-acbc-ea55c805d288
     skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: teleirani.ir
-    uuid: 253ef561-9e57-4336-befd-878ddd30df01
+  - name: 2台湾 TG@WFVPN
+    port: 35600
+    server: tw.naisicloud.xyz
+    type: hysteria2
+    udp: true
+    sni: tw.naisicloud.xyz
+    password: 1d901521-18e6-4642-a6fb-155f58ed0144
+    skip-cert-verify: true
+  - name: 3台湾 TG@WFVPN
+    port: 35600
+    server: tw.naisicloud.xyz
+    type: hysteria2
+    udp: true
+    sni: tw.naisicloud.xyz
+    password: 70041577-ad3f-4297-8315-b8c6fcbde110
+    skip-cert-verify: true
+  - name: 1日本 TG@WFVPN
+    port: 35600
+    server: jjjp.naisicloud.xyz
+    type: hysteria2
+    udp: true
+    sni: jjjp.naisicloud.xyz
+    password: 2687510c-f33b-44fd-905f-e3fcfc5fabbc
+    skip-cert-verify: true
+  - name: 2日本 TG@WFVPN
+    port: 35600
+    server: jjjp.naisicloud.xyz
+    type: hysteria2
+    udp: true
+    sni: jjjp.naisicloud.xyz
+    password: 5e82542b-5961-4a08-8100-0b4bc78b8ca2
+    skip-cert-verify: true
+  - name: 3日本 TG@WFVPN
+    port: 35600
+    server: jjjp.naisicloud.xyz
+    type: hysteria2
+    udp: true
+    sni: jjjp.naisicloud.xyz
+    password: 067c29fb-e1d5-43ca-b227-da92075be570
+    skip-cert-verify: true
+  - name: 1韩国 TG@WFVPN
+    port: 35600
+    server: fffwkl.naisicloud.xyz
+    type: hysteria2
+    udp: true
+    sni: fffwkl.naisicloud.xyz
+    password: c32fc60b-bebb-4f00-a67d-6f5f00ee5e05
+    skip-cert-verify: true
+  - name: 2韩国 TG@WFVPN
+    port: 35600
+    server: fffwkl.naisicloud.xyz
+    type: hysteria2
+    udp: true
+    sni: fffwkl.naisicloud.xyz
+    password: fc049c9d-681e-436a-acbc-ea55c805d288
+    skip-cert-verify: true
+  - name: 3韩国 TG@WFVPN
+    port: 35600
+    server: fffwkl.naisicloud.xyz
+    type: hysteria2
+    udp: true
+    sni: fffwkl.naisicloud.xyz
+    password: 1d901521-18e6-4642-a6fb-155f58ed0144
+    skip-cert-verify: true
   - name: 1香港 TG@WFVPN
-    port: 46029
-    server: jsxzcm.concubine.top
-    type: vless
-    network: tcp
+    port: 20598
+    server: meiyou-hk.jiumaojiu.org
+    type: hysteria2
     udp: true
+    sni: meiyou-hk.jiumaojiu.org
+    password: 01a4c9b1-7a34-469d-ba13-f763bf21f6f9
     skip-cert-verify: true
-    uuid: 1d0926e1-9fd3-4a48-8dd5-fa73928723f9
+  - name: 2香港 TG@WFVPN
+    port: 20578
+    server: meiyou-hk.jiumaojiu.org
+    type: hysteria2
+    udp: true
+    sni: meiyou-hk.jiumaojiu.org
+    password: 01a4c9b1-7a34-469d-ba13-f763bf21f6f9
+    skip-cert-verify: true
+  - name: 3香港 TG@WFVPN
+    port: 20593
+    server: meiyou-hk.jiumaojiu.org
+    type: hysteria2
+    udp: true
+    sni: meiyou-hk.jiumaojiu.org
+    password: 01a4c9b1-7a34-469d-ba13-f763bf21f6f9
+    skip-cert-verify: true
+  - name: 1卢森堡 TG@WFVPN
+    port: 20560
+    server: meiyou-lu.jiumaojiu.org
+    type: hysteria2
+    udp: true
+    sni: meiyou-lu.jiumaojiu.org
+    password: 01a4c9b1-7a34-469d-ba13-f763bf21f6f9
+    skip-cert-verify: true
+  - name: 2卢森堡 TG@WFVPN
+    port: 20596
+    server: meiyou-lu.jiumaojiu.org
+    type: hysteria2
+    udp: true
+    sni: meiyou-lu.jiumaojiu.org
+    password: 01a4c9b1-7a34-469d-ba13-f763bf21f6f9
+    skip-cert-verify: true
+  - name: 3卢森堡 TG@WFVPN
+    port: 20596
+    server: meiyou-lu.jiumaojiu.org
+    type: hysteria2
+    udp: true
+    sni: meiyou-lu.jiumaojiu.org
+    password: 01a4c9b1-7a34-469d-ba13-f763bf21f6f9
+    skip-cert-verify: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 1日本 TG@WFVPN
-      - 2日本 TG@WFVPN
-      - 1西班牙 TG@WFVPN
-      - 2西班牙 TG@WFVPN
-      - 3西班牙 TG@WFVPN
+      - 1英国 TG@WFVPN
+      - 2英国 TG@WFVPN
+      - 3英国 TG@WFVPN
+      - 1印度 TG@WFVPN
+      - 2印度 TG@WFVPN
+      - 3印度 TG@WFVPN
       - 1新加坡 TG@WFVPN
       - 2新加坡 TG@WFVPN
       - 3新加坡 TG@WFVPN
-      - 4新加坡 TG@WFVPN
-      - 5新加坡 TG@WFVPN
-      - 6新加坡 TG@WFVPN
-      - 7新加坡 TG@WFVPN
-      - 8新加坡 TG@WFVPN
-      - 9新加坡 TG@WFVPN
-      - 10新加坡 TG@WFVPN
-      - 11新加坡 TG@WFVPN
-      - 12新加坡 TG@WFVPN
-      - 13新加坡 TG@WFVPN
-      - 14新加坡 TG@WFVPN
-      - 15新加坡 TG@WFVPN
-      - 16新加坡 TG@WFVPN
-      - 17新加坡 TG@WFVPN
-      - 18新加坡 TG@WFVPN
       - 1美国 TG@WFVPN
       - 2美国 TG@WFVPN
       - 3美国 TG@WFVPN
-      - 4美国 TG@WFVPN
-      - 5美国 TG@WFVPN
+      - 1台湾 TG@WFVPN
+      - 2台湾 TG@WFVPN
+      - 3台湾 TG@WFVPN
+      - 1日本 TG@WFVPN
+      - 2日本 TG@WFVPN
+      - 3日本 TG@WFVPN
+      - 1韩国 TG@WFVPN
+      - 2韩国 TG@WFVPN
+      - 3韩国 TG@WFVPN
       - 1香港 TG@WFVPN
+      - 2香港 TG@WFVPN
+      - 3香港 TG@WFVPN
+      - 1卢森堡 TG@WFVPN
+      - 2卢森堡 TG@WFVPN
+      - 3卢森堡 TG@WFVPN
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 1日本 TG@WFVPN
-      - 2日本 TG@WFVPN
-      - 1西班牙 TG@WFVPN
-      - 2西班牙 TG@WFVPN
-      - 3西班牙 TG@WFVPN
+      - 1英国 TG@WFVPN
+      - 2英国 TG@WFVPN
+      - 3英国 TG@WFVPN
+      - 1印度 TG@WFVPN
+      - 2印度 TG@WFVPN
+      - 3印度 TG@WFVPN
       - 1新加坡 TG@WFVPN
       - 2新加坡 TG@WFVPN
       - 3新加坡 TG@WFVPN
-      - 4新加坡 TG@WFVPN
-      - 5新加坡 TG@WFVPN
-      - 6新加坡 TG@WFVPN
-      - 7新加坡 TG@WFVPN
-      - 8新加坡 TG@WFVPN
-      - 9新加坡 TG@WFVPN
-      - 10新加坡 TG@WFVPN
-      - 11新加坡 TG@WFVPN
-      - 12新加坡 TG@WFVPN
-      - 13新加坡 TG@WFVPN
-      - 14新加坡 TG@WFVPN
-      - 15新加坡 TG@WFVPN
-      - 16新加坡 TG@WFVPN
-      - 17新加坡 TG@WFVPN
-      - 18新加坡 TG@WFVPN
       - 1美国 TG@WFVPN
       - 2美国 TG@WFVPN
       - 3美国 TG@WFVPN
-      - 4美国 TG@WFVPN
-      - 5美国 TG@WFVPN
+      - 1台湾 TG@WFVPN
+      - 2台湾 TG@WFVPN
+      - 3台湾 TG@WFVPN
+      - 1日本 TG@WFVPN
+      - 2日本 TG@WFVPN
+      - 3日本 TG@WFVPN
+      - 1韩国 TG@WFVPN
+      - 2韩国 TG@WFVPN
+      - 3韩国 TG@WFVPN
       - 1香港 TG@WFVPN
+      - 2香港 TG@WFVPN
+      - 3香港 TG@WFVPN
+      - 1卢森堡 TG@WFVPN
+      - 2卢森堡 TG@WFVPN
+      - 3卢森堡 TG@WFVPN
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -351,35 +342,33 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 1日本 TG@WFVPN
-      - 2日本 TG@WFVPN
-      - 1西班牙 TG@WFVPN
-      - 2西班牙 TG@WFVPN
-      - 3西班牙 TG@WFVPN
+      - 1英国 TG@WFVPN
+      - 2英国 TG@WFVPN
+      - 3英国 TG@WFVPN
+      - 1印度 TG@WFVPN
+      - 2印度 TG@WFVPN
+      - 3印度 TG@WFVPN
       - 1新加坡 TG@WFVPN
       - 2新加坡 TG@WFVPN
       - 3新加坡 TG@WFVPN
-      - 4新加坡 TG@WFVPN
-      - 5新加坡 TG@WFVPN
-      - 6新加坡 TG@WFVPN
-      - 7新加坡 TG@WFVPN
-      - 8新加坡 TG@WFVPN
-      - 9新加坡 TG@WFVPN
-      - 10新加坡 TG@WFVPN
-      - 11新加坡 TG@WFVPN
-      - 12新加坡 TG@WFVPN
-      - 13新加坡 TG@WFVPN
-      - 14新加坡 TG@WFVPN
-      - 15新加坡 TG@WFVPN
-      - 16新加坡 TG@WFVPN
-      - 17新加坡 TG@WFVPN
-      - 18新加坡 TG@WFVPN
       - 1美国 TG@WFVPN
       - 2美国 TG@WFVPN
       - 3美国 TG@WFVPN
-      - 4美国 TG@WFVPN
-      - 5美国 TG@WFVPN
+      - 1台湾 TG@WFVPN
+      - 2台湾 TG@WFVPN
+      - 3台湾 TG@WFVPN
+      - 1日本 TG@WFVPN
+      - 2日本 TG@WFVPN
+      - 3日本 TG@WFVPN
+      - 1韩国 TG@WFVPN
+      - 2韩国 TG@WFVPN
+      - 3韩国 TG@WFVPN
       - 1香港 TG@WFVPN
+      - 2香港 TG@WFVPN
+      - 3香港 TG@WFVPN
+      - 1卢森堡 TG@WFVPN
+      - 2卢森堡 TG@WFVPN
+      - 3卢森堡 TG@WFVPN
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
